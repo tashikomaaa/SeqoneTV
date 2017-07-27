@@ -4,13 +4,16 @@
 - Angular/cli 
 - Nodejs 
 - Docker 
-- Babel 
+- MangoDB
 
 
 ###### Dependencies :
+- Docker
 - Docker-compose
 - Angular/cli
 - Nodejs
+- MongoDB
+- Mongoose
 
 ## For build the project type the following command line
 
