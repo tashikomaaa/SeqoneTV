@@ -24,12 +24,12 @@ cd SeqoneTV
 
 ###### Now run the build with :
 ```bash
-npm build
+
 ```
 
 ###### Now run the project 
 ```bash 
-npm start
+
 ```
 
 
