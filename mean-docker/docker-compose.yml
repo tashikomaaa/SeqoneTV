@@ -5,7 +5,7 @@ services:
   angular: #name of the first service
     build: angular-client # specify the directory of th eDockerfile
     ports:
-      - "4200:4200" # specify port forwarding
+      - "4270:4270" # specify port forwarding
 
   express: #name of the second service
     build: express-server # specify th edirectory of th e Dockerfile

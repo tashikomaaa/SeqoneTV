@@ -27,12 +27,8 @@ cd SeqoneTV
 
 ###### Now run the build with :
 ```bash
-
+docker-compose up --build
 ```
 
-###### Now run the project 
-```bash 
-
-```
 
 
