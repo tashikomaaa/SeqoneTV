@@ -10,51 +10,31 @@ const dbHost = 'mongodb://database/mean-docker';
 mongoose.connect(dbHost);
 
 // create mongoose schema
-const userSchema = new mongoose.Schema({
-    name: String,
-    age: Number
+const channelSchema = new mongoose.Schema({
+    _id: String,
+    channel_name: String,
+    icon: {
+        _src: String,
+    },
+    channelID: String
 });
 
 // create mongoose model
-const User = mongoose.model('User', userSchema);
+const Channel = mongoose.model('Channel', channelSchema);
 
 /* GET api listing. */
 router.get('/', (req, res) => {
     res.send('api works');
 });
 
-/* GET all users. */
-router.get('/users', (req, res) => {
-    User.find({}, (err, users) => {
+/* GET all channels. */
+router.get('/channels', (req, res) => {
+    Channel.find({}, (err, channels) => {
         if (err) res.status(500).send(error)
 
-        res.status(200).json(users);
+        res.status(200).json(channels);
     });
 });
 
-/* GET one users. */
-router.get('/users/:id', (req, res) => {
-    User.findById(req.param.id, (err, users) => {
-        if (err) res.status(500).send(error)
-
-        res.status(200).json(users);
-    });
-});
-
-/* Create a user. */
-router.post('/users', (req, res) => {
-    let user = new User({
-        name: req.body.name,
-        age: req.body.age
-    });
-
-    user.save(error => {
-        if (error) res.status(500).send(error);
-
-        res.status(201).json({
-            message: 'User created successfully'
-        });
-    });
-});
 
 module.exports = router;
