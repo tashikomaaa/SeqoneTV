@@ -286,8 +286,6 @@ article.style1 .date {
     position: absolute;
     z-index: 3;
     left: 0;
-    width: 50px;
-    height: 30px;
     background: #faA634;
     font-family: 'Oswald';
     font-style: normal;

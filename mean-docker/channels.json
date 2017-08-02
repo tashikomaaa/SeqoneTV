@@ -1,0 +1,4071 @@
+[{
+        "id": "C1.telerama.fr",
+        "display-name": "TF1",
+        "icon": {
+
+            "src": "http://localhost/logo1.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C10.telerama.fr",
+
+        "display-name": "TMC",
+        "icon": {
+
+            "src": "http://localhost/logo10.gif"
+
+
+        }
+    },
+
+    {
+        "id": "C100.telerama.fr",
+
+        "display-name": "France 3 Bourgogne",
+        "icon": {
+
+            "src": "http://localhost/logo100.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C101.telerama.fr",
+
+        "display-name": "France 3 Bretagne",
+        "icon": {
+
+            "src": "http://localhost/logo101.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C102.telerama.fr",
+
+        "display-name": "France 3 Centre",
+        "icon": {
+
+            "src": "http://localhost/logo102.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C103.telerama.fr",
+
+        "display-name": "France 3 Champagne-Ardenne",
+        "icon": {
+
+            "src": "http://localhost/logo103.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C104.telerama.fr",
+
+        "display-name": "France 3 Corse via Stella",
+        "icon": {
+
+            "src": "http://localhost/logo104.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C105.telerama.fr",
+
+        "display-name": "France 3 C\u00f4te d'Azur",
+        "icon": {
+
+            "src": "http://localhost/logo105.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C106.telerama.fr",
+
+        "display-name": "France 3 Franche-Comt\u00e9",
+        "icon": {
+
+            "src": "http://localhost/logo106.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C107.telerama.fr",
+
+        "display-name": "France 3 Haute-Normandie",
+        "icon": {
+
+            "src": "http://localhost/logo107.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C108.telerama.fr",
+
+        "display-name": "France 3 Languedoc-Roussillon",
+        "icon": {
+
+            "src": "http://localhost/logo108.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C109.telerama.fr",
+
+        "display-name": "France 3 Limousin",
+        "icon": {
+
+            "src": "http://localhost/logo109.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C11.telerama.fr",
+
+        "display-name": "NT1",
+        "icon": {
+
+            "src": "http://localhost/logo11.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C110.telerama.fr",
+
+        "display-name": "France 3 Lorraine",
+        "icon": {
+
+            "src": "http://localhost/logo110.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C111.telerama.fr",
+
+        "display-name": "France 3 Midi-Pyr\u00e9n\u00e9es",
+        "icon": {
+
+            "src": "http://localhost/logo111.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C112.telerama.fr",
+
+        "display-name": "France 3 Nord Pas-de-Calais",
+        "icon": {
+
+            "src": "http://localhost/logo112.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C113.telerama.fr",
+
+        "display-name": "France 3 Paris IDF",
+        "icon": {
+
+            "src": "http://localhost/logo113.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1136.telerama.fr",
+
+        "display-name": "MCS Bien-\u00eatre",
+        "icon": {
+
+            "src": "http://localhost/logo1136.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C114.telerama.fr",
+
+        "display-name": "France 3 Pays de Loire",
+        "icon": {
+
+            "src": "http://localhost/logo114.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C115.telerama.fr",
+
+        "display-name": "France 3 Poitou-Charentes",
+        "icon": {
+
+            "src": "http://localhost/logo115.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C116.telerama.fr",
+
+        "display-name": "France 3 Provence Alpes",
+        "icon": {
+
+            "src": "http://localhost/logo116.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1166.telerama.fr",
+
+        "display-name": "Golf Channel",
+        "icon": {
+
+            "src": "http://localhost/logo1166.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1168.telerama.fr",
+
+        "display-name": "TRACE Sport Stars",
+        "icon": {
+
+            "src": "http://localhost/logo1168.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C117.telerama.fr",
+
+        "display-name": "France 3 Picardie",
+        "icon": {
+
+            "src": "http://localhost/logo117.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1179.telerama.fr",
+
+        "display-name": "Trace Africa",
+        "icon": {
+
+            "src": "http://localhost/logo1179.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C118.telerama.fr",
+
+        "display-name": "France 3 Rh\u00f4ne-Alpes",
+        "icon": {
+
+            "src": "http://localhost/logo118.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1182.telerama.fr",
+
+        "display-name": "L'En\u00f4rme TV",
+        "icon": {
+
+            "src": "http://localhost/logo1182.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C119.telerama.fr",
+
+        "display-name": "France \u00d4",
+        "icon": {
+
+            "src": "http://localhost/logo119.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C12.telerama.fr",
+
+        "display-name": "NRJ 12",
+        "icon": {
+
+            "src": "http://localhost/logo12.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C121.telerama.fr",
+
+        "display-name": "Game One",
+        "icon": {
+
+            "src": "http://localhost/logo121.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C122.telerama.fr",
+
+        "display-name": "Histoire",
+        "icon": {
+
+            "src": "http://localhost/logo122.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C123.telerama.fr",
+
+        "display-name": "Hustler TV",
+        "icon": {
+
+            "src": "http://localhost/logo123.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C124.telerama.fr",
+
+        "display-name": "Info sport",
+        "icon": {
+
+            "src": "http://localhost/logo124.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C125.telerama.fr",
+
+        "display-name": "Disney XD",
+        "icon": {
+
+            "src": "http://localhost/logo125.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C126.telerama.fr",
+
+        "display-name": "Jimmy",
+        "icon": {
+
+            "src": "http://localhost/logo126.gif"
+        }
+    },
+
+
+    {
+        "id": "C127.telerama.fr",
+
+        "display-name": "KTO",
+        "icon": {
+
+            "src": "http://localhost/logo127.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C128.telerama.fr",
+
+        "display-name": "La Cha\u00eene M\u00e9t\u00e9o",
+        "icon": {
+
+            "src": "http://localhost/logo128.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1295.telerama.fr",
+
+        "display-name": "Golf+",
+        "icon": {
+
+            "src": "http://localhost/logo1295.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C13.telerama.fr",
+
+        "display-name": "France 4",
+        "icon": {
+
+            "src": "http://localhost/logo13.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C130.telerama.fr",
+        "display-name": "La Deux",
+        "icon": {
+
+            "src": "http://localhost/logo130.gif"
+        }
+
+
+    },
+
+    {
+        "id": "C131.telerama.fr",
+
+        "display-name": "La Une",
+        "icon": {
+
+            "src": "http://localhost/logo131.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C133.telerama.fr",
+
+        "display-name": "LCI - La Cha\u00eene Info",
+        "icon": {
+
+            "src": "http://localhost/logo133.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1336.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 4",
+        "icon": {
+
+            "src": "http://localhost/logo1336.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1337.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 5",
+        "icon": {
+
+            "src": "http://localhost/logo1337.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1338.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 6",
+        "icon": {
+
+            "src": "http://localhost/logo1338.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1339.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 7",
+        "icon": {
+
+            "src": "http://localhost/logo1339.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1340.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 8",
+        "icon": {
+
+            "src": "http://localhost/logo1340.gif"
+        }
+    },
+
+
+    {
+        "id": "C1341.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 9",
+        "icon": {
+
+            "src": "http://localhost/logo1341.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C1342.telerama.fr",
+
+        "display-name": "beIN SPORTS MAX 10",
+        "icon": {
+
+            "src": "http://localhost/logo1342.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C135.telerama.fr",
+
+        "display-name": "Liberty TV",
+        "icon": {
+
+            "src": "http://localhost/logo135.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C136.telerama.fr",
+
+        "display-name": "LM TV Sarthe",
+        "icon": {
+
+            "src": "http://localhost/logo136.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C137.telerama.fr",
+
+        "display-name": "M6 Boutique la cha\u00eene",
+        "icon": {
+
+            "src": "http://localhost/logo137.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1374.telerama.fr",
+
+        "display-name": "Discovery Science",
+        "icon": {
+
+            "src": "http://localhost/logo1374.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C138.telerama.fr",
+
+        "display-name": "M6 Music Black",
+        "icon": {
+
+            "src": "http://localhost/logo138.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C139.telerama.fr",
+
+        "display-name": "M6 Music Hits",
+        "icon": {
+
+            "src": "http://localhost/logo139.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C14.telerama.fr",
+
+        "display-name": "La Cha\u00eene Parlementaire",
+        "icon": {
+
+            "src": "http://localhost/logo14.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C142.telerama.fr",
+
+        "display-name": "Mangas",
+        "icon": {
+
+            "src": "http://localhost/logo142.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C143.telerama.fr",
+
+        "display-name": "Man-X",
+        "icon": {
+
+            "src": "http://localhost/logo143.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C144.telerama.fr",
+
+        "display-name": "MCM",
+        "icon": {
+
+            "src": "http://localhost/logo144.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1453.telerama.fr",
+
+        "display-name": "MCS Tennis",
+        "icon": {
+
+            "src": "http://localhost/logo1453.gif"
+        }
+    },
+
+
+    {
+        "id": "C146.telerama.fr",
+
+        "display-name": "RFM TV",
+        "icon": {
+
+            "src": "http://localhost/logo146.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1461.telerama.fr",
+
+        "display-name": "Nollywood TV",
+        "icon": {
+
+            "src": "http://localhost/logo1461.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C147.telerama.fr",
+
+        "display-name": "MCM Top",
+        "icon": {
+
+            "src": "http://localhost/logo147.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C148.telerama.fr",
+
+        "display-name": "Mezzo",
+        "icon": {
+
+            "src": "http://localhost/logo148.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C149.telerama.fr",
+
+        "display-name": "Motors TV",
+        "icon": {
+
+            "src": "http://localhost/logo149.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C15.telerama.fr",
+
+        "display-name": "BFM TV",
+        "icon": {
+
+            "src": "http://localhost/logo15.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C150.telerama.fr",
+
+        "display-name": "MTV",
+        "icon": {
+
+            "src": "http://localhost/logo150.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1585.telerama.fr",
+
+        "display-name": "J-One",
+        "icon": {
+
+            "src": "http://localhost/logo1585.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C16.telerama.fr",
+
+        "display-name": "CNews",
+        "icon": {
+
+            "src": "http://localhost/logo16.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C160.telerama.fr",
+
+        "display-name": "MTV 2",
+        "icon": {
+
+            "src": "http://localhost/logo160.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C161.telerama.fr",
+
+        "display-name": "MTV Base",
+        "icon": {
+
+            "src": "http://localhost/logo161.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C162.telerama.fr",
+
+        "display-name": "MTV Base France",
+        "icon": {
+
+            "src": "http://localhost/logo162.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C163.telerama.fr",
+
+        "display-name": "MTV Hits",
+        "icon": {
+
+            "src": "http://localhost/logo163.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C164.telerama.fr",
+
+        "display-name": "MTV Idol",
+        "icon": {
+
+            "src": "http://localhost/logo164.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C165.telerama.fr",
+
+        "display-name": "MTV Pulse",
+        "icon": {
+
+            "src": "http://localhost/logo165.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C166.telerama.fr",
+
+        "display-name": "Nantes 7",
+        "icon": {
+
+            "src": "http://localhost/logo166.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C167.telerama.fr",
+
+        "display-name": "NASN",
+        "icon": {
+
+            "src": "http://localhost/logo167.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C168.telerama.fr",
+
+        "display-name": "National Geographic",
+        "icon": {
+
+            "src": "http://localhost/logo168.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C169.telerama.fr",
+
+        "display-name": "National Geographic HD",
+        "icon": {
+
+            "src": "http://localhost/logo169.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C17.telerama.fr",
+
+        "display-name": "CStar",
+        "icon": {
+
+            "src": "http://localhost/logo17.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C170.telerama.fr",
+
+        "display-name": "National Geographic Wild",
+        "icon": {
+
+            "src": "http://localhost/logo170.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C171.telerama.fr",
+
+        "display-name": "Nickelod\u00e9on",
+        "icon": {
+
+            "src": "http://localhost/logo171.gif"
+        }
+    },
+
+
+    {
+        "id": "C173.telerama.fr",
+
+        "display-name": "NRJ Hits",
+        "icon": {
+
+            "src": "http://localhost/logo173.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C174.telerama.fr",
+
+        "display-name": "NRJ Paris",
+        "icon": {
+
+            "src": "http://localhost/logo174.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1746.telerama.fr",
+
+        "display-name": "Nickelod\u00e9on 4 Teen",
+        "icon": {
+
+            "src": "http://localhost/logo1746.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C175.telerama.fr",
+
+        "display-name": "Stylia",
+        "icon": {
+
+            "src": "http://localhost/logo175.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C176.telerama.fr",
+
+        "display-name": "OL TV - Olympique lyonnais",
+        "icon": {
+
+            "src": "http://localhost/logo176.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C177.telerama.fr",
+
+        "display-name": "OMTV",
+        "icon": {
+
+            "src": "http://localhost/logo177.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1776.telerama.fr",
+
+        "display-name": "Trek",
+        "icon": {
+
+            "src": "http://localhost/logo1776.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C178.telerama.fr",
+
+        "display-name": "Onze",
+        "icon": {
+
+            "src": "http://localhost/logo178.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C179.telerama.fr",
+
+        "display-name": "Onz\u00e9o",
+        "icon": {
+
+            "src": "http://localhost/logo179.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C18.telerama.fr",
+
+        "display-name": "Gulli",
+        "icon": {
+
+            "src": "http://localhost/logo18.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C180.telerama.fr",
+
+        "display-name": "Orange Cin\u00e9 G\u00e9ants",
+        "icon": {
+
+            "src": "http://localhost/logo180.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C181.telerama.fr",
+
+        "display-name": "Orange Cin\u00e9 Choc",
+        "icon": {
+
+            "src": "http://localhost/logo181.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C182.telerama.fr",
+
+        "display-name": "Orange Cin\u00e9 Happy",
+        "icon": {
+
+            "src": "http://localhost/logo182.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C183.telerama.fr",
+
+        "display-name": "Orange Cin\u00e9max",
+        "icon": {
+
+            "src": "http://localhost/logo183.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C184.telerama.fr",
+
+        "display-name": "Orange Cin\u00e9novo",
+        "icon": {
+
+            "src": "http://localhost/logo184.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C185.telerama.fr",
+
+        "display-name": "Orange Sports Info",
+        "icon": {
+
+            "src": "http://localhost/logo185.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C186.telerama.fr",
+
+        "display-name": "Paris Premi\u00e8re",
+        "icon": {
+
+            "src": "http://localhost/logo186.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C187.telerama.fr",
+
+        "display-name": "Pink TV",
+        "icon": {
+
+            "src": "http://localhost/logo187.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C188.telerama.fr",
+
+        "display-name": "Plan\u00e8te",
+        "icon": {
+
+            "src": "http://localhost/logo188.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C189.telerama.fr",
+
+        "display-name": "Orange Sport",
+        "icon": {
+
+            "src": "http://localhost/logo189.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C190.telerama.fr",
+
+        "display-name": "Plan\u00e8te Justice",
+        "icon": {
+
+            "src": "http://localhost/logo190.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C191.telerama.fr",
+
+        "display-name": "Plan\u00e8te No Limit",
+        "icon": {
+
+            "src": "http://localhost/logo191.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C192.telerama.fr",
+
+        "display-name": "Plan\u00e8te Thalassa",
+        "icon": {
+
+            "src": "http://localhost/logo192.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C193.telerama.fr",
+
+        "display-name": "Playboy TV",
+        "icon": {
+
+            "src": "http://localhost/logo193.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C194.telerama.fr",
+
+        "display-name": "Disney Junior",
+        "icon": {
+
+            "src": "http://localhost/logo194.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1948.telerama.fr",
+
+        "display-name": "Trace Toca_ETR",
+        "icon": {
+
+            "src": "http://localhost/logo1948.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C195.telerama.fr",
+
+        "display-name": "Plug RTL",
+        "icon": {
+
+            "src": "http://localhost/logo195.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C196.telerama.fr",
+
+        "display-name": "Private Spice",
+        "icon": {
+
+            "src": "http://localhost/logo196.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C1960.telerama.fr",
+
+        "display-name": "BET",
+        "icon": {
+
+            "src": "http://localhost/logo1960.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C197.telerama.fr",
+
+        "display-name": "Pro 7",
+        "icon": {
+
+            "src": "http://localhost/logo197.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C198.telerama.fr",
+
+        "display-name": "RTL +",
+        "icon": {
+
+            "src": "http://localhost/logo198.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C199.telerama.fr",
+
+        "display-name": "RTL 9",
+        "icon": {
+
+            "src": "http://localhost/logo199.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2.telerama.fr",
+
+        "display-name": "France 2",
+        "icon": {
+
+            "src": "http://localhost/logo2.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C20.telerama.fr",
+
+        "display-name": "13e Rue",
+        "icon": {
+
+            "src": "http://localhost/logo20.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C201.telerama.fr",
+
+        "display-name": "SyFy",
+        "icon": {
+
+            "src": "http://localhost/logo201.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C202.telerama.fr",
+
+        "display-name": "Seasons",
+        "icon": {
+
+            "src": "http://localhost/logo202.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2021.telerama.fr",
+
+        "display-name": "MCS Maison",
+        "icon": {
+
+            "src": "http://localhost/logo2021.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2029.telerama.fr",
+
+        "display-name": "SFR Sport 4K",
+        "icon": {
+
+            "src": "http://localhost/logo2029.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C203.telerama.fr",
+
+        "display-name": "S\u00e9rie club",
+        "icon": {
+
+            "src": "http://localhost/logo203.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2037.telerama.fr",
+
+        "display-name": "Crime District",
+        "icon": {
+
+            "src": "http://localhost/logo2037.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C204.telerama.fr",
+
+        "display-name": "Sport+",
+        "icon": {
+
+            "src": "http://localhost/logo204.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2040.telerama.fr",
+
+        "display-name": "Toonami",
+        "icon": {
+
+            "src": "http://localhost/logo2040.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2049.telerama.fr",
+
+        "display-name": "A+ International France",
+        "icon": {
+
+            "src": "http://localhost/logo2049.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C205.telerama.fr",
+
+        "display-name": "Supersport 3",
+        "icon": {
+
+            "src": "http://localhost/logo205.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C206.telerama.fr",
+
+        "display-name": "TCM",
+        "icon": {
+
+            "src": "http://localhost/logo206.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C207.telerama.fr",
+
+        "display-name": "TCM (CH)",
+        "icon": {
+
+            "src": "http://localhost/logo207.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C209.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Guadeloupe",
+        "icon": {
+
+            "src": "http://localhost/logo209.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2095.telerama.fr",
+
+        "display-name": "SFR Sport 1",
+        "icon": {
+
+            "src": "http://localhost/logo2095.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C21.telerama.fr",
+
+        "display-name": "2Be",
+        "icon": {
+
+            "src": "http://localhost/logo21.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C210.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Guyane",
+        "icon": {
+
+            "src": "http://localhost/logo210.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C211.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 M\u00e9lody",
+        "icon": {
+
+            "src": "http://localhost/logo211.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C2111.telerama.fr",
+
+        "display-name": "Franceinfo",
+        "icon": {
+
+            "src": "http://localhost/logo2111.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C212.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Miroir",
+        "icon": {
+
+            "src": "http://localhost/logo212.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C213.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Martinique",
+        "icon": {
+
+            "src": "http://localhost/logo213.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C214.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Nantes",
+        "icon": {
+
+            "src": "http://localhost/logo214.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C216.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Nouvelle-Cal\u00e9donie",
+        "icon": {
+
+            "src": "http://localhost/logo216.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C217.telerama.fr",
+
+        "display-name": "Polyn\u00e9sie 1\u00e8re",
+        "icon": {
+
+            "src": "http://localhost/logo217.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C218.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 R\u00e9union",
+        "icon": {
+
+            "src": "http://localhost/logo218.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C219.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9 Toulouse",
+        "icon": {
+
+            "src": "http://localhost/logo219.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C22.telerama.fr",
+
+        "display-name": "3A Telesud",
+        "icon": {
+
+            "src": "http://localhost/logo22.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C220.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9Toon",
+        "icon": {
+
+            "src": "http://localhost/logo220.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C221.telerama.fr",
+
+        "display-name": "T\u00e9l\u00e9Toon (+1)",
+        "icon": {
+
+            "src": "http://localhost/logo221.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C222.telerama.fr",
+
+        "display-name": "TELIF",
+        "icon": {
+
+            "src": "http://localhost/logo222.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C223.telerama.fr",
+
+        "display-name": "Tempo Guadeloupe",
+        "icon": {
+
+            "src": "http://localhost/logo223.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C224.telerama.fr",
+
+        "display-name": "Tempo Nouvelle-Cal\u00e9donie",
+        "icon": {
+
+            "src": "http://localhost/logo224.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C225.telerama.fr",
+
+        "display-name": "Tempo Polyn\u00e9sie",
+        "icon": {
+
+            "src": "http://localhost/logo225.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C226.telerama.fr",
+
+        "display-name": "Tempo R\u00e9union",
+        "icon": {
+
+            "src": "http://localhost/logo226.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C227.telerama.fr",
+
+        "display-name": "T\u00e9va",
+        "icon": {
+
+            "src": "http://localhost/logo227.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C228.telerama.fr",
+
+        "display-name": "TF6",
+        "icon": {
+
+            "src": "http://localhost/logo228.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C229.telerama.fr",
+
+        "display-name": "TIJI",
+        "icon": {
+
+            "src": "http://localhost/logo229.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C23.telerama.fr",
+
+        "display-name": "AB1",
+        "icon": {
+
+            "src": "http://localhost/logo23.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C230.telerama.fr",
+
+        "display-name": "The Poker Channel",
+        "icon": {
+
+            "src": "http://localhost/logo230.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C231.telerama.fr",
+
+        "display-name": "TLM - T\u00e9l\u00e9 Lyon M\u00e9tropole",
+        "icon": {
+
+            "src": "http://localhost/logo231.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C233.telerama.fr",
+
+        "display-name": "TPS Star",
+        "icon": {
+
+            "src": "http://localhost/logo233.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C234.telerama.fr",
+
+        "display-name": "TRACE",
+        "icon": {
+
+            "src": "http://localhost/logo234.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C235.telerama.fr",
+
+        "display-name": "TSR 1",
+        "icon": {
+
+            "src": "http://localhost/logo235.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C236.telerama.fr",
+
+        "display-name": "TSR 2",
+        "icon": {
+
+            "src": "http://localhost/logo236.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C237.telerama.fr",
+
+        "display-name": "TV5MONDE",
+        "icon": {
+
+            "src": "http://localhost/logo237.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C238.telerama.fr",
+
+        "display-name": "TV5MONDE Afrique",
+        "icon": {
+
+            "src": "http://localhost/logo238.gif"
+        }
+    },
+
+
+    {
+        "id": "C239.telerama.fr",
+
+        "display-name": "TV5MONDE Asie",
+        "icon": {
+
+            "src": "http://localhost/logo239.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C24.telerama.fr",
+
+        "display-name": "AB3",
+        "icon": {
+
+            "src": "http://localhost/logo24.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C240.telerama.fr",
+
+        "display-name": "TV5MONDE Europe",
+        "icon": {
+
+            "src": "http://localhost/logo240.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C241.telerama.fr",
+
+        "display-name": "TV7 Bordeaux",
+        "icon": {
+
+            "src": "http://localhost/logo241.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C242.telerama.fr",
+
+        "display-name": "TV8 Mont-Blanc",
+        "icon": {
+
+            "src": "http://localhost/logo242.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C243.telerama.fr",
+
+        "display-name": "Tv Breizh",
+        "icon": {
+
+            "src": "http://localhost/logo243.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C244.telerama.fr",
+
+        "display-name": "TV Rennes",
+        "icon": {
+
+            "src": "http://localhost/logo244.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C245.telerama.fr",
+
+        "display-name": "TV Tours",
+        "icon": {
+
+            "src": "http://localhost/logo245.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C246.telerama.fr",
+
+        "display-name": "Ushuaia TV",
+        "icon": {
+
+            "src": "http://localhost/logo246.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C247.telerama.fr",
+
+        "display-name": "Vivolta",
+        "icon": {
+
+            "src": "http://localhost/logo247.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C248.telerama.fr",
+
+        "display-name": "Voyage",
+        "icon": {
+
+            "src": "http://localhost/logo248.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C249.telerama.fr",
+
+        "display-name": "XXL",
+        "icon": {
+
+            "src": "http://localhost/logo249.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C25.telerama.fr",
+
+        "display-name": "AB4",
+        "icon": {
+
+            "src": "http://localhost/logo25.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C250.telerama.fr",
+
+        "display-name": "XXX Xtreme",
+        "icon": {
+
+            "src": "http://localhost/logo250.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C252.telerama.fr",
+
+        "display-name": "Equipe TV",
+        "icon": {
+
+            "src": "http://localhost/logo252.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C253.telerama.fr",
+
+        "display-name": "CNN",
+        "icon": {
+
+            "src": "http://localhost/logo253.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C254.telerama.fr",
+
+        "display-name": "Toute l'histoire",
+        "icon": {
+
+            "src": "http://localhost/logo254.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C255.telerama.fr",
+
+        "display-name": "Bloomberg",
+        "icon": {
+
+            "src": "http://localhost/logo255.gif"
+        }
+    },
+
+
+    {
+        "id": "C257.telerama.fr",
+
+        "display-name": "CNBC Europe",
+        "icon": {
+
+            "src": "http://localhost/logo257.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C258.telerama.fr",
+
+        "display-name": "VH1",
+        "icon": {
+
+            "src": "http://localhost/logo258.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C259.telerama.fr",
+
+        "display-name": "Luxe TV",
+        "icon": {
+
+            "src": "http://localhost/logo259.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C26.telerama.fr",
+
+        "display-name": "Action",
+        "icon": {
+
+            "src": "http://localhost/logo26.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C260.telerama.fr",
+
+        "display-name": "RTPI",
+        "icon": {
+
+            "src": "http://localhost/logo260.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C268.telerama.fr",
+
+        "display-name": "Fashion TV",
+        "icon": {
+
+            "src": "http://localhost/logo268.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C269.telerama.fr",
+
+        "display-name": "Astro Center",
+        "icon": {
+
+            "src": "http://localhost/logo269.gif"
+        }
+    },
+
+
+    {
+        "id": "C27.telerama.fr",
+
+        "display-name": "AB Moteurs",
+        "icon": {
+
+            "src": "http://localhost/logo27.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C270.telerama.fr",
+
+        "display-name": "ORTF 1",
+        "icon": {
+
+            "src": "http://localhost/logo270.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C271.telerama.fr",
+
+        "display-name": "RTPI",
+        "icon": {
+
+            "src": "http://localhost/logo271.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C272.telerama.fr",
+
+        "display-name": "VH1",
+        "icon": {
+
+            "src": "http://localhost/logo272.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C273.telerama.fr",
+
+        "display-name": "WDR",
+        "icon": {
+
+            "src": "http://localhost/logo273.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C274.telerama.fr",
+
+        "display-name": "CCTV9",
+        "icon": {
+
+            "src": "http://localhost/logo274.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C275.telerama.fr",
+
+        "display-name": "2M Monde",
+        "icon": {
+
+            "src": "http://localhost/logo275.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C276.telerama.fr",
+
+        "display-name": "Piwi",
+        "icon": {
+
+            "src": "http://localhost/logo276.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C278.telerama.fr",
+
+        "display-name": "3 SAT",
+        "icon": {
+
+            "src": "http://localhost/logo278.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C279.telerama.fr",
+
+        "display-name": "Bloomberg TV",
+        "icon": {
+
+            "src": "http://localhost/logo279.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C28.telerama.fr",
+
+        "display-name": "Alsatic TV",
+        "icon": {
+
+            "src": "http://localhost/logo28.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C280.telerama.fr",
+
+        "display-name": "Zone Reality",
+        "icon": {
+
+            "src": "http://localhost/logo280.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C281.telerama.fr",
+
+        "display-name": "Yacht & Sail",
+        "icon": {
+
+            "src": "http://localhost/logo281.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C282.telerama.fr",
+
+        "display-name": "Baby TV",
+        "icon": {
+
+            "src": "http://localhost/logo282.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C283.telerama.fr",
+
+        "display-name": "LCM",
+        "icon": {
+
+            "src": "http://localhost/logo283.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C284.telerama.fr",
+
+        "display-name": "Txingudi",
+        "icon": {
+
+            "src": "http://localhost/logo284.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C285.telerama.fr",
+
+        "display-name": "Zone Reality (B)",
+        "icon": {
+
+            "src": "http://localhost/logo285.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C286.telerama.fr",
+
+        "display-name": "Zee TV",
+        "icon": {
+
+            "src": "http://localhost/logo286.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C287.telerama.fr",
+
+        "display-name": "Zee Cin\u00e9ma",
+        "icon": {
+
+            "src": "http://localhost/logo287.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C288.telerama.fr",
+
+        "display-name": "France 24",
+        "icon": {
+
+            "src": "http://localhost/logo288.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C289.telerama.fr",
+
+        "display-name": "L'Equipe TV",
+        "icon": {
+
+            "src": "http://localhost/logo289.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C29.telerama.fr",
+
+        "display-name": "Animaux",
+        "icon": {
+
+            "src": "http://localhost/logo29.gif"
+        }
+    },
+
+
+    {
+        "id": "C291.telerama.fr",
+
+        "display-name": "VH1 Classic",
+        "icon": {
+
+            "src": "http://localhost/logo291.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C292.telerama.fr",
+
+        "display-name": "Vijf TV",
+        "icon": {
+
+            "src": "http://localhost/logo292.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C294.telerama.fr",
+
+        "display-name": "IDF1",
+        "icon": {
+
+            "src": "http://localhost/logo294.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C295.telerama.fr",
+
+        "display-name": "ETB 1",
+        "icon": {
+
+            "src": "http://localhost/logo295.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C296.telerama.fr",
+
+        "display-name": "ETB 2",
+        "icon": {
+
+            "src": "http://localhost/logo296.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C297.telerama.fr",
+
+        "display-name": "MTV HD",
+        "icon": {
+
+            "src": "http://localhost/logo297.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C298.telerama.fr",
+
+        "display-name": "M6 Music Club",
+        "icon": {
+
+            "src": "http://localhost/logo298.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C299.telerama.fr",
+
+        "display-name": "Toute l'Histoire",
+        "icon": {
+
+            "src": "http://localhost/logo299.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C3.telerama.fr",
+
+        "display-name": "France 3",
+        "icon": {
+
+            "src": "http://localhost/logo3.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C300.telerama.fr",
+
+        "display-name": "Sundance Channel",
+        "icon": {
+
+            "src": "http://localhost/logo300.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C301.telerama.fr",
+
+        "display-name": "ARD",
+        "icon": {
+
+            "src": "http://localhost/logo301.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C302.telerama.fr",
+
+        "display-name": "SAT 1",
+        "icon": {
+
+            "src": "http://localhost/logo302.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C303.telerama.fr",
+
+        "display-name": "ZDF",
+        "icon": {
+
+            "src": "http://localhost/logo303.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C305.telerama.fr",
+
+        "display-name": "Deutsche Welle",
+        "icon": {
+
+            "src": "http://localhost/logo305.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C31.telerama.fr",
+
+        "display-name": "BE TV",
+        "icon": {
+
+            "src": "http://localhost/logo31.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C32.telerama.fr",
+
+        "display-name": "Be Cin\u00e9",
+        "icon": {
+
+            "src": "http://localhost/logo32.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C33.telerama.fr",
+
+        "display-name": "Be S\u00e9ries",
+        "icon": {
+
+            "src": "http://localhost/logo33.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C34.telerama.fr",
+
+        "display-name": "Be Sport 1",
+        "icon": {
+
+            "src": "http://localhost/logo34.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C35.telerama.fr",
+
+        "display-name": "Be Sport 2",
+        "icon": {
+
+            "src": "http://localhost/logo35.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C351.telerama.fr",
+
+        "display-name": "TV1 - Nederland 1",
+        "icon": {
+
+            "src": "http://localhost/logo351.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C352.telerama.fr",
+
+        "display-name": "TV2 - Nederland 2",
+        "icon": {
+
+            "src": "http://localhost/logo352.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C353.telerama.fr",
+
+        "display-name": "TV3 - Nederland 3",
+        "icon": {
+
+            "src": "http://localhost/logo353.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C38.telerama.fr",
+
+        "display-name": "Boomerang",
+        "icon": {
+
+            "src": "http://localhost/logo38.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C39.telerama.fr",
+
+        "display-name": "Canal 32",
+        "icon": {
+
+            "src": "http://localhost/logo39.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4.telerama.fr",
+
+        "display-name": "Canal+",
+        "icon": {
+
+            "src": "http://localhost/logo4.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C40.telerama.fr",
+
+        "display-name": "Canal partag\u00e9 TNT Ile-de-France",
+        "icon": {
+
+            "src": "http://localhost/logo40.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C401.telerama.fr",
+
+        "display-name": "BBC 1",
+        "icon": {
+
+            "src": "http://localhost/logo401.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C402.telerama.fr",
+
+        "display-name": "BBC 2",
+        "icon": {
+
+            "src": "http://localhost/logo402.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C403.telerama.fr",
+
+        "display-name": "BBC Prime",
+        "icon": {
+
+            "src": "http://localhost/logo403.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C404.telerama.fr",
+
+        "display-name": "BBC World News",
+        "icon": {
+
+            "src": "http://localhost/logo404.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C405.telerama.fr",
+
+        "display-name": "CNN",
+        "icon": {
+
+            "src": "http://localhost/logo405.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C406.telerama.fr",
+
+        "display-name": "CNBC Europe",
+        "icon": {
+
+            "src": "http://localhost/logo406.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C407.telerama.fr",
+
+        "display-name": "CNBC Europe + Nat Geo",
+        "icon": {
+
+            "src": "http://localhost/logo407.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C408.telerama.fr",
+
+        "display-name": "Al Jazeera English",
+        "icon": {
+
+            "src": "http://localhost/logo408.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4131.telerama.fr",
+
+        "display-name": "HD1",
+        "icon": {
+
+            "src": "http://localhost/logo4131.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4132.telerama.fr",
+
+        "display-name": "L\u2019Equipe",
+        "icon": {
+
+            "src": "http://localhost/logo4132.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4133.telerama.fr",
+
+        "display-name": "6ter",
+        "icon": {
+
+            "src": "http://localhost/logo4133.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4134.telerama.fr",
+
+        "display-name": "Num\u00e9ro 23",
+        "icon": {
+
+            "src": "http://localhost/logo4134.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4135.telerama.fr",
+
+        "display-name": "RMC D\u00e9couverte",
+        "icon": {
+
+            "src": "http://localhost/logo4135.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4136.telerama.fr",
+
+        "display-name": "Ch\u00e9rie 25",
+        "icon": {
+
+            "src": "http://localhost/logo4136.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4138.telerama.fr",
+
+        "display-name": "Canal+ S\u00e9ries",
+        "icon": {
+
+            "src": "http://localhost/logo4138.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4139.telerama.fr",
+
+        "display-name": "Bein sport 1",
+        "icon": {
+
+            "src": "http://localhost/logo4139.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4140.telerama.fr",
+
+        "display-name": "Bein sport 2",
+        "icon": {
+
+            "src": "http://localhost/logo4140.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4141.telerama.fr",
+
+        "display-name": "Paramount Channel",
+        "icon": {
+
+            "src": "http://localhost/logo4141.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4142.telerama.fr",
+
+        "display-name": "SFR Sport 3",
+        "icon": {
+
+            "src": "http://localhost/logo4142.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C4143.telerama.fr",
+
+        "display-name": "SFR Sport 5",
+        "icon": {
+
+            "src": "http://localhost/logo4143.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C42.telerama.fr",
+
+        "display-name": "Canal J",
+        "icon": {
+
+            "src": "http://localhost/logo42.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C43.telerama.fr",
+
+        "display-name": "Canal+ Cin\u00e9ma",
+        "icon": {
+
+            "src": "http://localhost/logo43.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C44.telerama.fr",
+
+        "display-name": "Canal+ D\u00e9cal\u00e9",
+        "icon": {
+
+            "src": "http://localhost/logo44.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C45.telerama.fr",
+
+        "display-name": "Canal+ Family",
+        "icon": {
+
+            "src": "http://localhost/logo45.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C47.telerama.fr",
+
+        "display-name": "Canal+ Sport",
+        "icon": {
+
+            "src": "http://localhost/logo47.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C48.telerama.fr",
+
+        "display-name": "Canal Horizons",
+        "icon": {
+
+            "src": "http://localhost/logo48.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C49.telerama.fr",
+
+        "display-name": "Canal Horizons Cin\u00e9ma",
+        "icon": {
+
+            "src": "http://localhost/logo49.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C5.telerama.fr",
+
+        "display-name": "France 5",
+        "icon": {
+
+            "src": "http://localhost/logo5.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C50.telerama.fr",
+
+        "display-name": "Cartoon Network",
+        "icon": {
+
+            "src": "http://localhost/logo50.gif"
+        }
+    },
+
+
+    {
+        "id": "C509.telerama.fr",
+
+        "display-name": "Ketnet Canvas",
+        "icon": {
+
+            "src": "http://localhost/logo509.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C51.telerama.fr",
+
+        "display-name": "Chasse et p\u00eache",
+        "icon": {
+
+            "src": "http://localhost/logo51.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C510.telerama.fr",
+
+        "display-name": "Klara",
+        "icon": {
+
+            "src": "http://localhost/logo510.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C511.telerama.fr",
+
+        "display-name": "RTBF Sat",
+        "icon": {
+
+            "src": "http://localhost/logo511.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C512.telerama.fr",
+
+        "display-name": "VT 4",
+        "icon": {
+
+            "src": "http://localhost/logo512.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C513.telerama.fr",
+
+        "display-name": "VTM",
+        "icon": {
+
+            "src": "http://localhost/logo513.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C514.telerama.fr",
+
+        "display-name": "RTL TVI",
+        "icon": {
+
+            "src": "http://localhost/logo514.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C52.telerama.fr",
+
+        "display-name": "Cin\u00e9 First",
+        "icon": {
+
+            "src": "http://localhost/logo52.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C53.telerama.fr",
+
+        "display-name": "Cin\u00e9 FX",
+        "icon": {
+
+            "src": "http://localhost/logo53.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C54.telerama.fr",
+
+        "display-name": "Cin\u00e9 Polar",
+        "icon": {
+
+            "src": "http://localhost/logo54.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C55.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Star Afrique",
+        "icon": {
+
+            "src": "http://localhost/logo55.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C56.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Classic",
+        "icon": {
+
+            "src": "http://localhost/logo56.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C57.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Classic (B)",
+        "icon": {
+
+            "src": "http://localhost/logo57.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C58.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Club",
+        "icon": {
+
+            "src": "http://localhost/logo58.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C59.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Emotion",
+        "icon": {
+
+            "src": "http://localhost/logo59.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C6.telerama.fr",
+
+        "display-name": "M6",
+        "icon": {
+
+            "src": "http://localhost/logo6.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C60.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Famiz",
+        "icon": {
+
+            "src": "http://localhost/logo60.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C601.telerama.fr",
+
+        "display-name": "TVE 1",
+        "icon": {
+
+            "src": "http://localhost/logo601.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C602.telerama.fr",
+
+        "display-name": "TVE 2",
+        "icon": {
+
+            "src": "http://localhost/logo602.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C603.telerama.fr",
+
+        "display-name": "TVE International",
+        "icon": {
+
+            "src": "http://localhost/logo603.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C604.telerama.fr",
+
+        "display-name": "Real Madrid TV",
+        "icon": {
+
+            "src": "http://localhost/logo604.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C61.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Frisson",
+        "icon": {
+
+            "src": "http://localhost/logo61.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C62.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Premier",
+        "icon": {
+
+            "src": "http://localhost/logo62.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C621.telerama.fr",
+
+        "display-name": "Gong Max",
+        "icon": {
+
+            "src": "http://localhost/logo621.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C63.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Premier (B)",
+        "icon": {
+
+            "src": "http://localhost/logo63.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C64.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Frisson Afrique",
+        "icon": {
+
+            "src": "http://localhost/logo64.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C65.telerama.fr",
+
+        "display-name": "Cin\u00e9 Cin\u00e9ma Star",
+        "icon": {
+
+            "src": "http://localhost/logo65.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C66.telerama.fr",
+
+        "display-name": "Clermont 1ere",
+        "icon": {
+
+            "src": "http://localhost/logo66.gif"
+        }
+    },
+
+
+    {
+        "id": "C67.telerama.fr",
+
+        "display-name": "Club RTL",
+        "icon": {
+
+            "src": "http://localhost/logo67.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C675.telerama.fr",
+
+        "display-name": "SFR Sport 2",
+        "icon": {
+
+            "src": "http://localhost/logo675.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C68.telerama.fr",
+
+        "display-name": "Com\u00e9die",
+        "icon": {
+
+            "src": "http://localhost/logo68.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C69.telerama.fr",
+
+        "display-name": "Cuisine.TV",
+        "icon": {
+
+            "src": "http://localhost/logo69.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C7.telerama.fr",
+
+        "display-name": "Arte",
+        "icon": {
+
+            "src": "http://localhost/logo7.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C70.telerama.fr",
+
+        "display-name": "Demain.TV",
+        "icon": {
+
+            "src": "http://localhost/logo70.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C701.telerama.fr",
+
+        "display-name": "Rai Uno",
+        "icon": {
+
+            "src": "http://localhost/logo701.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C702.telerama.fr",
+
+        "display-name": "Rai Due",
+        "icon": {
+
+            "src": "http://localhost/logo702.gif"
+        }
+    },
+
+
+    {
+        "id": "C703.telerama.fr",
+
+        "display-name": "Rai Tre",
+        "icon": {
+
+            "src": "http://localhost/logo703.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C71.telerama.fr",
+
+        "display-name": "Discovery Channel",
+        "icon": {
+
+            "src": "http://localhost/logo71.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C73.telerama.fr",
+
+        "display-name": "Disney Channel",
+        "icon": {
+
+            "src": "http://localhost/logo73.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C74.telerama.fr",
+
+        "display-name": "Disney Channel (+1)",
+        "icon": {
+
+            "src": "http://localhost/logo74.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C75.telerama.fr",
+
+        "display-name": "Disney Cin\u00e9magic",
+        "icon": {
+
+            "src": "http://localhost/logo75.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C753.telerama.fr",
+
+        "display-name": "Trace Tropical",
+        "icon": {
+
+            "src": "http://localhost/logo753.gif"
+        }
+    },
+
+
+    {
+        "id": "C77.telerama.fr",
+
+        "display-name": "Disney Cin\u00e9magic (+1)",
+        "icon": {
+
+            "src": "http://localhost/logo77.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C78.telerama.fr",
+
+        "display-name": "Dorcel TV",
+        "icon": {
+
+            "src": "http://localhost/logo78.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C787.telerama.fr",
+
+        "display-name": "Nolife",
+        "icon": {
+
+            "src": "http://localhost/logo787.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C79.telerama.fr",
+
+        "display-name": "Maison+",
+        "icon": {
+
+            "src": "http://localhost/logo79.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C8.telerama.fr",
+
+        "display-name": "C8",
+        "icon": {
+
+            "src": "http://localhost/logo8.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C80.telerama.fr",
+
+        "display-name": "E ! Entertainment",
+        "icon": {
+
+            "src": "http://localhost/logo80.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C801.telerama.fr",
+
+        "display-name": "SWR",
+        "icon": {
+
+            "src": "http://localhost/logo801.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C804.telerama.fr",
+
+        "display-name": "SF1",
+        "icon": {
+
+            "src": "http://localhost/logo804.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C805.telerama.fr",
+
+        "display-name": "SF2",
+        "icon": {
+
+            "src": "http://localhost/logo805.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C806.telerama.fr",
+
+        "display-name": "TSI 1",
+        "icon": {
+
+            "src": "http://localhost/logo806.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C807.telerama.fr",
+
+        "display-name": "TSI 2",
+        "icon": {
+
+            "src": "http://localhost/logo807.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C81.telerama.fr",
+
+        "display-name": "\u00e9\u00e9n",
+        "icon": {
+
+            "src": "http://localhost/logo81.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C810.telerama.fr",
+
+        "display-name": "Discovery HD Showcase",
+        "icon": {
+
+            "src": "http://localhost/logo810.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C811.telerama.fr",
+
+        "display-name": "la Trois",
+        "icon": {
+
+            "src": "http://localhost/logo811.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C812.telerama.fr",
+
+        "display-name": "ORF1",
+        "icon": {
+
+            "src": "http://localhost/logo812.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C82.telerama.fr",
+
+        "display-name": "Encyclo",
+        "icon": {
+
+            "src": "http://localhost/logo82.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C83.telerama.fr",
+
+        "display-name": "Equidia",
+        "icon": {
+
+            "src": "http://localhost/logo83.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C84.telerama.fr",
+
+        "display-name": "Escales",
+        "icon": {
+
+            "src": "http://localhost/logo84.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C85.telerama.fr",
+
+        "display-name": "ESPN",
+        "icon": {
+
+            "src": "http://localhost/logo85.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C86.telerama.fr",
+
+        "display-name": "ESPN Classic",
+        "icon": {
+
+            "src": "http://localhost/logo86.gif"
+
+
+        }
+    },
+
+
+    {
+        "id": "C87.telerama.fr",
+
+        "display-name": "Euronews",
+        "icon": {
+
+            "src": "http://localhost/logo87.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C888.telerama.fr",
+
+        "display-name": "Nick Jr.",
+        "icon": {
+
+            "src": "http://localhost/logo888.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C89.telerama.fr",
+
+        "display-name": "Eurosport",
+        "icon": {
+
+            "src": "http://localhost/logo89.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C9.telerama.fr",
+
+        "display-name": "W9",
+        "icon": {
+
+            "src": "http://localhost/logo9.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C90.telerama.fr",
+
+        "display-name": "Eurosport 2",
+        "icon": {
+
+            "src": "http://localhost/logo90.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C907.telerama.fr",
+
+        "display-name": "Mezzo Live HD",
+        "icon": {
+
+            "src": "http://localhost/logo907.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C91.telerama.fr",
+
+        "display-name": "Extrem Sport Channel",
+        "icon": {
+
+            "src": "http://localhost/logo91.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C92.telerama.fr",
+
+        "display-name": "Elle Girl",
+        "icon": {
+
+            "src": "http://localhost/logo92.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C924.telerama.fr",
+
+        "display-name": "Boing France",
+        "icon": {
+
+            "src": "http://localhost/logo924.gif"
+        }
+    },
+
+
+    {
+        "id": "C929.telerama.fr",
+
+        "display-name": "KZTV",
+        "icon": {
+
+            "src": "http://localhost/logo929.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C95.telerama.fr",
+
+        "display-name": "France 3 Alpes",
+        "icon": {
+
+            "src": "http://localhost/logo95.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C96.telerama.fr",
+
+        "display-name": "France 3 Alsace",
+        "icon": {
+
+            "src": "http://localhost/logo96.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C97.telerama.fr",
+
+        "display-name": "France 3 Aquitaine",
+        "icon": {
+
+            "src": "http://localhost/logo97.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C98.telerama.fr",
+
+        "display-name": "France 3 Auvergne",
+        "icon": {
+
+            "src": "http://localhost/logo98.gif"
+        }
+    },
+
+
+
+    {
+        "id": "C99.telerama.fr",
+
+        "display-name": "France 3 Basse-Normandie",
+        "icon": {
+
+            "src": "http://localhost/logo99.gif"
+        }
+    },
+]

@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
+
+
 // Import rxjs map operator
 import 'rxjs/add/operator/map';
+
 
 @Component({
   selector: 'app-root',
@@ -26,8 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   // Add one person to the API
-
-  // Get all users from the API
+  // Get all channels from the API
   getAllChannel() {
     this.http.get(`${this.API}/channels`)
       .map(res => res.json())
