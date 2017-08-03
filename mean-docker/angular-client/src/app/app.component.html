@@ -1,11 +1,11 @@
 <div class='container-fluid' style="margin-top: 5%; margin-bottom: 30%">
     <div class='row'>
-        <div *ngFor='let channel of channels; let i = index'>
+        <div *ngFor='let program of programs; let i = index'>
             <!--STYLE1-->
             <a href='#' class='col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12' *ngIf='i<32'>
                 <article class='style1'>
                     <div class='date'>
-                        {{channels[i].channel_name}}
+                        {{program[i].program_name}}
                     </div>
                     <!--must have larger width than height-->
                     <img class="show" src="{{ channels[i].icon['_src'] }}" style="width: 100%" />

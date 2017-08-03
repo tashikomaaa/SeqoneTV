@@ -1,0 +1,60 @@
+[{
+
+    "start": "20170726004500 +0200",
+    "stop": "20170726013500 +0200",
+    "showview": "1445713",
+    "channel": "C1.telerama.fr",
+    "title": "New York Unité Spéciale",
+    "sub-title": "Le troisième suspect",
+    "desc": "Saison : 1 - Episode : 16/22 - Lenora Bernstein, une femme de 72 ans, est retrouvée morte \u00e0 son domicile par Stan, son livreur d'oxygène. Son appartement a été mis \u00e0 sac. Le médecin légiste suppute que madame Bernstein a succombé \u00e0 deux attaques cardiaques successives : la première aurait eu lieu lors du cambriolage, la seconde au moment o\u00f9 elle a été violée. Ses agresseurs sont retrouvés, appréhendés et incarcérés. Mais s'ils acceptent sans peine de reconna\u00eetre qu'ils ont forcé la porte de Lenora, ils rejettent en bloc toute accusation de violence sexuelle. Tout semble accuser un troisième homme...",
+    "credits": {
+        "director": "Jud Taylor",
+        "actor": [
+            "Christopher Meloni (Elliot Stabler)",
+            "Mariska Hargitay (Olivia Benson)",
+            "Dann Florek (le capitaine Cragen)",
+            "Denis O'Hare (Jimmy Walp)",
+            "Eugene Byrd (Carlos Medina)",
+            "Rick Gonzalez (Alfonso )",
+            "Vincent Guastaferro (Stan Bosick )",
+            "Peggy Pope (Sylvia Walp )"
+        ]
+    },
+    "date": "2000",
+    "category": [
+        "série",
+        "série policière"
+    ],
+    "icon": {
+
+        "src": "http://guidetv-iphone.telerama.fr/verytv/procedures/images/2017-07-26_1_00:45.jpg"
+
+    },
+    "episode-num": "0.15/22.",
+    "video": {
+        "aspect": "16:9",
+        "quality": "HDTV"
+    },
+    "audio": {
+        "stereo": "bilingual"
+    },
+    "premiere": {},
+    "subtitles": {
+
+        "type": "teletext"
+    },
+    "language": "fr",
+    "rating": {
+
+        "system": "CSA"
+    },
+    "value": "-12",
+    "icon": {
+
+        "src": "http://www.csa.fr/picts/visuels/picto_cat3.gif"
+
+    },
+    "star-rating": {
+        "value": "1/5"
+    }
+}]

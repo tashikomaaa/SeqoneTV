@@ -1,4 +1,5 @@
 <?php
+
 $xmlFile = simplexml_load_file('angular-client/src/complet.xml');
 $final = '';
 
@@ -9,15 +10,19 @@ $final = '';
 
 file_put_contents('channel.json', $final); */
 
+
 //var_dump($xmlFile->programme[1]);
-/* for($i=0; $i<count($xmlFile->programme);$i++){
-    $final .= json_encode($xmlFile->programme[$i]);
-    echo $i."\n";
+ for($i=0; $i<count($xmlFile->programme);$i++){
+    echo  json_encode($xmlFile->programme[$i], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES++O) . ",\n";
 }
- 
-    file_put_contents('programme.json', $final);
-*/
+
+
+
+
+
+/*
 $f = file_get_contents('channels.json');
 $finalFile = str_replace('} {', '', $f);
 
 file_put_contents('channels.json', $finalFile);
+*/

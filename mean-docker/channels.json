@@ -3,7 +3,7 @@
         "display-name": "TF1",
         "icon": {
 
-            "src": "http://localhost/logo1.gif"
+            "src": "http://localhost/logos/logo1.gif"
         }
     },
 
@@ -15,7 +15,7 @@
         "display-name": "TMC",
         "icon": {
 
-            "src": "http://localhost/logo10.gif"
+            "src": "http://localhost/logos/logo10.gif"
 
 
         }
@@ -27,7 +27,7 @@
         "display-name": "France 3 Bourgogne",
         "icon": {
 
-            "src": "http://localhost/logo100.gif"
+            "src": "http://localhost/logos/logo100.gif"
         }
     },
 
@@ -39,7 +39,7 @@
         "display-name": "France 3 Bretagne",
         "icon": {
 
-            "src": "http://localhost/logo101.gif"
+            "src": "http://localhost/logos/logo101.gif"
         }
     },
 
@@ -51,7 +51,7 @@
         "display-name": "France 3 Centre",
         "icon": {
 
-            "src": "http://localhost/logo102.gif"
+            "src": "http://localhost/logos/logo102.gif"
         }
     },
 
@@ -63,7 +63,7 @@
         "display-name": "France 3 Champagne-Ardenne",
         "icon": {
 
-            "src": "http://localhost/logo103.gif"
+            "src": "http://localhost/logos/logo103.gif"
         }
     },
 
@@ -75,7 +75,7 @@
         "display-name": "France 3 Corse via Stella",
         "icon": {
 
-            "src": "http://localhost/logo104.gif"
+            "src": "http://localhost/logos/logo104.gif"
         }
     },
 
@@ -87,7 +87,7 @@
         "display-name": "France 3 C\u00f4te d'Azur",
         "icon": {
 
-            "src": "http://localhost/logo105.gif"
+            "src": "http://localhost/logos/logo105.gif"
         }
     },
 
@@ -96,10 +96,10 @@
     {
         "id": "C106.telerama.fr",
 
-        "display-name": "France 3 Franche-Comt\u00e9",
+        "display-name": "France 3 Franche-Comté",
         "icon": {
 
-            "src": "http://localhost/logo106.gif"
+            "src": "http://localhost/logos/logo106.gif"
         }
     },
 
@@ -111,7 +111,7 @@
         "display-name": "France 3 Haute-Normandie",
         "icon": {
 
-            "src": "http://localhost/logo107.gif"
+            "src": "http://localhost/logos/logo107.gif"
         }
     },
 
@@ -123,7 +123,7 @@
         "display-name": "France 3 Languedoc-Roussillon",
         "icon": {
 
-            "src": "http://localhost/logo108.gif"
+            "src": "http://localhost/logos/logo108.gif"
         }
     },
 
@@ -135,7 +135,7 @@
         "display-name": "France 3 Limousin",
         "icon": {
 
-            "src": "http://localhost/logo109.gif"
+            "src": "http://localhost/logos/logo109.gif"
         }
     },
 
@@ -147,7 +147,7 @@
         "display-name": "NT1",
         "icon": {
 
-            "src": "http://localhost/logo11.gif"
+            "src": "http://localhost/logos/logo11.gif"
         }
     },
 
@@ -159,7 +159,7 @@
         "display-name": "France 3 Lorraine",
         "icon": {
 
-            "src": "http://localhost/logo110.gif"
+            "src": "http://localhost/logos/logo110.gif"
         }
     },
 
@@ -168,10 +168,10 @@
     {
         "id": "C111.telerama.fr",
 
-        "display-name": "France 3 Midi-Pyr\u00e9n\u00e9es",
+        "display-name": "France 3 Midi-Pyrénées",
         "icon": {
 
-            "src": "http://localhost/logo111.gif"
+            "src": "http://localhost/logos/logo111.gif"
         }
     },
 
@@ -183,7 +183,7 @@
         "display-name": "France 3 Nord Pas-de-Calais",
         "icon": {
 
-            "src": "http://localhost/logo112.gif"
+            "src": "http://localhost/logos/logo112.gif"
         }
     },
 
@@ -195,7 +195,7 @@
         "display-name": "France 3 Paris IDF",
         "icon": {
 
-            "src": "http://localhost/logo113.gif"
+            "src": "http://localhost/logos/logo113.gif"
         }
     },
 
@@ -207,7 +207,7 @@
         "display-name": "MCS Bien-\u00eatre",
         "icon": {
 
-            "src": "http://localhost/logo1136.gif"
+            "src": "http://localhost/logos/logo1136.gif"
         }
     },
 
@@ -219,7 +219,7 @@
         "display-name": "France 3 Pays de Loire",
         "icon": {
 
-            "src": "http://localhost/logo114.gif"
+            "src": "http://localhost/logos/logo114.gif"
 
 
         }
@@ -232,7 +232,7 @@
         "display-name": "France 3 Poitou-Charentes",
         "icon": {
 
-            "src": "http://localhost/logo115.gif"
+            "src": "http://localhost/logos/logo115.gif"
         }
     },
 
@@ -244,7 +244,7 @@
         "display-name": "France 3 Provence Alpes",
         "icon": {
 
-            "src": "http://localhost/logo116.gif"
+            "src": "http://localhost/logos/logo116.gif"
         }
     },
 
@@ -256,7 +256,7 @@
         "display-name": "Golf Channel",
         "icon": {
 
-            "src": "http://localhost/logo1166.gif"
+            "src": "http://localhost/logos/logo1166.gif"
         }
     },
 
@@ -268,7 +268,7 @@
         "display-name": "TRACE Sport Stars",
         "icon": {
 
-            "src": "http://localhost/logo1168.gif"
+            "src": "http://localhost/logos/logo1168.gif"
         }
     },
 
@@ -280,7 +280,7 @@
         "display-name": "France 3 Picardie",
         "icon": {
 
-            "src": "http://localhost/logo117.gif"
+            "src": "http://localhost/logos/logo117.gif"
         }
     },
 
@@ -292,7 +292,7 @@
         "display-name": "Trace Africa",
         "icon": {
 
-            "src": "http://localhost/logo1179.gif"
+            "src": "http://localhost/logos/logo1179.gif"
         }
     },
 
@@ -304,7 +304,7 @@
         "display-name": "France 3 Rh\u00f4ne-Alpes",
         "icon": {
 
-            "src": "http://localhost/logo118.gif"
+            "src": "http://localhost/logos/logo118.gif"
         }
     },
 
@@ -316,7 +316,7 @@
         "display-name": "L'En\u00f4rme TV",
         "icon": {
 
-            "src": "http://localhost/logo1182.gif"
+            "src": "http://localhost/logos/logo1182.gif"
         }
     },
 
@@ -328,7 +328,7 @@
         "display-name": "France \u00d4",
         "icon": {
 
-            "src": "http://localhost/logo119.gif"
+            "src": "http://localhost/logos/logo119.gif"
         }
     },
 
@@ -340,7 +340,7 @@
         "display-name": "NRJ 12",
         "icon": {
 
-            "src": "http://localhost/logo12.gif"
+            "src": "http://localhost/logos/logo12.gif"
         }
     },
 
@@ -352,7 +352,7 @@
         "display-name": "Game One",
         "icon": {
 
-            "src": "http://localhost/logo121.gif"
+            "src": "http://localhost/logos/logo121.gif"
         }
     },
 
@@ -364,7 +364,7 @@
         "display-name": "Histoire",
         "icon": {
 
-            "src": "http://localhost/logo122.gif"
+            "src": "http://localhost/logos/logo122.gif"
         }
     },
 
@@ -376,7 +376,7 @@
         "display-name": "Hustler TV",
         "icon": {
 
-            "src": "http://localhost/logo123.gif"
+            "src": "http://localhost/logos/logo123.gif"
         }
     },
 
@@ -388,7 +388,7 @@
         "display-name": "Info sport",
         "icon": {
 
-            "src": "http://localhost/logo124.gif"
+            "src": "http://localhost/logos/logo124.gif"
         }
     },
 
@@ -400,7 +400,7 @@
         "display-name": "Disney XD",
         "icon": {
 
-            "src": "http://localhost/logo125.gif"
+            "src": "http://localhost/logos/logo125.gif"
         }
     },
 
@@ -412,7 +412,7 @@
         "display-name": "Jimmy",
         "icon": {
 
-            "src": "http://localhost/logo126.gif"
+            "src": "http://localhost/logos/logo126.gif"
         }
     },
 
@@ -423,7 +423,7 @@
         "display-name": "KTO",
         "icon": {
 
-            "src": "http://localhost/logo127.gif"
+            "src": "http://localhost/logos/logo127.gif"
         }
     },
 
@@ -432,10 +432,10 @@
     {
         "id": "C128.telerama.fr",
 
-        "display-name": "La Cha\u00eene M\u00e9t\u00e9o",
+        "display-name": "La Cha\u00eene Météo",
         "icon": {
 
-            "src": "http://localhost/logo128.gif"
+            "src": "http://localhost/logos/logo128.gif"
         }
     },
 
@@ -447,7 +447,7 @@
         "display-name": "Golf+",
         "icon": {
 
-            "src": "http://localhost/logo1295.gif"
+            "src": "http://localhost/logos/logo1295.gif"
         }
     },
 
@@ -459,7 +459,7 @@
         "display-name": "France 4",
         "icon": {
 
-            "src": "http://localhost/logo13.gif"
+            "src": "http://localhost/logos/logo13.gif"
         }
     },
 
@@ -470,7 +470,7 @@
         "display-name": "La Deux",
         "icon": {
 
-            "src": "http://localhost/logo130.gif"
+            "src": "http://localhost/logos/logo130.gif"
         }
 
 
@@ -482,7 +482,7 @@
         "display-name": "La Une",
         "icon": {
 
-            "src": "http://localhost/logo131.gif"
+            "src": "http://localhost/logos/logo131.gif"
         }
     },
 
@@ -494,7 +494,7 @@
         "display-name": "LCI - La Cha\u00eene Info",
         "icon": {
 
-            "src": "http://localhost/logo133.gif"
+            "src": "http://localhost/logos/logo133.gif"
         }
     },
 
@@ -506,7 +506,7 @@
         "display-name": "beIN SPORTS MAX 4",
         "icon": {
 
-            "src": "http://localhost/logo1336.gif"
+            "src": "http://localhost/logos/logo1336.gif"
         }
     },
 
@@ -518,7 +518,7 @@
         "display-name": "beIN SPORTS MAX 5",
         "icon": {
 
-            "src": "http://localhost/logo1337.gif"
+            "src": "http://localhost/logos/logo1337.gif"
         }
     },
 
@@ -530,7 +530,7 @@
         "display-name": "beIN SPORTS MAX 6",
         "icon": {
 
-            "src": "http://localhost/logo1338.gif"
+            "src": "http://localhost/logos/logo1338.gif"
         }
     },
 
@@ -542,7 +542,7 @@
         "display-name": "beIN SPORTS MAX 7",
         "icon": {
 
-            "src": "http://localhost/logo1339.gif"
+            "src": "http://localhost/logos/logo1339.gif"
         }
     },
 
@@ -554,7 +554,7 @@
         "display-name": "beIN SPORTS MAX 8",
         "icon": {
 
-            "src": "http://localhost/logo1340.gif"
+            "src": "http://localhost/logos/logo1340.gif"
         }
     },
 
@@ -565,7 +565,7 @@
         "display-name": "beIN SPORTS MAX 9",
         "icon": {
 
-            "src": "http://localhost/logo1341.gif"
+            "src": "http://localhost/logos/logo1341.gif"
 
 
         }
@@ -578,7 +578,7 @@
         "display-name": "beIN SPORTS MAX 10",
         "icon": {
 
-            "src": "http://localhost/logo1342.gif"
+            "src": "http://localhost/logos/logo1342.gif"
         }
     },
 
@@ -590,7 +590,7 @@
         "display-name": "Liberty TV",
         "icon": {
 
-            "src": "http://localhost/logo135.gif"
+            "src": "http://localhost/logos/logo135.gif"
         }
     },
 
@@ -602,7 +602,7 @@
         "display-name": "LM TV Sarthe",
         "icon": {
 
-            "src": "http://localhost/logo136.gif"
+            "src": "http://localhost/logos/logo136.gif"
         }
     },
 
@@ -614,7 +614,7 @@
         "display-name": "M6 Boutique la cha\u00eene",
         "icon": {
 
-            "src": "http://localhost/logo137.gif"
+            "src": "http://localhost/logos/logo137.gif"
         }
     },
 
@@ -626,7 +626,7 @@
         "display-name": "Discovery Science",
         "icon": {
 
-            "src": "http://localhost/logo1374.gif"
+            "src": "http://localhost/logos/logo1374.gif"
         }
     },
 
@@ -638,7 +638,7 @@
         "display-name": "M6 Music Black",
         "icon": {
 
-            "src": "http://localhost/logo138.gif"
+            "src": "http://localhost/logos/logo138.gif"
         }
     },
 
@@ -650,7 +650,7 @@
         "display-name": "M6 Music Hits",
         "icon": {
 
-            "src": "http://localhost/logo139.gif"
+            "src": "http://localhost/logos/logo139.gif"
         }
     },
 
@@ -662,7 +662,7 @@
         "display-name": "La Cha\u00eene Parlementaire",
         "icon": {
 
-            "src": "http://localhost/logo14.gif"
+            "src": "http://localhost/logos/logo14.gif"
         }
     },
 
@@ -674,7 +674,7 @@
         "display-name": "Mangas",
         "icon": {
 
-            "src": "http://localhost/logo142.gif"
+            "src": "http://localhost/logos/logo142.gif"
         }
     },
 
@@ -686,7 +686,7 @@
         "display-name": "Man-X",
         "icon": {
 
-            "src": "http://localhost/logo143.gif"
+            "src": "http://localhost/logos/logo143.gif"
         }
     },
 
@@ -698,7 +698,7 @@
         "display-name": "MCM",
         "icon": {
 
-            "src": "http://localhost/logo144.gif"
+            "src": "http://localhost/logos/logo144.gif"
         }
     },
 
@@ -710,7 +710,7 @@
         "display-name": "MCS Tennis",
         "icon": {
 
-            "src": "http://localhost/logo1453.gif"
+            "src": "http://localhost/logos/logo1453.gif"
         }
     },
 
@@ -721,7 +721,7 @@
         "display-name": "RFM TV",
         "icon": {
 
-            "src": "http://localhost/logo146.gif"
+            "src": "http://localhost/logos/logo146.gif"
         }
     },
 
@@ -733,7 +733,7 @@
         "display-name": "Nollywood TV",
         "icon": {
 
-            "src": "http://localhost/logo1461.gif"
+            "src": "http://localhost/logos/logo1461.gif"
         }
     },
 
@@ -745,7 +745,7 @@
         "display-name": "MCM Top",
         "icon": {
 
-            "src": "http://localhost/logo147.gif"
+            "src": "http://localhost/logos/logo147.gif"
         }
     },
 
@@ -757,7 +757,7 @@
         "display-name": "Mezzo",
         "icon": {
 
-            "src": "http://localhost/logo148.gif"
+            "src": "http://localhost/logos/logo148.gif"
         }
     },
 
@@ -769,7 +769,7 @@
         "display-name": "Motors TV",
         "icon": {
 
-            "src": "http://localhost/logo149.gif"
+            "src": "http://localhost/logos/logo149.gif"
         }
     },
 
@@ -781,7 +781,7 @@
         "display-name": "BFM TV",
         "icon": {
 
-            "src": "http://localhost/logo15.gif"
+            "src": "http://localhost/logos/logo15.gif"
         }
     },
 
@@ -793,7 +793,7 @@
         "display-name": "MTV",
         "icon": {
 
-            "src": "http://localhost/logo150.gif"
+            "src": "http://localhost/logos/logo150.gif"
         }
     },
 
@@ -805,7 +805,7 @@
         "display-name": "J-One",
         "icon": {
 
-            "src": "http://localhost/logo1585.gif"
+            "src": "http://localhost/logos/logo1585.gif"
         }
     },
 
@@ -817,7 +817,7 @@
         "display-name": "CNews",
         "icon": {
 
-            "src": "http://localhost/logo16.gif"
+            "src": "http://localhost/logos/logo16.gif"
         }
     },
 
@@ -829,7 +829,7 @@
         "display-name": "MTV 2",
         "icon": {
 
-            "src": "http://localhost/logo160.gif"
+            "src": "http://localhost/logos/logo160.gif"
         }
     },
 
@@ -841,7 +841,7 @@
         "display-name": "MTV Base",
         "icon": {
 
-            "src": "http://localhost/logo161.gif"
+            "src": "http://localhost/logos/logo161.gif"
         }
     },
 
@@ -853,7 +853,7 @@
         "display-name": "MTV Base France",
         "icon": {
 
-            "src": "http://localhost/logo162.gif"
+            "src": "http://localhost/logos/logo162.gif"
         }
     },
 
@@ -865,7 +865,7 @@
         "display-name": "MTV Hits",
         "icon": {
 
-            "src": "http://localhost/logo163.gif"
+            "src": "http://localhost/logos/logo163.gif"
         }
     },
 
@@ -877,7 +877,7 @@
         "display-name": "MTV Idol",
         "icon": {
 
-            "src": "http://localhost/logo164.gif"
+            "src": "http://localhost/logos/logo164.gif"
 
 
         }
@@ -890,7 +890,7 @@
         "display-name": "MTV Pulse",
         "icon": {
 
-            "src": "http://localhost/logo165.gif"
+            "src": "http://localhost/logos/logo165.gif"
         }
     },
 
@@ -902,7 +902,7 @@
         "display-name": "Nantes 7",
         "icon": {
 
-            "src": "http://localhost/logo166.gif"
+            "src": "http://localhost/logos/logo166.gif"
         }
     },
 
@@ -914,7 +914,7 @@
         "display-name": "NASN",
         "icon": {
 
-            "src": "http://localhost/logo167.gif"
+            "src": "http://localhost/logos/logo167.gif"
         }
     },
 
@@ -926,7 +926,7 @@
         "display-name": "National Geographic",
         "icon": {
 
-            "src": "http://localhost/logo168.gif"
+            "src": "http://localhost/logos/logo168.gif"
         }
     },
 
@@ -938,7 +938,7 @@
         "display-name": "National Geographic HD",
         "icon": {
 
-            "src": "http://localhost/logo169.gif"
+            "src": "http://localhost/logos/logo169.gif"
         }
     },
 
@@ -950,7 +950,7 @@
         "display-name": "CStar",
         "icon": {
 
-            "src": "http://localhost/logo17.gif"
+            "src": "http://localhost/logos/logo17.gif"
         }
     },
 
@@ -962,7 +962,7 @@
         "display-name": "National Geographic Wild",
         "icon": {
 
-            "src": "http://localhost/logo170.gif"
+            "src": "http://localhost/logos/logo170.gif"
         }
     },
 
@@ -971,10 +971,10 @@
     {
         "id": "C171.telerama.fr",
 
-        "display-name": "Nickelod\u00e9on",
+        "display-name": "Nickelodéon",
         "icon": {
 
-            "src": "http://localhost/logo171.gif"
+            "src": "http://localhost/logos/logo171.gif"
         }
     },
 
@@ -985,7 +985,7 @@
         "display-name": "NRJ Hits",
         "icon": {
 
-            "src": "http://localhost/logo173.gif"
+            "src": "http://localhost/logos/logo173.gif"
         }
     },
 
@@ -997,7 +997,7 @@
         "display-name": "NRJ Paris",
         "icon": {
 
-            "src": "http://localhost/logo174.gif"
+            "src": "http://localhost/logos/logo174.gif"
         }
     },
 
@@ -1006,10 +1006,10 @@
     {
         "id": "C1746.telerama.fr",
 
-        "display-name": "Nickelod\u00e9on 4 Teen",
+        "display-name": "Nickelodéon 4 Teen",
         "icon": {
 
-            "src": "http://localhost/logo1746.gif"
+            "src": "http://localhost/logos/logo1746.gif"
         }
     },
 
@@ -1021,7 +1021,7 @@
         "display-name": "Stylia",
         "icon": {
 
-            "src": "http://localhost/logo175.gif"
+            "src": "http://localhost/logos/logo175.gif"
         }
     },
 
@@ -1033,7 +1033,7 @@
         "display-name": "OL TV - Olympique lyonnais",
         "icon": {
 
-            "src": "http://localhost/logo176.gif"
+            "src": "http://localhost/logos/logo176.gif"
         }
     },
 
@@ -1045,7 +1045,7 @@
         "display-name": "OMTV",
         "icon": {
 
-            "src": "http://localhost/logo177.gif"
+            "src": "http://localhost/logos/logo177.gif"
         }
     },
 
@@ -1057,7 +1057,7 @@
         "display-name": "Trek",
         "icon": {
 
-            "src": "http://localhost/logo1776.gif"
+            "src": "http://localhost/logos/logo1776.gif"
         }
     },
 
@@ -1069,7 +1069,7 @@
         "display-name": "Onze",
         "icon": {
 
-            "src": "http://localhost/logo178.gif"
+            "src": "http://localhost/logos/logo178.gif"
         }
     },
 
@@ -1078,10 +1078,10 @@
     {
         "id": "C179.telerama.fr",
 
-        "display-name": "Onz\u00e9o",
+        "display-name": "Onzéo",
         "icon": {
 
-            "src": "http://localhost/logo179.gif"
+            "src": "http://localhost/logos/logo179.gif"
         }
     },
 
@@ -1093,7 +1093,7 @@
         "display-name": "Gulli",
         "icon": {
 
-            "src": "http://localhost/logo18.gif"
+            "src": "http://localhost/logos/logo18.gif"
         }
     },
 
@@ -1102,10 +1102,10 @@
     {
         "id": "C180.telerama.fr",
 
-        "display-name": "Orange Cin\u00e9 G\u00e9ants",
+        "display-name": "Orange Ciné Géants",
         "icon": {
 
-            "src": "http://localhost/logo180.gif"
+            "src": "http://localhost/logos/logo180.gif"
         }
     },
 
@@ -1114,10 +1114,10 @@
     {
         "id": "C181.telerama.fr",
 
-        "display-name": "Orange Cin\u00e9 Choc",
+        "display-name": "Orange Ciné Choc",
         "icon": {
 
-            "src": "http://localhost/logo181.gif"
+            "src": "http://localhost/logos/logo181.gif"
         }
     },
 
@@ -1126,10 +1126,10 @@
     {
         "id": "C182.telerama.fr",
 
-        "display-name": "Orange Cin\u00e9 Happy",
+        "display-name": "Orange Ciné Happy",
         "icon": {
 
-            "src": "http://localhost/logo182.gif"
+            "src": "http://localhost/logos/logo182.gif"
         }
     },
 
@@ -1138,10 +1138,10 @@
     {
         "id": "C183.telerama.fr",
 
-        "display-name": "Orange Cin\u00e9max",
+        "display-name": "Orange Cinémax",
         "icon": {
 
-            "src": "http://localhost/logo183.gif"
+            "src": "http://localhost/logos/logo183.gif"
         }
     },
 
@@ -1150,10 +1150,10 @@
     {
         "id": "C184.telerama.fr",
 
-        "display-name": "Orange Cin\u00e9novo",
+        "display-name": "Orange Cinénovo",
         "icon": {
 
-            "src": "http://localhost/logo184.gif"
+            "src": "http://localhost/logos/logo184.gif"
         }
     },
 
@@ -1165,7 +1165,7 @@
         "display-name": "Orange Sports Info",
         "icon": {
 
-            "src": "http://localhost/logo185.gif"
+            "src": "http://localhost/logos/logo185.gif"
         }
     },
 
@@ -1174,10 +1174,10 @@
     {
         "id": "C186.telerama.fr",
 
-        "display-name": "Paris Premi\u00e8re",
+        "display-name": "Paris Première",
         "icon": {
 
-            "src": "http://localhost/logo186.gif"
+            "src": "http://localhost/logos/logo186.gif"
         }
     },
 
@@ -1189,7 +1189,7 @@
         "display-name": "Pink TV",
         "icon": {
 
-            "src": "http://localhost/logo187.gif"
+            "src": "http://localhost/logos/logo187.gif"
         }
     },
 
@@ -1198,10 +1198,10 @@
     {
         "id": "C188.telerama.fr",
 
-        "display-name": "Plan\u00e8te",
+        "display-name": "Planète",
         "icon": {
 
-            "src": "http://localhost/logo188.gif"
+            "src": "http://localhost/logos/logo188.gif"
         }
     },
 
@@ -1213,7 +1213,7 @@
         "display-name": "Orange Sport",
         "icon": {
 
-            "src": "http://localhost/logo189.gif"
+            "src": "http://localhost/logos/logo189.gif"
         }
     },
 
@@ -1222,10 +1222,10 @@
     {
         "id": "C190.telerama.fr",
 
-        "display-name": "Plan\u00e8te Justice",
+        "display-name": "Planète Justice",
         "icon": {
 
-            "src": "http://localhost/logo190.gif"
+            "src": "http://localhost/logos/logo190.gif"
         }
     },
 
@@ -1234,10 +1234,10 @@
     {
         "id": "C191.telerama.fr",
 
-        "display-name": "Plan\u00e8te No Limit",
+        "display-name": "Planète No Limit",
         "icon": {
 
-            "src": "http://localhost/logo191.gif"
+            "src": "http://localhost/logos/logo191.gif"
         }
     },
 
@@ -1246,10 +1246,10 @@
     {
         "id": "C192.telerama.fr",
 
-        "display-name": "Plan\u00e8te Thalassa",
+        "display-name": "Planète Thalassa",
         "icon": {
 
-            "src": "http://localhost/logo192.gif"
+            "src": "http://localhost/logos/logo192.gif"
 
 
         }
@@ -1262,7 +1262,7 @@
         "display-name": "Playboy TV",
         "icon": {
 
-            "src": "http://localhost/logo193.gif"
+            "src": "http://localhost/logos/logo193.gif"
         }
     },
 
@@ -1274,7 +1274,7 @@
         "display-name": "Disney Junior",
         "icon": {
 
-            "src": "http://localhost/logo194.gif"
+            "src": "http://localhost/logos/logo194.gif"
         }
     },
 
@@ -1286,7 +1286,7 @@
         "display-name": "Trace Toca_ETR",
         "icon": {
 
-            "src": "http://localhost/logo1948.gif"
+            "src": "http://localhost/logos/logo1948.gif"
         }
     },
 
@@ -1298,7 +1298,7 @@
         "display-name": "Plug RTL",
         "icon": {
 
-            "src": "http://localhost/logo195.gif"
+            "src": "http://localhost/logos/logo195.gif"
         }
     },
 
@@ -1310,7 +1310,7 @@
         "display-name": "Private Spice",
         "icon": {
 
-            "src": "http://localhost/logo196.gif"
+            "src": "http://localhost/logos/logo196.gif"
         }
     },
 
@@ -1322,7 +1322,7 @@
         "display-name": "BET",
         "icon": {
 
-            "src": "http://localhost/logo1960.gif"
+            "src": "http://localhost/logos/logo1960.gif"
         }
     },
 
@@ -1334,7 +1334,7 @@
         "display-name": "Pro 7",
         "icon": {
 
-            "src": "http://localhost/logo197.gif"
+            "src": "http://localhost/logos/logo197.gif"
         }
     },
 
@@ -1346,7 +1346,7 @@
         "display-name": "RTL +",
         "icon": {
 
-            "src": "http://localhost/logo198.gif"
+            "src": "http://localhost/logos/logo198.gif"
         }
     },
 
@@ -1358,7 +1358,7 @@
         "display-name": "RTL 9",
         "icon": {
 
-            "src": "http://localhost/logo199.gif"
+            "src": "http://localhost/logos/logo199.gif"
         }
     },
 
@@ -1370,7 +1370,7 @@
         "display-name": "France 2",
         "icon": {
 
-            "src": "http://localhost/logo2.gif"
+            "src": "http://localhost/logos/logo2.gif"
         }
     },
 
@@ -1382,7 +1382,7 @@
         "display-name": "13e Rue",
         "icon": {
 
-            "src": "http://localhost/logo20.gif"
+            "src": "http://localhost/logos/logo20.gif"
         }
     },
 
@@ -1394,7 +1394,7 @@
         "display-name": "SyFy",
         "icon": {
 
-            "src": "http://localhost/logo201.gif"
+            "src": "http://localhost/logos/logo201.gif"
         }
     },
 
@@ -1406,7 +1406,7 @@
         "display-name": "Seasons",
         "icon": {
 
-            "src": "http://localhost/logo202.gif"
+            "src": "http://localhost/logos/logo202.gif"
         }
     },
 
@@ -1418,7 +1418,7 @@
         "display-name": "MCS Maison",
         "icon": {
 
-            "src": "http://localhost/logo2021.gif"
+            "src": "http://localhost/logos/logo2021.gif"
         }
     },
 
@@ -1430,7 +1430,7 @@
         "display-name": "SFR Sport 4K",
         "icon": {
 
-            "src": "http://localhost/logo2029.gif"
+            "src": "http://localhost/logos/logo2029.gif"
         }
     },
 
@@ -1439,10 +1439,10 @@
     {
         "id": "C203.telerama.fr",
 
-        "display-name": "S\u00e9rie club",
+        "display-name": "Série club",
         "icon": {
 
-            "src": "http://localhost/logo203.gif"
+            "src": "http://localhost/logos/logo203.gif"
         }
     },
 
@@ -1454,7 +1454,7 @@
         "display-name": "Crime District",
         "icon": {
 
-            "src": "http://localhost/logo2037.gif"
+            "src": "http://localhost/logos/logo2037.gif"
         }
     },
 
@@ -1466,7 +1466,7 @@
         "display-name": "Sport+",
         "icon": {
 
-            "src": "http://localhost/logo204.gif"
+            "src": "http://localhost/logos/logo204.gif"
         }
     },
 
@@ -1478,7 +1478,7 @@
         "display-name": "Toonami",
         "icon": {
 
-            "src": "http://localhost/logo2040.gif"
+            "src": "http://localhost/logos/logo2040.gif"
         }
     },
 
@@ -1490,7 +1490,7 @@
         "display-name": "A+ International France",
         "icon": {
 
-            "src": "http://localhost/logo2049.gif"
+            "src": "http://localhost/logos/logo2049.gif"
         }
     },
 
@@ -1502,7 +1502,7 @@
         "display-name": "Supersport 3",
         "icon": {
 
-            "src": "http://localhost/logo205.gif"
+            "src": "http://localhost/logos/logo205.gif"
         }
     },
 
@@ -1514,7 +1514,7 @@
         "display-name": "TCM",
         "icon": {
 
-            "src": "http://localhost/logo206.gif"
+            "src": "http://localhost/logos/logo206.gif"
         }
     },
 
@@ -1526,7 +1526,7 @@
         "display-name": "TCM (CH)",
         "icon": {
 
-            "src": "http://localhost/logo207.gif"
+            "src": "http://localhost/logos/logo207.gif"
         }
     },
 
@@ -1535,10 +1535,10 @@
     {
         "id": "C209.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Guadeloupe",
+        "display-name": "Télé Guadeloupe",
         "icon": {
 
-            "src": "http://localhost/logo209.gif"
+            "src": "http://localhost/logos/logo209.gif"
         }
     },
 
@@ -1550,7 +1550,7 @@
         "display-name": "SFR Sport 1",
         "icon": {
 
-            "src": "http://localhost/logo2095.gif"
+            "src": "http://localhost/logos/logo2095.gif"
         }
     },
 
@@ -1562,7 +1562,7 @@
         "display-name": "2Be",
         "icon": {
 
-            "src": "http://localhost/logo21.gif"
+            "src": "http://localhost/logos/logo21.gif"
         }
     },
 
@@ -1571,10 +1571,10 @@
     {
         "id": "C210.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Guyane",
+        "display-name": "Télé Guyane",
         "icon": {
 
-            "src": "http://localhost/logo210.gif"
+            "src": "http://localhost/logos/logo210.gif"
         }
     },
 
@@ -1583,10 +1583,10 @@
     {
         "id": "C211.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 M\u00e9lody",
+        "display-name": "Télé Mélody",
         "icon": {
 
-            "src": "http://localhost/logo211.gif"
+            "src": "http://localhost/logos/logo211.gif"
         }
     },
 
@@ -1598,7 +1598,7 @@
         "display-name": "Franceinfo",
         "icon": {
 
-            "src": "http://localhost/logo2111.gif"
+            "src": "http://localhost/logos/logo2111.gif"
         }
     },
 
@@ -1607,10 +1607,10 @@
     {
         "id": "C212.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Miroir",
+        "display-name": "Télé Miroir",
         "icon": {
 
-            "src": "http://localhost/logo212.gif"
+            "src": "http://localhost/logos/logo212.gif"
         }
     },
 
@@ -1619,10 +1619,10 @@
     {
         "id": "C213.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Martinique",
+        "display-name": "Télé Martinique",
         "icon": {
 
-            "src": "http://localhost/logo213.gif"
+            "src": "http://localhost/logos/logo213.gif"
         }
     },
 
@@ -1631,10 +1631,10 @@
     {
         "id": "C214.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Nantes",
+        "display-name": "Télé Nantes",
         "icon": {
 
-            "src": "http://localhost/logo214.gif"
+            "src": "http://localhost/logos/logo214.gif"
         }
     },
 
@@ -1643,10 +1643,10 @@
     {
         "id": "C216.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Nouvelle-Cal\u00e9donie",
+        "display-name": "Télé Nouvelle-Calédonie",
         "icon": {
 
-            "src": "http://localhost/logo216.gif"
+            "src": "http://localhost/logos/logo216.gif"
         }
     },
 
@@ -1655,10 +1655,10 @@
     {
         "id": "C217.telerama.fr",
 
-        "display-name": "Polyn\u00e9sie 1\u00e8re",
+        "display-name": "Polynésie 1ère",
         "icon": {
 
-            "src": "http://localhost/logo217.gif"
+            "src": "http://localhost/logos/logo217.gif"
         }
     },
 
@@ -1667,10 +1667,10 @@
     {
         "id": "C218.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 R\u00e9union",
+        "display-name": "Télé Réunion",
         "icon": {
 
-            "src": "http://localhost/logo218.gif"
+            "src": "http://localhost/logos/logo218.gif"
         }
     },
 
@@ -1679,10 +1679,10 @@
     {
         "id": "C219.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9 Toulouse",
+        "display-name": "Télé Toulouse",
         "icon": {
 
-            "src": "http://localhost/logo219.gif"
+            "src": "http://localhost/logos/logo219.gif"
         }
     },
 
@@ -1694,7 +1694,7 @@
         "display-name": "3A Telesud",
         "icon": {
 
-            "src": "http://localhost/logo22.gif"
+            "src": "http://localhost/logos/logo22.gif"
         }
     },
 
@@ -1703,10 +1703,10 @@
     {
         "id": "C220.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9Toon",
+        "display-name": "TéléToon",
         "icon": {
 
-            "src": "http://localhost/logo220.gif"
+            "src": "http://localhost/logos/logo220.gif"
         }
     },
 
@@ -1715,10 +1715,10 @@
     {
         "id": "C221.telerama.fr",
 
-        "display-name": "T\u00e9l\u00e9Toon (+1)",
+        "display-name": "TéléToon (+1)",
         "icon": {
 
-            "src": "http://localhost/logo221.gif"
+            "src": "http://localhost/logos/logo221.gif"
         }
     },
 
@@ -1730,7 +1730,7 @@
         "display-name": "TELIF",
         "icon": {
 
-            "src": "http://localhost/logo222.gif"
+            "src": "http://localhost/logos/logo222.gif"
         }
     },
 
@@ -1742,7 +1742,7 @@
         "display-name": "Tempo Guadeloupe",
         "icon": {
 
-            "src": "http://localhost/logo223.gif"
+            "src": "http://localhost/logos/logo223.gif"
         }
     },
 
@@ -1751,10 +1751,10 @@
     {
         "id": "C224.telerama.fr",
 
-        "display-name": "Tempo Nouvelle-Cal\u00e9donie",
+        "display-name": "Tempo Nouvelle-Calédonie",
         "icon": {
 
-            "src": "http://localhost/logo224.gif"
+            "src": "http://localhost/logos/logo224.gif"
         }
     },
 
@@ -1763,10 +1763,10 @@
     {
         "id": "C225.telerama.fr",
 
-        "display-name": "Tempo Polyn\u00e9sie",
+        "display-name": "Tempo Polynésie",
         "icon": {
 
-            "src": "http://localhost/logo225.gif"
+            "src": "http://localhost/logos/logo225.gif"
         }
     },
 
@@ -1775,10 +1775,10 @@
     {
         "id": "C226.telerama.fr",
 
-        "display-name": "Tempo R\u00e9union",
+        "display-name": "Tempo Réunion",
         "icon": {
 
-            "src": "http://localhost/logo226.gif"
+            "src": "http://localhost/logos/logo226.gif"
         }
     },
 
@@ -1787,10 +1787,10 @@
     {
         "id": "C227.telerama.fr",
 
-        "display-name": "T\u00e9va",
+        "display-name": "Téva",
         "icon": {
 
-            "src": "http://localhost/logo227.gif"
+            "src": "http://localhost/logos/logo227.gif"
         }
     },
 
@@ -1802,7 +1802,7 @@
         "display-name": "TF6",
         "icon": {
 
-            "src": "http://localhost/logo228.gif"
+            "src": "http://localhost/logos/logo228.gif"
         }
     },
 
@@ -1814,7 +1814,7 @@
         "display-name": "TIJI",
         "icon": {
 
-            "src": "http://localhost/logo229.gif"
+            "src": "http://localhost/logos/logo229.gif"
         }
     },
 
@@ -1826,7 +1826,7 @@
         "display-name": "AB1",
         "icon": {
 
-            "src": "http://localhost/logo23.gif"
+            "src": "http://localhost/logos/logo23.gif"
         }
     },
 
@@ -1838,7 +1838,7 @@
         "display-name": "The Poker Channel",
         "icon": {
 
-            "src": "http://localhost/logo230.gif"
+            "src": "http://localhost/logos/logo230.gif"
         }
     },
 
@@ -1847,10 +1847,10 @@
     {
         "id": "C231.telerama.fr",
 
-        "display-name": "TLM - T\u00e9l\u00e9 Lyon M\u00e9tropole",
+        "display-name": "TLM - Télé Lyon Métropole",
         "icon": {
 
-            "src": "http://localhost/logo231.gif"
+            "src": "http://localhost/logos/logo231.gif"
         }
     },
 
@@ -1862,7 +1862,7 @@
         "display-name": "TPS Star",
         "icon": {
 
-            "src": "http://localhost/logo233.gif"
+            "src": "http://localhost/logos/logo233.gif"
         }
     },
 
@@ -1874,7 +1874,7 @@
         "display-name": "TRACE",
         "icon": {
 
-            "src": "http://localhost/logo234.gif"
+            "src": "http://localhost/logos/logo234.gif"
         }
     },
 
@@ -1886,7 +1886,7 @@
         "display-name": "TSR 1",
         "icon": {
 
-            "src": "http://localhost/logo235.gif"
+            "src": "http://localhost/logos/logo235.gif"
         }
     },
 
@@ -1898,7 +1898,7 @@
         "display-name": "TSR 2",
         "icon": {
 
-            "src": "http://localhost/logo236.gif"
+            "src": "http://localhost/logos/logo236.gif"
         }
     },
 
@@ -1910,7 +1910,7 @@
         "display-name": "TV5MONDE",
         "icon": {
 
-            "src": "http://localhost/logo237.gif"
+            "src": "http://localhost/logos/logo237.gif"
         }
     },
 
@@ -1922,7 +1922,7 @@
         "display-name": "TV5MONDE Afrique",
         "icon": {
 
-            "src": "http://localhost/logo238.gif"
+            "src": "http://localhost/logos/logo238.gif"
         }
     },
 
@@ -1933,7 +1933,7 @@
         "display-name": "TV5MONDE Asie",
         "icon": {
 
-            "src": "http://localhost/logo239.gif"
+            "src": "http://localhost/logos/logo239.gif"
         }
     },
 
@@ -1945,7 +1945,7 @@
         "display-name": "AB3",
         "icon": {
 
-            "src": "http://localhost/logo24.gif"
+            "src": "http://localhost/logos/logo24.gif"
         }
     },
 
@@ -1957,7 +1957,7 @@
         "display-name": "TV5MONDE Europe",
         "icon": {
 
-            "src": "http://localhost/logo240.gif"
+            "src": "http://localhost/logos/logo240.gif"
         }
     },
 
@@ -1969,7 +1969,7 @@
         "display-name": "TV7 Bordeaux",
         "icon": {
 
-            "src": "http://localhost/logo241.gif"
+            "src": "http://localhost/logos/logo241.gif"
         }
     },
 
@@ -1981,7 +1981,7 @@
         "display-name": "TV8 Mont-Blanc",
         "icon": {
 
-            "src": "http://localhost/logo242.gif"
+            "src": "http://localhost/logos/logo242.gif"
         }
     },
 
@@ -1993,7 +1993,7 @@
         "display-name": "Tv Breizh",
         "icon": {
 
-            "src": "http://localhost/logo243.gif"
+            "src": "http://localhost/logos/logo243.gif"
         }
     },
 
@@ -2005,7 +2005,7 @@
         "display-name": "TV Rennes",
         "icon": {
 
-            "src": "http://localhost/logo244.gif"
+            "src": "http://localhost/logos/logo244.gif"
         }
     },
 
@@ -2017,7 +2017,7 @@
         "display-name": "TV Tours",
         "icon": {
 
-            "src": "http://localhost/logo245.gif"
+            "src": "http://localhost/logos/logo245.gif"
         }
     },
 
@@ -2029,7 +2029,7 @@
         "display-name": "Ushuaia TV",
         "icon": {
 
-            "src": "http://localhost/logo246.gif"
+            "src": "http://localhost/logos/logo246.gif"
         }
     },
 
@@ -2041,7 +2041,7 @@
         "display-name": "Vivolta",
         "icon": {
 
-            "src": "http://localhost/logo247.gif"
+            "src": "http://localhost/logos/logo247.gif"
         }
     },
 
@@ -2053,7 +2053,7 @@
         "display-name": "Voyage",
         "icon": {
 
-            "src": "http://localhost/logo248.gif"
+            "src": "http://localhost/logos/logo248.gif"
         }
     },
 
@@ -2065,7 +2065,7 @@
         "display-name": "XXL",
         "icon": {
 
-            "src": "http://localhost/logo249.gif"
+            "src": "http://localhost/logos/logo249.gif"
         }
     },
 
@@ -2077,7 +2077,7 @@
         "display-name": "AB4",
         "icon": {
 
-            "src": "http://localhost/logo25.gif"
+            "src": "http://localhost/logos/logo25.gif"
 
 
         }
@@ -2090,7 +2090,7 @@
         "display-name": "XXX Xtreme",
         "icon": {
 
-            "src": "http://localhost/logo250.gif"
+            "src": "http://localhost/logos/logo250.gif"
         }
     },
 
@@ -2102,7 +2102,7 @@
         "display-name": "Equipe TV",
         "icon": {
 
-            "src": "http://localhost/logo252.gif"
+            "src": "http://localhost/logos/logo252.gif"
         }
     },
 
@@ -2114,7 +2114,7 @@
         "display-name": "CNN",
         "icon": {
 
-            "src": "http://localhost/logo253.gif"
+            "src": "http://localhost/logos/logo253.gif"
         }
     },
 
@@ -2126,7 +2126,7 @@
         "display-name": "Toute l'histoire",
         "icon": {
 
-            "src": "http://localhost/logo254.gif"
+            "src": "http://localhost/logos/logo254.gif"
         }
     },
 
@@ -2138,7 +2138,7 @@
         "display-name": "Bloomberg",
         "icon": {
 
-            "src": "http://localhost/logo255.gif"
+            "src": "http://localhost/logos/logo255.gif"
         }
     },
 
@@ -2149,7 +2149,7 @@
         "display-name": "CNBC Europe",
         "icon": {
 
-            "src": "http://localhost/logo257.gif"
+            "src": "http://localhost/logos/logo257.gif"
         }
     },
 
@@ -2161,7 +2161,7 @@
         "display-name": "VH1",
         "icon": {
 
-            "src": "http://localhost/logo258.gif"
+            "src": "http://localhost/logos/logo258.gif"
         }
     },
 
@@ -2173,7 +2173,7 @@
         "display-name": "Luxe TV",
         "icon": {
 
-            "src": "http://localhost/logo259.gif"
+            "src": "http://localhost/logos/logo259.gif"
         }
     },
 
@@ -2185,7 +2185,7 @@
         "display-name": "Action",
         "icon": {
 
-            "src": "http://localhost/logo26.gif"
+            "src": "http://localhost/logos/logo26.gif"
         }
     },
 
@@ -2197,7 +2197,7 @@
         "display-name": "RTPI",
         "icon": {
 
-            "src": "http://localhost/logo260.gif"
+            "src": "http://localhost/logos/logo260.gif"
         }
     },
 
@@ -2209,7 +2209,7 @@
         "display-name": "Fashion TV",
         "icon": {
 
-            "src": "http://localhost/logo268.gif"
+            "src": "http://localhost/logos/logo268.gif"
         }
     },
 
@@ -2221,7 +2221,7 @@
         "display-name": "Astro Center",
         "icon": {
 
-            "src": "http://localhost/logo269.gif"
+            "src": "http://localhost/logos/logo269.gif"
         }
     },
 
@@ -2232,7 +2232,7 @@
         "display-name": "AB Moteurs",
         "icon": {
 
-            "src": "http://localhost/logo27.gif"
+            "src": "http://localhost/logos/logo27.gif"
 
 
         }
@@ -2245,7 +2245,7 @@
         "display-name": "ORTF 1",
         "icon": {
 
-            "src": "http://localhost/logo270.gif"
+            "src": "http://localhost/logos/logo270.gif"
         }
     },
 
@@ -2257,7 +2257,7 @@
         "display-name": "RTPI",
         "icon": {
 
-            "src": "http://localhost/logo271.gif"
+            "src": "http://localhost/logos/logo271.gif"
         }
     },
 
@@ -2269,7 +2269,7 @@
         "display-name": "VH1",
         "icon": {
 
-            "src": "http://localhost/logo272.gif"
+            "src": "http://localhost/logos/logo272.gif"
         }
     },
 
@@ -2281,7 +2281,7 @@
         "display-name": "WDR",
         "icon": {
 
-            "src": "http://localhost/logo273.gif"
+            "src": "http://localhost/logos/logo273.gif"
         }
     },
 
@@ -2293,7 +2293,7 @@
         "display-name": "CCTV9",
         "icon": {
 
-            "src": "http://localhost/logo274.gif"
+            "src": "http://localhost/logos/logo274.gif"
         }
     },
 
@@ -2305,7 +2305,7 @@
         "display-name": "2M Monde",
         "icon": {
 
-            "src": "http://localhost/logo275.gif"
+            "src": "http://localhost/logos/logo275.gif"
         }
     },
 
@@ -2317,7 +2317,7 @@
         "display-name": "Piwi",
         "icon": {
 
-            "src": "http://localhost/logo276.gif"
+            "src": "http://localhost/logos/logo276.gif"
         }
     },
 
@@ -2329,7 +2329,7 @@
         "display-name": "3 SAT",
         "icon": {
 
-            "src": "http://localhost/logo278.gif"
+            "src": "http://localhost/logos/logo278.gif"
         }
     },
 
@@ -2341,7 +2341,7 @@
         "display-name": "Bloomberg TV",
         "icon": {
 
-            "src": "http://localhost/logo279.gif"
+            "src": "http://localhost/logos/logo279.gif"
         }
     },
 
@@ -2353,7 +2353,7 @@
         "display-name": "Alsatic TV",
         "icon": {
 
-            "src": "http://localhost/logo28.gif"
+            "src": "http://localhost/logos/logo28.gif"
         }
     },
 
@@ -2365,7 +2365,7 @@
         "display-name": "Zone Reality",
         "icon": {
 
-            "src": "http://localhost/logo280.gif"
+            "src": "http://localhost/logos/logo280.gif"
         }
     },
 
@@ -2377,7 +2377,7 @@
         "display-name": "Yacht & Sail",
         "icon": {
 
-            "src": "http://localhost/logo281.gif"
+            "src": "http://localhost/logos/logo281.gif"
         }
     },
 
@@ -2389,7 +2389,7 @@
         "display-name": "Baby TV",
         "icon": {
 
-            "src": "http://localhost/logo282.gif"
+            "src": "http://localhost/logos/logo282.gif"
         }
     },
 
@@ -2401,7 +2401,7 @@
         "display-name": "LCM",
         "icon": {
 
-            "src": "http://localhost/logo283.gif"
+            "src": "http://localhost/logos/logo283.gif"
         }
     },
 
@@ -2413,7 +2413,7 @@
         "display-name": "Txingudi",
         "icon": {
 
-            "src": "http://localhost/logo284.gif"
+            "src": "http://localhost/logos/logo284.gif"
         }
     },
 
@@ -2425,7 +2425,7 @@
         "display-name": "Zone Reality (B)",
         "icon": {
 
-            "src": "http://localhost/logo285.gif"
+            "src": "http://localhost/logos/logo285.gif"
         }
     },
 
@@ -2437,7 +2437,7 @@
         "display-name": "Zee TV",
         "icon": {
 
-            "src": "http://localhost/logo286.gif"
+            "src": "http://localhost/logos/logo286.gif"
         }
     },
 
@@ -2446,10 +2446,10 @@
     {
         "id": "C287.telerama.fr",
 
-        "display-name": "Zee Cin\u00e9ma",
+        "display-name": "Zee Cinéma",
         "icon": {
 
-            "src": "http://localhost/logo287.gif"
+            "src": "http://localhost/logos/logo287.gif"
         }
     },
 
@@ -2461,7 +2461,7 @@
         "display-name": "France 24",
         "icon": {
 
-            "src": "http://localhost/logo288.gif"
+            "src": "http://localhost/logos/logo288.gif"
         }
     },
 
@@ -2473,7 +2473,7 @@
         "display-name": "L'Equipe TV",
         "icon": {
 
-            "src": "http://localhost/logo289.gif"
+            "src": "http://localhost/logos/logo289.gif"
         }
     },
 
@@ -2485,7 +2485,7 @@
         "display-name": "Animaux",
         "icon": {
 
-            "src": "http://localhost/logo29.gif"
+            "src": "http://localhost/logos/logo29.gif"
         }
     },
 
@@ -2496,7 +2496,7 @@
         "display-name": "VH1 Classic",
         "icon": {
 
-            "src": "http://localhost/logo291.gif"
+            "src": "http://localhost/logos/logo291.gif"
         }
     },
 
@@ -2508,7 +2508,7 @@
         "display-name": "Vijf TV",
         "icon": {
 
-            "src": "http://localhost/logo292.gif"
+            "src": "http://localhost/logos/logo292.gif"
         }
     },
 
@@ -2520,7 +2520,7 @@
         "display-name": "IDF1",
         "icon": {
 
-            "src": "http://localhost/logo294.gif"
+            "src": "http://localhost/logos/logo294.gif"
         }
     },
 
@@ -2532,7 +2532,7 @@
         "display-name": "ETB 1",
         "icon": {
 
-            "src": "http://localhost/logo295.gif"
+            "src": "http://localhost/logos/logo295.gif"
         }
     },
 
@@ -2544,7 +2544,7 @@
         "display-name": "ETB 2",
         "icon": {
 
-            "src": "http://localhost/logo296.gif"
+            "src": "http://localhost/logos/logo296.gif"
         }
     },
 
@@ -2556,7 +2556,7 @@
         "display-name": "MTV HD",
         "icon": {
 
-            "src": "http://localhost/logo297.gif"
+            "src": "http://localhost/logos/logo297.gif"
         }
     },
 
@@ -2568,7 +2568,7 @@
         "display-name": "M6 Music Club",
         "icon": {
 
-            "src": "http://localhost/logo298.gif"
+            "src": "http://localhost/logos/logo298.gif"
         }
     },
 
@@ -2580,7 +2580,7 @@
         "display-name": "Toute l'Histoire",
         "icon": {
 
-            "src": "http://localhost/logo299.gif"
+            "src": "http://localhost/logos/logo299.gif"
         }
     },
 
@@ -2592,7 +2592,7 @@
         "display-name": "France 3",
         "icon": {
 
-            "src": "http://localhost/logo3.gif"
+            "src": "http://localhost/logos/logo3.gif"
         }
     },
 
@@ -2604,7 +2604,7 @@
         "display-name": "Sundance Channel",
         "icon": {
 
-            "src": "http://localhost/logo300.gif"
+            "src": "http://localhost/logos/logo300.gif"
         }
     },
 
@@ -2616,7 +2616,7 @@
         "display-name": "ARD",
         "icon": {
 
-            "src": "http://localhost/logo301.gif"
+            "src": "http://localhost/logos/logo301.gif"
         }
     },
 
@@ -2628,7 +2628,7 @@
         "display-name": "SAT 1",
         "icon": {
 
-            "src": "http://localhost/logo302.gif"
+            "src": "http://localhost/logos/logo302.gif"
         }
     },
 
@@ -2640,7 +2640,7 @@
         "display-name": "ZDF",
         "icon": {
 
-            "src": "http://localhost/logo303.gif"
+            "src": "http://localhost/logos/logo303.gif"
         }
     },
 
@@ -2652,7 +2652,7 @@
         "display-name": "Deutsche Welle",
         "icon": {
 
-            "src": "http://localhost/logo305.gif"
+            "src": "http://localhost/logos/logo305.gif"
         }
     },
 
@@ -2664,7 +2664,7 @@
         "display-name": "BE TV",
         "icon": {
 
-            "src": "http://localhost/logo31.gif"
+            "src": "http://localhost/logos/logo31.gif"
         }
     },
 
@@ -2673,10 +2673,10 @@
     {
         "id": "C32.telerama.fr",
 
-        "display-name": "Be Cin\u00e9",
+        "display-name": "Be Ciné",
         "icon": {
 
-            "src": "http://localhost/logo32.gif"
+            "src": "http://localhost/logos/logo32.gif"
         }
     },
 
@@ -2685,10 +2685,10 @@
     {
         "id": "C33.telerama.fr",
 
-        "display-name": "Be S\u00e9ries",
+        "display-name": "Be Séries",
         "icon": {
 
-            "src": "http://localhost/logo33.gif"
+            "src": "http://localhost/logos/logo33.gif"
         }
     },
 
@@ -2700,7 +2700,7 @@
         "display-name": "Be Sport 1",
         "icon": {
 
-            "src": "http://localhost/logo34.gif"
+            "src": "http://localhost/logos/logo34.gif"
         }
     },
 
@@ -2712,7 +2712,7 @@
         "display-name": "Be Sport 2",
         "icon": {
 
-            "src": "http://localhost/logo35.gif"
+            "src": "http://localhost/logos/logo35.gif"
         }
     },
 
@@ -2724,7 +2724,7 @@
         "display-name": "TV1 - Nederland 1",
         "icon": {
 
-            "src": "http://localhost/logo351.gif"
+            "src": "http://localhost/logos/logo351.gif"
         }
     },
 
@@ -2736,7 +2736,7 @@
         "display-name": "TV2 - Nederland 2",
         "icon": {
 
-            "src": "http://localhost/logo352.gif"
+            "src": "http://localhost/logos/logo352.gif"
 
 
         }
@@ -2749,7 +2749,7 @@
         "display-name": "TV3 - Nederland 3",
         "icon": {
 
-            "src": "http://localhost/logo353.gif"
+            "src": "http://localhost/logos/logo353.gif"
         }
     },
 
@@ -2761,7 +2761,7 @@
         "display-name": "Boomerang",
         "icon": {
 
-            "src": "http://localhost/logo38.gif"
+            "src": "http://localhost/logos/logo38.gif"
         }
     },
 
@@ -2773,7 +2773,7 @@
         "display-name": "Canal 32",
         "icon": {
 
-            "src": "http://localhost/logo39.gif"
+            "src": "http://localhost/logos/logo39.gif"
         }
     },
 
@@ -2785,7 +2785,7 @@
         "display-name": "Canal+",
         "icon": {
 
-            "src": "http://localhost/logo4.gif"
+            "src": "http://localhost/logos/logo4.gif"
         }
     },
 
@@ -2794,10 +2794,10 @@
     {
         "id": "C40.telerama.fr",
 
-        "display-name": "Canal partag\u00e9 TNT Ile-de-France",
+        "display-name": "Canal partagé TNT Ile-de-France",
         "icon": {
 
-            "src": "http://localhost/logo40.gif"
+            "src": "http://localhost/logos/logo40.gif"
         }
     },
 
@@ -2809,7 +2809,7 @@
         "display-name": "BBC 1",
         "icon": {
 
-            "src": "http://localhost/logo401.gif"
+            "src": "http://localhost/logos/logo401.gif"
         }
     },
 
@@ -2821,7 +2821,7 @@
         "display-name": "BBC 2",
         "icon": {
 
-            "src": "http://localhost/logo402.gif"
+            "src": "http://localhost/logos/logo402.gif"
         }
     },
 
@@ -2833,7 +2833,7 @@
         "display-name": "BBC Prime",
         "icon": {
 
-            "src": "http://localhost/logo403.gif"
+            "src": "http://localhost/logos/logo403.gif"
         }
     },
 
@@ -2845,7 +2845,7 @@
         "display-name": "BBC World News",
         "icon": {
 
-            "src": "http://localhost/logo404.gif"
+            "src": "http://localhost/logos/logo404.gif"
         }
     },
 
@@ -2857,7 +2857,7 @@
         "display-name": "CNN",
         "icon": {
 
-            "src": "http://localhost/logo405.gif"
+            "src": "http://localhost/logos/logo405.gif"
         }
     },
 
@@ -2869,7 +2869,7 @@
         "display-name": "CNBC Europe",
         "icon": {
 
-            "src": "http://localhost/logo406.gif"
+            "src": "http://localhost/logos/logo406.gif"
         }
     },
 
@@ -2881,7 +2881,7 @@
         "display-name": "CNBC Europe + Nat Geo",
         "icon": {
 
-            "src": "http://localhost/logo407.gif"
+            "src": "http://localhost/logos/logo407.gif"
         }
     },
 
@@ -2893,7 +2893,7 @@
         "display-name": "Al Jazeera English",
         "icon": {
 
-            "src": "http://localhost/logo408.gif"
+            "src": "http://localhost/logos/logo408.gif"
         }
     },
 
@@ -2905,7 +2905,7 @@
         "display-name": "HD1",
         "icon": {
 
-            "src": "http://localhost/logo4131.gif"
+            "src": "http://localhost/logos/logo4131.gif"
         }
     },
 
@@ -2917,7 +2917,7 @@
         "display-name": "L\u2019Equipe",
         "icon": {
 
-            "src": "http://localhost/logo4132.gif"
+            "src": "http://localhost/logos/logo4132.gif"
         }
     },
 
@@ -2929,7 +2929,7 @@
         "display-name": "6ter",
         "icon": {
 
-            "src": "http://localhost/logo4133.gif"
+            "src": "http://localhost/logos/logo4133.gif"
         }
     },
 
@@ -2938,10 +2938,10 @@
     {
         "id": "C4134.telerama.fr",
 
-        "display-name": "Num\u00e9ro 23",
+        "display-name": "Numéro 23",
         "icon": {
 
-            "src": "http://localhost/logo4134.gif"
+            "src": "http://localhost/logos/logo4134.gif"
         }
     },
 
@@ -2950,10 +2950,10 @@
     {
         "id": "C4135.telerama.fr",
 
-        "display-name": "RMC D\u00e9couverte",
+        "display-name": "RMC Découverte",
         "icon": {
 
-            "src": "http://localhost/logo4135.gif"
+            "src": "http://localhost/logos/logo4135.gif"
         }
     },
 
@@ -2962,10 +2962,10 @@
     {
         "id": "C4136.telerama.fr",
 
-        "display-name": "Ch\u00e9rie 25",
+        "display-name": "Chérie 25",
         "icon": {
 
-            "src": "http://localhost/logo4136.gif"
+            "src": "http://localhost/logos/logo4136.gif"
         }
     },
 
@@ -2974,10 +2974,10 @@
     {
         "id": "C4138.telerama.fr",
 
-        "display-name": "Canal+ S\u00e9ries",
+        "display-name": "Canal+ Séries",
         "icon": {
 
-            "src": "http://localhost/logo4138.gif"
+            "src": "http://localhost/logos/logo4138.gif"
         }
     },
 
@@ -2989,7 +2989,7 @@
         "display-name": "Bein sport 1",
         "icon": {
 
-            "src": "http://localhost/logo4139.gif"
+            "src": "http://localhost/logos/logo4139.gif"
         }
     },
 
@@ -3001,7 +3001,7 @@
         "display-name": "Bein sport 2",
         "icon": {
 
-            "src": "http://localhost/logo4140.gif"
+            "src": "http://localhost/logos/logo4140.gif"
         }
     },
 
@@ -3013,7 +3013,7 @@
         "display-name": "Paramount Channel",
         "icon": {
 
-            "src": "http://localhost/logo4141.gif"
+            "src": "http://localhost/logos/logo4141.gif"
         }
     },
 
@@ -3025,7 +3025,7 @@
         "display-name": "SFR Sport 3",
         "icon": {
 
-            "src": "http://localhost/logo4142.gif"
+            "src": "http://localhost/logos/logo4142.gif"
         }
     },
 
@@ -3037,7 +3037,7 @@
         "display-name": "SFR Sport 5",
         "icon": {
 
-            "src": "http://localhost/logo4143.gif"
+            "src": "http://localhost/logos/logo4143.gif"
         }
     },
 
@@ -3049,7 +3049,7 @@
         "display-name": "Canal J",
         "icon": {
 
-            "src": "http://localhost/logo42.gif"
+            "src": "http://localhost/logos/logo42.gif"
         }
     },
 
@@ -3058,10 +3058,10 @@
     {
         "id": "C43.telerama.fr",
 
-        "display-name": "Canal+ Cin\u00e9ma",
+        "display-name": "Canal+ Cinéma",
         "icon": {
 
-            "src": "http://localhost/logo43.gif"
+            "src": "http://localhost/logos/logo43.gif"
         }
     },
 
@@ -3070,10 +3070,10 @@
     {
         "id": "C44.telerama.fr",
 
-        "display-name": "Canal+ D\u00e9cal\u00e9",
+        "display-name": "Canal+ Décalé",
         "icon": {
 
-            "src": "http://localhost/logo44.gif"
+            "src": "http://localhost/logos/logo44.gif"
         }
     },
 
@@ -3085,7 +3085,7 @@
         "display-name": "Canal+ Family",
         "icon": {
 
-            "src": "http://localhost/logo45.gif"
+            "src": "http://localhost/logos/logo45.gif"
         }
     },
 
@@ -3097,7 +3097,7 @@
         "display-name": "Canal+ Sport",
         "icon": {
 
-            "src": "http://localhost/logo47.gif"
+            "src": "http://localhost/logos/logo47.gif"
         }
     },
 
@@ -3109,7 +3109,7 @@
         "display-name": "Canal Horizons",
         "icon": {
 
-            "src": "http://localhost/logo48.gif"
+            "src": "http://localhost/logos/logo48.gif"
         }
     },
 
@@ -3118,10 +3118,10 @@
     {
         "id": "C49.telerama.fr",
 
-        "display-name": "Canal Horizons Cin\u00e9ma",
+        "display-name": "Canal Horizons Cinéma",
         "icon": {
 
-            "src": "http://localhost/logo49.gif"
+            "src": "http://localhost/logos/logo49.gif"
         }
     },
 
@@ -3133,7 +3133,7 @@
         "display-name": "France 5",
         "icon": {
 
-            "src": "http://localhost/logo5.gif"
+            "src": "http://localhost/logos/logo5.gif"
         }
     },
 
@@ -3145,7 +3145,7 @@
         "display-name": "Cartoon Network",
         "icon": {
 
-            "src": "http://localhost/logo50.gif"
+            "src": "http://localhost/logos/logo50.gif"
         }
     },
 
@@ -3156,7 +3156,7 @@
         "display-name": "Ketnet Canvas",
         "icon": {
 
-            "src": "http://localhost/logo509.gif"
+            "src": "http://localhost/logos/logo509.gif"
         }
     },
 
@@ -3168,7 +3168,7 @@
         "display-name": "Chasse et p\u00eache",
         "icon": {
 
-            "src": "http://localhost/logo51.gif"
+            "src": "http://localhost/logos/logo51.gif"
         }
     },
 
@@ -3180,7 +3180,7 @@
         "display-name": "Klara",
         "icon": {
 
-            "src": "http://localhost/logo510.gif"
+            "src": "http://localhost/logos/logo510.gif"
         }
     },
 
@@ -3192,7 +3192,7 @@
         "display-name": "RTBF Sat",
         "icon": {
 
-            "src": "http://localhost/logo511.gif"
+            "src": "http://localhost/logos/logo511.gif"
         }
     },
 
@@ -3204,7 +3204,7 @@
         "display-name": "VT 4",
         "icon": {
 
-            "src": "http://localhost/logo512.gif"
+            "src": "http://localhost/logos/logo512.gif"
         }
     },
 
@@ -3216,7 +3216,7 @@
         "display-name": "VTM",
         "icon": {
 
-            "src": "http://localhost/logo513.gif"
+            "src": "http://localhost/logos/logo513.gif"
         }
     },
 
@@ -3228,7 +3228,7 @@
         "display-name": "RTL TVI",
         "icon": {
 
-            "src": "http://localhost/logo514.gif"
+            "src": "http://localhost/logos/logo514.gif"
         }
     },
 
@@ -3237,10 +3237,10 @@
     {
         "id": "C52.telerama.fr",
 
-        "display-name": "Cin\u00e9 First",
+        "display-name": "Ciné First",
         "icon": {
 
-            "src": "http://localhost/logo52.gif"
+            "src": "http://localhost/logos/logo52.gif"
         }
     },
 
@@ -3249,10 +3249,10 @@
     {
         "id": "C53.telerama.fr",
 
-        "display-name": "Cin\u00e9 FX",
+        "display-name": "Ciné FX",
         "icon": {
 
-            "src": "http://localhost/logo53.gif"
+            "src": "http://localhost/logos/logo53.gif"
         }
     },
 
@@ -3261,10 +3261,10 @@
     {
         "id": "C54.telerama.fr",
 
-        "display-name": "Cin\u00e9 Polar",
+        "display-name": "Ciné Polar",
         "icon": {
 
-            "src": "http://localhost/logo54.gif"
+            "src": "http://localhost/logos/logo54.gif"
         }
     },
 
@@ -3273,10 +3273,10 @@
     {
         "id": "C55.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Star Afrique",
+        "display-name": "Ciné Cinéma Star Afrique",
         "icon": {
 
-            "src": "http://localhost/logo55.gif"
+            "src": "http://localhost/logos/logo55.gif"
         }
     },
 
@@ -3285,10 +3285,10 @@
     {
         "id": "C56.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Classic",
+        "display-name": "Ciné Cinéma Classic",
         "icon": {
 
-            "src": "http://localhost/logo56.gif"
+            "src": "http://localhost/logos/logo56.gif"
         }
     },
 
@@ -3297,10 +3297,10 @@
     {
         "id": "C57.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Classic (B)",
+        "display-name": "Ciné Cinéma Classic (B)",
         "icon": {
 
-            "src": "http://localhost/logo57.gif"
+            "src": "http://localhost/logos/logo57.gif"
         }
     },
 
@@ -3309,10 +3309,10 @@
     {
         "id": "C58.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Club",
+        "display-name": "Ciné Cinéma Club",
         "icon": {
 
-            "src": "http://localhost/logo58.gif"
+            "src": "http://localhost/logos/logo58.gif"
         }
     },
 
@@ -3321,10 +3321,10 @@
     {
         "id": "C59.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Emotion",
+        "display-name": "Ciné Cinéma Emotion",
         "icon": {
 
-            "src": "http://localhost/logo59.gif"
+            "src": "http://localhost/logos/logo59.gif"
         }
     },
 
@@ -3336,7 +3336,7 @@
         "display-name": "M6",
         "icon": {
 
-            "src": "http://localhost/logo6.gif"
+            "src": "http://localhost/logos/logo6.gif"
         }
     },
 
@@ -3345,10 +3345,10 @@
     {
         "id": "C60.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Famiz",
+        "display-name": "Ciné Cinéma Famiz",
         "icon": {
 
-            "src": "http://localhost/logo60.gif"
+            "src": "http://localhost/logos/logo60.gif"
         }
     },
 
@@ -3360,7 +3360,7 @@
         "display-name": "TVE 1",
         "icon": {
 
-            "src": "http://localhost/logo601.gif"
+            "src": "http://localhost/logos/logo601.gif"
         }
     },
 
@@ -3372,7 +3372,7 @@
         "display-name": "TVE 2",
         "icon": {
 
-            "src": "http://localhost/logo602.gif"
+            "src": "http://localhost/logos/logo602.gif"
         }
     },
 
@@ -3384,7 +3384,7 @@
         "display-name": "TVE International",
         "icon": {
 
-            "src": "http://localhost/logo603.gif"
+            "src": "http://localhost/logos/logo603.gif"
         }
     },
 
@@ -3396,7 +3396,7 @@
         "display-name": "Real Madrid TV",
         "icon": {
 
-            "src": "http://localhost/logo604.gif"
+            "src": "http://localhost/logos/logo604.gif"
         }
     },
 
@@ -3405,10 +3405,10 @@
     {
         "id": "C61.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Frisson",
+        "display-name": "Ciné Cinéma Frisson",
         "icon": {
 
-            "src": "http://localhost/logo61.gif"
+            "src": "http://localhost/logos/logo61.gif"
         }
     },
 
@@ -3417,10 +3417,10 @@
     {
         "id": "C62.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Premier",
+        "display-name": "Ciné Cinéma Premier",
         "icon": {
 
-            "src": "http://localhost/logo62.gif"
+            "src": "http://localhost/logos/logo62.gif"
         }
     },
 
@@ -3432,7 +3432,7 @@
         "display-name": "Gong Max",
         "icon": {
 
-            "src": "http://localhost/logo621.gif"
+            "src": "http://localhost/logos/logo621.gif"
         }
     },
 
@@ -3441,10 +3441,10 @@
     {
         "id": "C63.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Premier (B)",
+        "display-name": "Ciné Cinéma Premier (B)",
         "icon": {
 
-            "src": "http://localhost/logo63.gif"
+            "src": "http://localhost/logos/logo63.gif"
         }
     },
 
@@ -3453,10 +3453,10 @@
     {
         "id": "C64.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Frisson Afrique",
+        "display-name": "Ciné Cinéma Frisson Afrique",
         "icon": {
 
-            "src": "http://localhost/logo64.gif"
+            "src": "http://localhost/logos/logo64.gif"
         }
     },
 
@@ -3465,10 +3465,10 @@
     {
         "id": "C65.telerama.fr",
 
-        "display-name": "Cin\u00e9 Cin\u00e9ma Star",
+        "display-name": "Ciné Cinéma Star",
         "icon": {
 
-            "src": "http://localhost/logo65.gif"
+            "src": "http://localhost/logos/logo65.gif"
         }
     },
 
@@ -3480,7 +3480,7 @@
         "display-name": "Clermont 1ere",
         "icon": {
 
-            "src": "http://localhost/logo66.gif"
+            "src": "http://localhost/logos/logo66.gif"
         }
     },
 
@@ -3491,7 +3491,7 @@
         "display-name": "Club RTL",
         "icon": {
 
-            "src": "http://localhost/logo67.gif"
+            "src": "http://localhost/logos/logo67.gif"
         }
     },
 
@@ -3503,7 +3503,7 @@
         "display-name": "SFR Sport 2",
         "icon": {
 
-            "src": "http://localhost/logo675.gif"
+            "src": "http://localhost/logos/logo675.gif"
         }
     },
 
@@ -3512,10 +3512,10 @@
     {
         "id": "C68.telerama.fr",
 
-        "display-name": "Com\u00e9die",
+        "display-name": "Comédie",
         "icon": {
 
-            "src": "http://localhost/logo68.gif"
+            "src": "http://localhost/logos/logo68.gif"
         }
     },
 
@@ -3527,7 +3527,7 @@
         "display-name": "Cuisine.TV",
         "icon": {
 
-            "src": "http://localhost/logo69.gif"
+            "src": "http://localhost/logos/logo69.gif"
         }
     },
 
@@ -3539,7 +3539,7 @@
         "display-name": "Arte",
         "icon": {
 
-            "src": "http://localhost/logo7.gif"
+            "src": "http://localhost/logos/logo7.gif"
         }
     },
 
@@ -3551,7 +3551,7 @@
         "display-name": "Demain.TV",
         "icon": {
 
-            "src": "http://localhost/logo70.gif"
+            "src": "http://localhost/logos/logo70.gif"
         }
     },
 
@@ -3563,7 +3563,7 @@
         "display-name": "Rai Uno",
         "icon": {
 
-            "src": "http://localhost/logo701.gif"
+            "src": "http://localhost/logos/logo701.gif"
         }
     },
 
@@ -3575,7 +3575,7 @@
         "display-name": "Rai Due",
         "icon": {
 
-            "src": "http://localhost/logo702.gif"
+            "src": "http://localhost/logos/logo702.gif"
         }
     },
 
@@ -3586,7 +3586,7 @@
         "display-name": "Rai Tre",
         "icon": {
 
-            "src": "http://localhost/logo703.gif"
+            "src": "http://localhost/logos/logo703.gif"
         }
     },
 
@@ -3598,7 +3598,7 @@
         "display-name": "Discovery Channel",
         "icon": {
 
-            "src": "http://localhost/logo71.gif"
+            "src": "http://localhost/logos/logo71.gif"
         }
     },
 
@@ -3610,7 +3610,7 @@
         "display-name": "Disney Channel",
         "icon": {
 
-            "src": "http://localhost/logo73.gif"
+            "src": "http://localhost/logos/logo73.gif"
         }
     },
 
@@ -3622,7 +3622,7 @@
         "display-name": "Disney Channel (+1)",
         "icon": {
 
-            "src": "http://localhost/logo74.gif"
+            "src": "http://localhost/logos/logo74.gif"
         }
     },
 
@@ -3631,10 +3631,10 @@
     {
         "id": "C75.telerama.fr",
 
-        "display-name": "Disney Cin\u00e9magic",
+        "display-name": "Disney Cinémagic",
         "icon": {
 
-            "src": "http://localhost/logo75.gif"
+            "src": "http://localhost/logos/logo75.gif"
         }
     },
 
@@ -3646,7 +3646,7 @@
         "display-name": "Trace Tropical",
         "icon": {
 
-            "src": "http://localhost/logo753.gif"
+            "src": "http://localhost/logos/logo753.gif"
         }
     },
 
@@ -3654,10 +3654,10 @@
     {
         "id": "C77.telerama.fr",
 
-        "display-name": "Disney Cin\u00e9magic (+1)",
+        "display-name": "Disney Cinémagic (+1)",
         "icon": {
 
-            "src": "http://localhost/logo77.gif"
+            "src": "http://localhost/logos/logo77.gif"
         }
     },
 
@@ -3669,7 +3669,7 @@
         "display-name": "Dorcel TV",
         "icon": {
 
-            "src": "http://localhost/logo78.gif"
+            "src": "http://localhost/logos/logo78.gif"
         }
     },
 
@@ -3681,7 +3681,7 @@
         "display-name": "Nolife",
         "icon": {
 
-            "src": "http://localhost/logo787.gif"
+            "src": "http://localhost/logos/logo787.gif"
         }
     },
 
@@ -3693,7 +3693,7 @@
         "display-name": "Maison+",
         "icon": {
 
-            "src": "http://localhost/logo79.gif"
+            "src": "http://localhost/logos/logo79.gif"
         }
     },
 
@@ -3705,7 +3705,7 @@
         "display-name": "C8",
         "icon": {
 
-            "src": "http://localhost/logo8.gif"
+            "src": "http://localhost/logos/logo8.gif"
         }
     },
 
@@ -3717,7 +3717,7 @@
         "display-name": "E ! Entertainment",
         "icon": {
 
-            "src": "http://localhost/logo80.gif"
+            "src": "http://localhost/logos/logo80.gif"
         }
     },
 
@@ -3729,7 +3729,7 @@
         "display-name": "SWR",
         "icon": {
 
-            "src": "http://localhost/logo801.gif"
+            "src": "http://localhost/logos/logo801.gif"
         }
     },
 
@@ -3741,7 +3741,7 @@
         "display-name": "SF1",
         "icon": {
 
-            "src": "http://localhost/logo804.gif"
+            "src": "http://localhost/logos/logo804.gif"
         }
     },
 
@@ -3753,7 +3753,7 @@
         "display-name": "SF2",
         "icon": {
 
-            "src": "http://localhost/logo805.gif"
+            "src": "http://localhost/logos/logo805.gif"
         }
     },
 
@@ -3765,7 +3765,7 @@
         "display-name": "TSI 1",
         "icon": {
 
-            "src": "http://localhost/logo806.gif"
+            "src": "http://localhost/logos/logo806.gif"
         }
     },
 
@@ -3777,7 +3777,7 @@
         "display-name": "TSI 2",
         "icon": {
 
-            "src": "http://localhost/logo807.gif"
+            "src": "http://localhost/logos/logo807.gif"
         }
     },
 
@@ -3786,10 +3786,10 @@
     {
         "id": "C81.telerama.fr",
 
-        "display-name": "\u00e9\u00e9n",
+        "display-name": "één",
         "icon": {
 
-            "src": "http://localhost/logo81.gif"
+            "src": "http://localhost/logos/logo81.gif"
         }
     },
 
@@ -3801,7 +3801,7 @@
         "display-name": "Discovery HD Showcase",
         "icon": {
 
-            "src": "http://localhost/logo810.gif"
+            "src": "http://localhost/logos/logo810.gif"
         }
     },
 
@@ -3813,7 +3813,7 @@
         "display-name": "la Trois",
         "icon": {
 
-            "src": "http://localhost/logo811.gif"
+            "src": "http://localhost/logos/logo811.gif"
         }
     },
 
@@ -3825,7 +3825,7 @@
         "display-name": "ORF1",
         "icon": {
 
-            "src": "http://localhost/logo812.gif"
+            "src": "http://localhost/logos/logo812.gif"
         }
     },
 
@@ -3837,7 +3837,7 @@
         "display-name": "Encyclo",
         "icon": {
 
-            "src": "http://localhost/logo82.gif"
+            "src": "http://localhost/logos/logo82.gif"
         }
     },
 
@@ -3849,7 +3849,7 @@
         "display-name": "Equidia",
         "icon": {
 
-            "src": "http://localhost/logo83.gif"
+            "src": "http://localhost/logos/logo83.gif"
         }
     },
 
@@ -3861,7 +3861,7 @@
         "display-name": "Escales",
         "icon": {
 
-            "src": "http://localhost/logo84.gif"
+            "src": "http://localhost/logos/logo84.gif"
         }
     },
 
@@ -3873,7 +3873,7 @@
         "display-name": "ESPN",
         "icon": {
 
-            "src": "http://localhost/logo85.gif"
+            "src": "http://localhost/logos/logo85.gif"
         }
     },
 
@@ -3885,7 +3885,7 @@
         "display-name": "ESPN Classic",
         "icon": {
 
-            "src": "http://localhost/logo86.gif"
+            "src": "http://localhost/logos/logo86.gif"
 
 
         }
@@ -3898,7 +3898,7 @@
         "display-name": "Euronews",
         "icon": {
 
-            "src": "http://localhost/logo87.gif"
+            "src": "http://localhost/logos/logo87.gif"
         }
     },
 
@@ -3910,7 +3910,7 @@
         "display-name": "Nick Jr.",
         "icon": {
 
-            "src": "http://localhost/logo888.gif"
+            "src": "http://localhost/logos/logo888.gif"
         }
     },
 
@@ -3922,7 +3922,7 @@
         "display-name": "Eurosport",
         "icon": {
 
-            "src": "http://localhost/logo89.gif"
+            "src": "http://localhost/logos/logo89.gif"
         }
     },
 
@@ -3934,7 +3934,7 @@
         "display-name": "W9",
         "icon": {
 
-            "src": "http://localhost/logo9.gif"
+            "src": "http://localhost/logos/logo9.gif"
         }
     },
 
@@ -3946,7 +3946,7 @@
         "display-name": "Eurosport 2",
         "icon": {
 
-            "src": "http://localhost/logo90.gif"
+            "src": "http://localhost/logos/logo90.gif"
         }
     },
 
@@ -3958,7 +3958,7 @@
         "display-name": "Mezzo Live HD",
         "icon": {
 
-            "src": "http://localhost/logo907.gif"
+            "src": "http://localhost/logos/logo907.gif"
         }
     },
 
@@ -3970,7 +3970,7 @@
         "display-name": "Extrem Sport Channel",
         "icon": {
 
-            "src": "http://localhost/logo91.gif"
+            "src": "http://localhost/logos/logo91.gif"
         }
     },
 
@@ -3982,7 +3982,7 @@
         "display-name": "Elle Girl",
         "icon": {
 
-            "src": "http://localhost/logo92.gif"
+            "src": "http://localhost/logos/logo92.gif"
         }
     },
 
@@ -3994,7 +3994,7 @@
         "display-name": "Boing France",
         "icon": {
 
-            "src": "http://localhost/logo924.gif"
+            "src": "http://localhost/logos/logo924.gif"
         }
     },
 
@@ -4005,7 +4005,7 @@
         "display-name": "KZTV",
         "icon": {
 
-            "src": "http://localhost/logo929.gif"
+            "src": "http://localhost/logos/logo929.gif"
         }
     },
 
@@ -4017,7 +4017,7 @@
         "display-name": "France 3 Alpes",
         "icon": {
 
-            "src": "http://localhost/logo95.gif"
+            "src": "http://localhost/logos/logo95.gif"
         }
     },
 
@@ -4029,7 +4029,7 @@
         "display-name": "France 3 Alsace",
         "icon": {
 
-            "src": "http://localhost/logo96.gif"
+            "src": "http://localhost/logos/logo96.gif"
         }
     },
 
@@ -4041,7 +4041,7 @@
         "display-name": "France 3 Aquitaine",
         "icon": {
 
-            "src": "http://localhost/logo97.gif"
+            "src": "http://localhost/logos/logo97.gif"
         }
     },
 
@@ -4053,7 +4053,7 @@
         "display-name": "France 3 Auvergne",
         "icon": {
 
-            "src": "http://localhost/logo98.gif"
+            "src": "http://localhost/logos/logo98.gif"
         }
     },
 
@@ -4065,7 +4065,7 @@
         "display-name": "France 3 Basse-Normandie",
         "icon": {
 
-            "src": "http://localhost/logo99.gif"
+            "src": "http://localhost/logos/logo99.gif"
         }
-    },
+    }
 ]

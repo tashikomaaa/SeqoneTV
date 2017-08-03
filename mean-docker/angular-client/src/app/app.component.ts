@@ -20,12 +20,22 @@ export class AppComponent implements OnInit {
 
   // Declare empty list of channels
   channels: any[] = [];
-
+  programs: any[] = [];
   constructor(private http: Http) {}
 
   // Angular 2 Life Cycle event when component has been initialized
   ngOnInit() {
-    this.getAllChannel();
+    this.getLatestProgramme();
+  }
+
+  //get the latest programme
+  getLatestProgramme(){
+    this.http.get(`${this.API}/lastprogram`)
+      .map(res => res.json())
+      .subscribe(program =>{
+        console.log(program)
+        this.programs = program
+      })
   }
 
   // Add one person to the API
