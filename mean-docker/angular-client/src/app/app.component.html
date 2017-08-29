@@ -1,22 +1,27 @@
-<div class='container-fluid' style="margin-top: 5%; margin-bottom: 30%">
-    <div class='row'>
-        <div *ngFor='let program of programs; let i = index'>
-            <!--STYLE1-->
-            <a href='#' class='col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12' *ngIf='i<32'>
-                <article class='style1'>
-                    <div class='date'>
-                        {{program[i].program_name}}
-                    </div>
-                    <!--must have larger width than height-->
-                    <img class="show" src="{{ channels[i].icon['_src'] }}" style="width: 100%" />
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-light bg-faded">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mean Docker</a>
+  </div>
+</nav>
 
-                </article>
-            </a>
-        </div>
-    </div>
-</div>
-<div class='newsbottom'>
-    <div class='to-top' ToTop>
-        <i class="fa fa-arrow-up"></i>
-    </div>
+<div class="container">
+  <div [style.margin-top.px]="10" class="row">
+    <h3>Add new person</h3>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" #name>
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" #age>
+      </div>
+      <button type="button" (click)="addPerson(name.value, age.value)" class="btn btn-primary">Add person</button>
+    </form>
+  </div>
+  <div [style.margin-top.px]="10" class="row">
+    <h3>People</h3>
+    <!-- Bootstrap Card -->
+  </div>
 </div>

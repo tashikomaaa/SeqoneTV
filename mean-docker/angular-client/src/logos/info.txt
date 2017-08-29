@@ -1,3 +1,0 @@
-Ce répertoire doit ce trouver dans \ProgramData\ZGuideTVDotNet
-
-This directory should be in \ProgramData\ZGuideTVDotNet
