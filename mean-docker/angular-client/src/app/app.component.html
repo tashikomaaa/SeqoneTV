@@ -1,27 +1,15 @@
-<!-- Bootstrap Navbar -->
 <nav class="navbar navbar-light bg-faded">
   <div class="container">
-    <a class="navbar-brand" href="#">Mean Docker</a>
+    <h1>{{ title }}</h1>
   </div>
 </nav>
 
-<div class="container">
+<div class="container" [ngClass]="'menu'">
   <div [style.margin-top.px]="10" class="row">
-    <h3>Add new person</h3>
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" #name>
-      </div>
-      <div class="form-group">
-        <label for="age">Age</label>
-        <input type="number" class="form-control" id="age" #age>
-      </div>
-      <button type="button" (click)="addPerson(name.value, age.value)" class="btn btn-primary">Add person</button>
-    </form>
+    <a href="" routerLink="/users" routerLinkActive="active">Connexion</a>
+    <a href="" routeurLink="/users/inscription" routeurLinkActive="active">inscription</a>
   </div>
   <div [style.margin-top.px]="10" class="row">
-    <h3>People</h3>
-    <!-- Bootstrap Card -->
+    <router-outlet></router-outlet>
   </div>
 </div>

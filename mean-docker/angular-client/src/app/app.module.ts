@@ -2,19 +2,39 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule, Routes } from '@angular/router';
 
+import { ProgrammService } from './services/programm.service';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { UsersComponent } from './users/users.component';
+//import { PageNotFoundComponent } from './pagenotfound/pageNotFound.component';
+import { AppRoutingModule } from './app-routing.module';
+
+const appRoutes: Routes = [
+  { path: '', component: AppComponent},
+  { path: 'users', component: UsersComponent },
+  //{ path: 'users/inscription', component: InscriptionComponent },
+  //{ path: 'chaine', component: ChannelComponent },
+  //{ path: 'prog', component: ProgComponent },
+  //{ path: '**', component: PageNotFoundComponent }
+]
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  declarations: [
+    AppComponent,
+    //PageNotFoundComponent,
+    UsersComponent,
+    HomeComponent
+  ],
+  providers: [ ProgrammService ], 
+  exports: [ RouterModule ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

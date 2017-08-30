@@ -1,0 +1,35 @@
+// create mongoose schema
+
+//User schema
+const userSchema = new mongoose.Schema({
+    name: String,
+    email: String,
+    passwd: String,
+    channel: String,
+    progPref: String,
+    activ: Boolean,
+    token: String,
+    id: Number
+});
+
+//Channel schema
+const channelSchema = new mongoose.Schema({
+    name: String,
+    logo: String,
+    url: String,
+    id: Number
+});
+
+//Programms schema
+const programmsSchema = new mongoose.Schema({
+    title: String,
+    author: String,
+    channel: String,
+    thumbnail: String,
+    hour: String,
+    content: String,
+    url: String,
+    category: String,
+    pubDate: String,
+    guid: String
+});

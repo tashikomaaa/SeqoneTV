@@ -7,19 +7,60 @@ const request = require('request');
 var prog = {};
 
 // MongoDB URL from the docker-compose file
-const dbHost = 'mongodb://database/mean-docker';
+const dbHost = 'mongodb://127.0.0.1:27017/mean-docker';
 
 // Connect to mongodb
 mongoose.connect(dbHost);
 
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+db.once('open', function(){
+    
+})
 // create mongoose schema
-const userSchema = new mongoose.Schema({
-    login: String,
 
+//User schema
+const userSchema = new mongoose.Schema({
+    name: String,
+    email: String,
+    passwd: String,
+    channel: String,
+    progPref: String,
+    activ: Boolean,
+    token: String,
+    id: Number
+});
+
+//Channel schema
+const channelSchema = new mongoose.Schema({
+    name: String,
+    logo: String,
+    url: String,
+    id: Number
+});
+
+//Programms schema
+const programmsSchema = new mongoose.Schema({
+    title: String,
+    author: String,
+    channel: String,
+    thumbnail: String,
+    hour: String,
+    content: String,
+    url: String,
+    category: String,
+    pubDate: String,
+    guid: String
 });
 
 // create mongoose model
+
+//create User model
 const User = mongoose.model('User', userSchema);
+//create Channel model
+const Channel = mongoose.model('Channel', channelSchema);
+//create Programms model 
+const Programms = mongoose.model('Programms', programmsSchema);
 
 /* GET api listing. */
 router.get('/', (req, res) => {
@@ -43,7 +84,7 @@ router.get('/', (req, res) => {
     var url = 'https://webnext.fr/epg_cache/programme-tv-rss_' + day + '-' + month + '-' + year + '.xml';
 
     var options = {
-        url: 'https://api.rss2json.com/v1/api.json?rss_url=' + url + '&api_key=zcuw0klitl9ogvspjdswma58hfrsmihkycnic1at&count=199',
+        url: 'https://api.rss2json.com/v1/api.json?rss_url=' + url + '&api_key=zcuw0klitl9ogvspjdswma58hfrsmihkycnic1at&count=195',
         method: 'GET',
         json: true,
         dataType: 'json',
@@ -56,24 +97,8 @@ router.get('/', (req, res) => {
             throw err;
         }
         prog = json;
-        prog = JSON.parse(JSON.stringify(prog));
-        console.log(prog.status);
-        for (var i = 0; i <= prog.items.length; i++) {
-            //feed database 
-            let programm = new programm({
-                title: prog.items[i].title,
-                age: req.body.age
-            });
-
-            user.save(error => {
-                if (error) res.status(500).send(error);
-
-                res.status(201).json({
-                    message: 'User created successfully'
-                });
-            });
-        }
-
+        prog = JSON.parse(JSON.stringify(prog.items));
+        console.log('ok');
         res.status(200).json(prog);
 
     });
@@ -101,10 +126,22 @@ router.get('/users/:id', (req, res) => {
 
 /* Create a user. */
 router.post('/users', (req, res) => {
-    let user = new User({
-        name: req.body.name,
-        age: req.body.age
-    });
+    console.log('users')
+    var rand = function(){
+        return Math.random().toString(36).substr(2);//remove `0.`
+    };
+    var token = function(){
+        return rand() + rand() //to make it longer
+    };
+
+    if (req.body.passConfirm == req.body.passwd) {
+        let user = new User({
+            name: req.body.name,
+            email: req.body.email,
+            passwd: req.body.passwd,
+            token: token
+        });
+    }
 
     user.save(error => {
         if (error) res.status(500).send(error);

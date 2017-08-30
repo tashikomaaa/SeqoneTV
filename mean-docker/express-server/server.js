@@ -25,7 +25,6 @@ app.use(function (req, res, next) {
 // Set our api routes
 app.use('/', api);
 
-
 /**
  * Get port from environment and store in Express.
  */
