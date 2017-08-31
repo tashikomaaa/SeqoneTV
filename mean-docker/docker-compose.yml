@@ -16,6 +16,9 @@ services:
 
 
   database: # name of the third service
-    image: mongo # specify image to build container from
+    image: mysqldb # specify image to build container from
+    environment: 
+      - MYSQL_ROOT_PASSWORD=5eev2d2d1dlc
+      - MYSQL_DATABASE=seqonetv
     ports:
-      - "27017:27017" # specify port forewarding
+      - "3306:3306" # specify port forewarding
