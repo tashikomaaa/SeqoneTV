@@ -3,14 +3,19 @@ const http = require('https');
 const express = require('express');
 const router = express.Router();
 const request = require('request');
+const mysql =require('mysql');
+const connection = mysql.createConnection({
+    host : 'database_data:3306',
+    user: 'corvus',
+    passsword: '5eev2d2d1dlc'
+});
 var prog = {};
-
-
 
 
 /* GET api listing. */
 router.get('/', (req, res) => {
     //databaseFeed
+    connection.connect();
     //get the date
     var date = new Date();
 
@@ -45,6 +50,9 @@ router.get('/', (req, res) => {
         prog = json;
         prog = JSON.parse(JSON.stringify(prog.items));
         console.log('ok');
+        prog.forEach(function(element) {
+            console.log(element);
+        }, this);
         res.status(200).json(prog);
 
     });

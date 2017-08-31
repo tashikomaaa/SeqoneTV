@@ -35,3 +35,11 @@ services:
       - MYSQL_USERS=$MYSQL_USER
       - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
       - MYSQL_DATABASE=$MYSQL_DATABASE
+  #personal proxy
+  # reverse-proxy:
+    # image: jwilder/nginx-proxy
+    # ports:
+    #   - $HTTP_PORT:80/tcp
+    #   - $HTTPS_PORT:443/tcp
+    # volumes:
+    #   - $DOCKER_SOCK:/tmp/docker.sock:ro
