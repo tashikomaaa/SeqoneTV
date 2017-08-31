@@ -6,7 +6,7 @@ const request = require('request');
 const mysql =require('mysql');
 const connection = mysql.createConnection({
     host : 'database',
-    user: 'corvus',
+    user: 'root',
     passsword: '5eev2d2d1dlc'
 });
 var prog = {};
