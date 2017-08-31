@@ -16,9 +16,8 @@ var prog = {};
 /* GET api listing. */
 router.get('/', (req, res) => {
     //databaseFeed
-    connection.connect(function(err){
-        if(err) throw err
-    });
+    //connection.connect();
+    //connection.end();
     //get the date
     var date = new Date();
 
@@ -54,7 +53,7 @@ router.get('/', (req, res) => {
         prog = JSON.parse(JSON.stringify(prog.items));
         console.log('ok');
         prog.forEach(function(element) {
-            console.log(element);
+            //console.log(element);
         }, this);
         res.status(200).json(prog);
 

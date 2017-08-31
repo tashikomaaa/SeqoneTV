@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './users/login.component';
-//import { PageNotFoundComponent } from './pagenotfound/pageNotFound.component';
+import { PageNotFoundComponent } from './pagenotfound/pageNotFound.component';
 import { AppRoutingModule } from './app-routing.module';
 
 const appRoutes: Routes = [
@@ -19,7 +19,7 @@ const appRoutes: Routes = [
   //{ path: 'users/inscription', component: InscriptionComponent },
   //{ path: 'chaine', component: ChannelComponent },
   //{ path: 'prog', component: ProgComponent },
-  //{ path: '**', component: PageNotFoundComponent }
+  { path: '**', component: PageNotFoundComponent }
 ]
 
 @NgModule({
