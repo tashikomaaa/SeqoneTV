@@ -1,13 +1,12 @@
 // Import dependencies
 const http = require('https');
-const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 const request = require('request');
 var prog = {};
 
 // MongoDB URL from the docker-compose file
-const dbHost = 'mongodb://127.0.0.1:27017/mean-docker';
+const dbHost = 'mongodb://127.0.0.1:27017/seqone';
 
 // Connect to mongodb
 mongoose.connect(dbHost);

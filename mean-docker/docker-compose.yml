@@ -4,21 +4,34 @@ version: '2' # specify docker-compose version
 services:
   angular: # name of the first service
     build: angular-client # specify the directory of the Dockerfile
+    restart: always
     ports:
       - "4200:4200" # specify port forewarding
 
   express: #name of the second service
     build: express-server # specify the directory of the Dockerfile
+    restart: always
     ports:
       - "3000:3000" #specify ports forewarding
     links: 
       - database # link this services to the database service 
 
+  #Data_only container for the database
+  database_data: 
+    image: mysql
+    entrypoint: /bin/true
+    volumes:
+      - SQL_DATA_VOLUME:/var/lib/mysql
 
+  #Database
   database: # name of the third service
-    image: mysqldb # specify image to build container from
+    build: ./database # specify image to build container from
+    restart: always
+    ports: 
+      - MYSQL_PORT:3306:3306
+    volumes: 
+      - database_data:rw
     environment: 
-      - MYSQL_ROOT_PASSWORD=5eev2d2d1dlc
-      - MYSQL_DATABASE=seqonetv
-    ports:
-      - "3306:3306" # specify port forewarding
+      - MYSQL_USERS=$MYSQL_USER
+      - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE=$MYSQL_DATABASE

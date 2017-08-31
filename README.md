@@ -4,7 +4,7 @@
 - Angular/cli 
 - Nodejs 
 - Docker 
-- MangoDB
+- Mysql
 
 
 ###### Dependencies :
