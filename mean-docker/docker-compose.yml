@@ -21,15 +21,15 @@ services:
     image: mysql
     entrypoint: /bin/true
     volumes:
-      - SQL_DATA_VOLUME:/var/lib/mysql
+      - $SQL_DATA_VOLUME:/var/lib/mysql
 
   #Database
   database: # name of the third service
     build: ./database # specify image to build container from
     restart: always
     ports: 
-      - 3306:3306
-    volumes: 
+      - "3306:3306"
+    volumes_from: 
       - database_data:rw
     environment: 
       - MYSQL_USERS=$MYSQL_USER
