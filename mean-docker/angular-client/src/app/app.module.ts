@@ -8,12 +8,14 @@ import { ProgrammService } from './services/programm.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { UsersComponent } from './users/users.component';
+import { LoginComponent } from './users/login.component';
 //import { PageNotFoundComponent } from './pagenotfound/pageNotFound.component';
 import { AppRoutingModule } from './app-routing.module';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent},
   { path: 'users', component: UsersComponent },
+  { path: 'login', component: LoginComponent },
   //{ path: 'users/inscription', component: InscriptionComponent },
   //{ path: 'chaine', component: ChannelComponent },
   //{ path: 'prog', component: ProgComponent },
@@ -29,6 +31,7 @@ const appRoutes: Routes = [
   ],
   declarations: [
     AppComponent,
+    LoginComponent,
     //PageNotFoundComponent,
     UsersComponent,
     HomeComponent

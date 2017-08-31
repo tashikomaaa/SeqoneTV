@@ -1,9 +1,5 @@
 <form class="form-inline">
     <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" #name>
-    </div>
-    <div class="form-group">
         <label for="email">Email</label>
         <input type="email" class="form-control" id="email" #email>
     </div>
@@ -11,9 +7,5 @@
         <label for="passwd">Password</label>
         <input type="password" class="form-control" id="passwd" #passwd>
     </div>
-    <div>
-        <label for="passConfim">Comfirm password</label>
-        <input type="password" class="form-control" id="passConfirm" #passConfirm>
-    </div>
-    <button type="button" (click)="addPerson(name.value, email.value, passwd.value, passConfirm.value)" class="btn btn-primary">Add person</button>
+    <button type="button" (click)="addPerson(email.value, passwd.value)" class="btn btn-primary">Add person</button>
 </form>

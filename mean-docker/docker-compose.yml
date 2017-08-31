@@ -31,8 +31,9 @@ services:
       - "3306:3306"
     volumes_from: 
       - database_data:rw
-    environment: 
-      - MYSQL_USERS=$MYSQL_USER
+    environment:
+      - MYSQL_USER=$MYSQL_USER
+      - MYSQL_PASSWORD=$MYSQL_PASSWORD
       - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
       - MYSQL_DATABASE=$MYSQL_DATABASE
   #personal proxy

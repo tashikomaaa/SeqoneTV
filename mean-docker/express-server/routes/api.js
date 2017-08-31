@@ -7,7 +7,8 @@ const mysql =require('mysql');
 const connection = mysql.createConnection({
     host : 'database',
     user: 'root',
-    passsword: '5eev2d2d1dlc'
+    password: '5eev2d2d1dlc',
+    database: 'seqone'
 });
 var prog = {};
 
@@ -15,7 +16,9 @@ var prog = {};
 /* GET api listing. */
 router.get('/', (req, res) => {
     //databaseFeed
-    connection.connect();
+    connection.connect(function(err){
+        if(err) throw err
+    });
     //get the date
     var date = new Date();
 

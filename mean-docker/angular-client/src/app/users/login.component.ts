@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
+// Import rxjs map operator
+import 'rxjs/add/operator/map';
+
 @Component({
     selector: 'app-root',
     templateUrl: './login.component.html',
@@ -12,7 +15,9 @@ export class LoginComponent implements OnInit {
 
     constructor(private http: Http){};
     
-    ngOnInit(){}
+    ngOnInit(){
+
+    }
 
     connectUsers(name, email, passwd){
         console.log('Connection users call');
