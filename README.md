@@ -12,8 +12,7 @@
 - Docker-compose
 - Angular/cli
 - Nodejs
-- MongoDB
-- Mongoose
+- Mysql
 
 ## For build the project type the following command line
 
