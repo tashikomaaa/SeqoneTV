@@ -28,7 +28,7 @@ services:
     build: ./database # specify image to build container from
     restart: always
     ports: 
-      - MYSQL_PORT:3306:3306
+      - 3306:3306
     volumes: 
       - database_data:rw
     environment: 
