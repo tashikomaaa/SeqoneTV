@@ -34,7 +34,7 @@ export class ChannelComponent implements OnInit {
 
     //Get channel info
     getChannelInfo(){
-        this.http.get(`${this.API}/channel`, {})
+        this.http.get(`${this.API}/channel`, { })
             .map(res => res.json())
             .subscribe(channel => {
                 this.channel = channel;
@@ -43,7 +43,7 @@ export class ChannelComponent implements OnInit {
 
     //Get All programm
     getAllProgrammOfChannel() {
-        this.http.get(`${this.API}/`, {})
+        this.http.get(`${this.API}/channelProg`, { })
             .map(res => res.json())
             .subscribe(programm => {
                 console.log(programm)

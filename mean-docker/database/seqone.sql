@@ -27,7 +27,8 @@ CREATE TABLE `programm` (
   `channel` varchar(255) NOT NULL,
   `hour` varchar(255) NOT NULL,
   `content` varchar(255) NOT NULL,
-  `url` varchar(255) NOT NULL
+  `url` varchar(255) NOT NULL,
+  `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
