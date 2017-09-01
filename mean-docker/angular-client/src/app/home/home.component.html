@@ -1,15 +1,44 @@
 <div class="container" [ngClass]="'menu'">
   <div class="sidenav right">
-  <div class="nav"><div class="icon fa fa-home"></div><div class="description">Home</div></div>
-  <a href="" routerLink="/users" ><div class="nav"><div class="icon fa fa-database"></div><div class="description">Login</div></div></a>
-  <a href="" routerLink="/login" ><div class="nav active"><div class="icon fa fa-users"></div><div class="description">Signin</div></div></a>
-</div>
+    <a href="" routerLink="/home">
+      <div class="nav active">
+        <div class=" icon fa fa-home"></div>
+        <div class="description">Home</div>
+      </div>
+    </a>
+    <a href="" routerLink="/users">
+      <div class="nav">
+        <div class="icon fa fa-database"></div>
+        <div class="description">Login</div>
+      </div>
+    </a>
+    <a href="" routerLink="/login">
+      <div class="nav ">
+        <div class="icon fa fa-users"></div>
+        <div class="description">Signin</div>
+      </div>
+    </a>
+  </div>
   <div [style.margin-top.px]="10" class="row">
     <router-outlet></router-outlet>
   </div>
 </div>
-<ul [ngClass] = "'home'">
-    <li *ngFor="let item of programms">
-        {{ item.title }}
-    </li>
-</ul>
+<div class="container">
+  <div [ngClass]="'home'" class="col-sm-7 col-md-5 col-lg-4 mt-5" *ngFor="let item of programms">
+    <div class="card">
+      <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+      <div class="card-block">
+        <h4 class="card-title">{{ item.title }}</h4>
+        <div class="meta">
+          <a href="#"></a>
+        </div>
+        <div class="card-text">
+          {{ item.description }}
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="{{ item.url }}" target="_blank"><button class="btn btn-default">More +</button></a>
+      </div>
+    </div>
+  </div>
+</div>

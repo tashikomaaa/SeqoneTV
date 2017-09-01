@@ -36,7 +36,7 @@ export class HomeComponent implements OnInit {
         this.http.get(`${this.API}/`, {})
             .map(res => res.json())
             .subscribe(programm => {
-                //this.programms = programm
+                console.log(programm)
                 this.programms = programm
                 console.log(this.programms)
             })

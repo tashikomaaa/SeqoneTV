@@ -4,20 +4,19 @@ const express = require('express');
 const router = express.Router();
 const request = require('request');
 const mysql =require('mysql');
+const feed = require('rss-to-json');
 const connection = mysql.createConnection({
     host : 'database',
     user: 'root',
     password: '5eev2d2d1dlc',
     database: 'seqone'
 });
-var prog = {};
+var prog = { };
 
 
 /* GET api listing. */
 router.get('/', (req, res) => {
-    //databaseFeed
-    //connection.connect();
-    //connection.end();
+    
     //get the date
     var date = new Date();
 
@@ -36,30 +35,19 @@ router.get('/', (req, res) => {
 
     var url = 'https://webnext.fr/epg_cache/programme-tv-rss_' + day + '-' + month + '-' + year + '.xml';
 
-    var options = {
-        url: 'https://api.rss2json.com/v1/api.json?rss_url=' + url + '&api_key=zcuw0klitl9ogvspjdswma58hfrsmihkycnic1at&count=195',
-        method: 'GET',
-        json: true,
-        dataType: 'json',
-        contentType: 'application/json',
-    }
-
-    //request api's url
-    request(options, function (err, response, json) {
-        if (err) {
-            throw err;
+    feed.load(url, function(err, rss){
+        //console.log(rss.items);
+        prog = rss.items;
+        for (var index = 0; index <= rss.length; index++) {
+            var title = rss.items[index].title.split("|");
+            console.log(title)
         }
-        console.log(response);
-        //console.log(json)
-        prog = json;
-        prog = JSON.parse(JSON.stringify(prog.items));
-        console.log('ok');
-        res.status(200).json(prog);
-
+        
+        res.json(rss.items)
     });
 
-
 });
+
 
 
 
