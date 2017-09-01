@@ -12,6 +12,7 @@ const connection = mysql.createConnection({
     database: 'seqone'
 });
 var prog = {};
+var channel = {};
 
 
 /* GET api listing. */
@@ -60,6 +61,26 @@ router.get('/', (req, res) => {
     });
 
 });
+
+router.get('/channel', (req, res) => {
+
+    connection.connect(function(err) {
+        var sql = "SELECT * FROM channel";
+        connection.query(sql, function (err, result) {
+            channel = result;
+        })
+    });
+
+});
+
+router.get('./channelProg', (req,res) => {
+    connection.connect(function(err){
+        var sql = "SELECT * from programm WHERE channel = '"+ req.body.channel+"' ORDER BY date";
+        connection.query(sql, function(err, result){
+            prog = result;
+        })
+    })
+})
 
 
 module.exports = router;

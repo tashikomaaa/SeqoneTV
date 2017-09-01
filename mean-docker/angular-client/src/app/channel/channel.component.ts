@@ -26,11 +26,6 @@ export class ChannelComponent implements OnInit {
 
     constructor(/*private programmService: ProgrammService,*/ private http: Http) { }
 
-    //   getProgramms(): void{
-    //       this.programmService.getAllProgramm();
-    //     //   console.log(this.programmService.programms
-    //       this.programms = this.programmService.programms
-    //   }
 
     //Get channel info
     getChannelInfo(){
