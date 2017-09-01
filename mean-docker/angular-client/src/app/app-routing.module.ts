@@ -5,11 +5,13 @@ import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './users/login.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './pagenotfound/pageNotFound.component';
- 
+import { ChannelComponent } from './channel/channel.component'; 
+
 const routes: Routes= [
     { path: 'home', component: HomeComponent },
     { path: 'login', component: LoginComponent },
     { path: 'users', component: UsersComponent },
+    { path: 'channel', component: ChannelComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent } 
 ];

@@ -38,10 +38,8 @@ router.get('/', (req, res) => {
     feed.load(url, function(err, rss){
         //console.log(rss.items);
         prog = rss.items;
-        for (var index = 0; index <= rss.length; index++) {
-            var title = rss.items[index].title.split("|");
-            console.log(title)
-        }
+        console.log(rss.items)
+        
         
         res.json(rss.items)
     });

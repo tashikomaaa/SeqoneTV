@@ -7,10 +7,10 @@ import 'rxjs/add/operator/map';
 
 @Component({
     selector: 'app-root',
-    templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css'],
+    templateUrl: './channel.component.html',
+    styleUrls: ['./channel.component.css'],
 })
-export class HomeComponent implements OnInit {
+export class ChannelComponent implements OnInit {
     title = 'app works!';
 
     // Link to our api, pointing to localhost
@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
 
     // Declare empty list of programm
     programms: any[] = [];
+    channel: any[] = [];
     keysArray: any[] = [];
 
     constructor(/*private programmService: ProgrammService,*/ private http: Http) { }
@@ -31,8 +32,17 @@ export class HomeComponent implements OnInit {
     //       this.programms = this.programmService.programms
     //   }
 
+    //Get channel info
+    getChannelInfo(){
+        this.http.get(`${this.API}/channel`, {})
+            .map(res => res.json())
+            .subscribe(channel => {
+                this.channel = channel;
+            })
+    }
+
     //Get All programm
-    getAllProgramm() {
+    getAllProgrammOfChannel() {
         this.http.get(`${this.API}/`, {})
             .map(res => res.json())
             .subscribe(programm => {
@@ -43,7 +53,8 @@ export class HomeComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.getAllProgramm();
+        this.getAllProgrammOfChannel();
+        this.getChannelInfo();
     }
 
 }
