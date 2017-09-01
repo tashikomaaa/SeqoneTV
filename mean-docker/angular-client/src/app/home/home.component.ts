@@ -40,7 +40,6 @@ export class HomeComponent implements OnInit {
                 this.programms = programm
                 console.log(this.programms)
             })
-
     }
 
     ngOnInit() {

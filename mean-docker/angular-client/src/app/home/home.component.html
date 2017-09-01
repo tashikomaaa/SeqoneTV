@@ -1,4 +1,13 @@
-
+<div class="container" [ngClass]="'menu'">
+  <div class="sidenav right">
+  <div class="nav"><div class="icon fa fa-home"></div><div class="description">Home</div></div>
+  <a href="" routerLink="/users" ><div class="nav"><div class="icon fa fa-database"></div><div class="description">Login</div></div></a>
+  <a href="" routerLink="/login" ><div class="nav active"><div class="icon fa fa-users"></div><div class="description">Signin</div></div></a>
+</div>
+  <div [style.margin-top.px]="10" class="row">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 <ul [ngClass] = "'home'">
     <li *ngFor="let item of programms">
         {{ item.title }}

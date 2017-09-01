@@ -32,7 +32,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoginComponent,
-    //PageNotFoundComponent,
+    PageNotFoundComponent,
     UsersComponent,
     HomeComponent
   ],

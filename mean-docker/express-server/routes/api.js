@@ -53,12 +53,26 @@ router.get('/', (req, res) => {
         prog = JSON.parse(JSON.stringify(prog.items));
         console.log('ok');
         prog.forEach(function(element) {
-            //console.log(element);
+            console.log(element);
         }, this);
         res.status(200).json(prog);
 
     });
 
+
+});
+
+
+router.get('/users', (req, res) => {
+
+    var name = req.body.name;
+    var email = req.body.email;
+    var pass = req.body.passwd;
+
+    pass = hashed(pass);
+
+    connection.query('SELECT name, password FROM users WHERE name = name AND password = password');
+    connection.req()
 
 });
 
