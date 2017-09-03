@@ -12,9 +12,11 @@
     "jQuery": "^1.7.4",
     "jquery": "^3.2.1",
     "mysql": "^2.14.1",
+    "node-tweet-stream": "^2.0.1",
     "nodeQuery": "0.0.9-1",
     "pg": "^6.1.0",
     "request": "^2.81.0",
-    "rss-to-json": "^1.0.2"
+    "rss-to-json": "^1.0.2",
+    "twit": "^2.2.9"
   }
 }

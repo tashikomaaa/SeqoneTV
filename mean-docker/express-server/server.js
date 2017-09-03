@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 
 // Get our API routes
 const api = require('./routes/api');
+const tweets = require('./routes/tweets');
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use(function (req, res, next) {
 
 // Set our api routes
 app.use('/', api);
+app.use('/tweets', tweets);
 
 /**
  * Get port from environment and store in Express.

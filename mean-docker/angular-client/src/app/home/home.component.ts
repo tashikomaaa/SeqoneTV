@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
 
     // Declare empty list of programm
     programms: any[] = [];
+    tweets: any[] = [];
     keysArray: any[] = [];
 
     constructor(/*private programmService: ProgrammService,*/ private http: Http) { }
@@ -35,10 +36,14 @@ export class HomeComponent implements OnInit {
     getAllProgramm() {
         this.http.get(`${this.API}/`, {})
             .map(res => res.json())
-            .subscribe(programm => {
+            /* .subscribe(programm => {
                 console.log(programm)
                 this.programms = programm
                 console.log(this.programms)
+            }) */
+            .subscribe(tweet => {
+                console.log(tweet)
+                this.tweets = tweet;
             })
     }
 
