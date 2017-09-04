@@ -34,17 +34,20 @@ export class HomeComponent implements OnInit {
 
     //Get All programm
     getAllProgramm() {
-        this.http.get(`${this.API}/`, {})
+        this.http.get(`${this.API}/getProgs`, {})
             .map(res => res.json())
-            /* .subscribe(programm => {
+            .subscribe(programm => {
                 console.log(programm)
                 this.programms = programm
                 console.log(this.programms)
-            }) */
+            }) 
+
+        this.http.get(`${this.API}/tweets`, {})
+            .map(res => res.json())
             .subscribe(tweet => {
                 console.log(tweet)
                 this.tweets = tweet;
-            })
+            }) 
     }
 
     ngOnInit() {

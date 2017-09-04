@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
+// Import rxjs map operator
+import 'rxjs/add/operator/map';
+
 
 @Component({
   selector: 'app-root',
@@ -7,5 +11,8 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = "SeqoneTV"
+  title = "SeqoneTV";
+
+  
+
 }

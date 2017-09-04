@@ -36,13 +36,13 @@
   <div [ngClass]="'home'" class="col-sm-7 col-md-5 col-lg-4 mt-5" *ngFor="let item of programms">
     <div class="card">
       <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
-      <div class="card-block">
+      <div class="card-block">{{ item.channel }}
         <h4 class="card-title">{{ item.title }}</h4>
         <div class="meta">
           <a href="#"></a>
         </div>
         <div class="card-text">
-          {{ item.description }}
+          {{ item.content }}
         </div>
       </div>
       <div class="card-footer">

@@ -25,7 +25,7 @@ app.use(function (req, res, next) {
 
 // Set our api routes
 app.use('/', api);
-app.use('/tweets', tweets);
+//app.use('/tweets', tweets);
 
 /**
  * Get port from environment and store in Express.
