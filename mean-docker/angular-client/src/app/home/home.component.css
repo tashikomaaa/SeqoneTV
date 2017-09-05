@@ -1,6 +1,7 @@
+#homecontent{
+    margin-top: 15%;
+}
+
 .itemsP{
-    overflow: auto;
-    overflow-x: hidden;
     background-color: #999999;
-    position: absolute;
 }

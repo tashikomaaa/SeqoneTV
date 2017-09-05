@@ -28,113 +28,111 @@
 </head>
 
 <body>
-  
-  <body>
-    
-    <div class=" app container-fluid">
-      <div class="row">
-        <div class="col-sm-4"></div>
-          <app-root class="col-xs-6"></app-root>
-          <div class="col-sm-4"></div>
-      </div>
-    </div>
-    <div id="old-tv-screen"></div>
-      <div id="content">
-        <div ng-app="MenuApp" ng-controller="MenuController">
-          <h1 class="title">SeqoneTV</h1>
-          <div class="paper preview-1">
-            <div class="box">
-              <div class="bar">
-                <p>Menu</p>
-              </div>
 
-              <div class="item coffee" ng-click="myFunc($event)">
-                <div class="box">
-                  <div class="inner-box">
-                    <div class="item-icon">
-                      <img src="assets/images/television.png" alt="">
-                    </div>
-                    <p>Channel</p>
-                    <div class="detail">
-                      <div>
-                        <p>TF1</p>
-                        <div class="counter">
-                          <div class="plus">+</div>
-                          <div class="minus">voir</div>
-                        </div>
-                      </div>
-                      <hr class="style18">
-                      <div>
-                        <p>France 2</p>
-                        <div class="counter">
-                          <div class="plus">+</div>
-                          <div class="minus">voir</div>
-                        </div>
-                      </div>
-                      <hr class="style18">
-                    </div>
+  <body>
+    <div id="old-tv-screen"></div>
+    <div id="content">
+      <div ng-app="MenuApp" ng-controller="MenuController">
+        <h1 class="title">SeqoneTV</h1>
+        <div class="paper preview-1">
+          <div class="box">
+            <div class="bar">
+              <p>Menu</p>
+            </div>
+
+            <div class="item coffee" ng-click="myFunc($event)">
+              <div class="box">
+                <div class="inner-box">
+                  <div class="item-icon">
+                    <img src="assets/images/television.png" alt="">
                   </div>
-                </div>
-              </div>
-              <div class="item sweet" ng-click="myFunc($event)">
-                <div class="box">
-                  <div class="inner-box">
-                    <div class="item-icon">
-                      <img src="assets/images/show-presenter.png" alt="">
-                    </div>
-                    <p>TV show</p>
-                    <div class="detail">
-                      <div>
-                        <p>Baklava</p>
-                        <div class="counter">
-                          <div class="plus">+</div>
-                          <div class="minus">voir</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item food" ng-click="myFunc($event)">
-                <div class="box">
-                  <div class="inner-box">
-                    <div class="item-icon ">
-                      <img src="assets/images/tv-remote-control.png" alt="">
-                    </div>
-                    <p>My Progs</p>
-                    <div class="detail">
-                      <div></div>
-                      <p></p>
+                  <p>Channel</p>
+                  <div class="detail">
+                    <div>
+                      <p>TF1</p>
                       <div class="counter">
                         <div class="plus">+</div>
-                        <div class="minus">-</div>
+                        <div class="minus">voir</div>
                       </div>
-                      <hr class="style18">
-                      <div>
-                        <p>TF1</p>
-                        <div class="counter">
-                          <div class="plus">+</div>
-                          <div class="minus">voir</div>
-                        </div>
+                    </div>
+                    <hr class="style18">
+                    <div>
+                      <p>France 2</p>
+                      <div class="counter">
+                        <div class="plus">+</div>
+                        <div class="minus">voir</div>
                       </div>
-                      <hr class="style18">
-                      <div>
-                        <p>France 2</p>
-                        <div class="counter">
-                          <div class="plus">+</div>
-                          <div class="minus">voir</div>
-                        </div>
+                    </div>
+                    <hr class="style18">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item sweet" ng-click="myFunc($event)">
+              <div class="box">
+                <div class="inner-box">
+                  <div class="item-icon">
+                    <img src="assets/images/show-presenter.png" alt="">
+                  </div>
+                  <p>TV show</p>
+                  <div class="detail">
+                    <div>
+                      <p>Baklava</p>
+                      <div class="counter">
+                        <div class="plus">+</div>
+                        <div class="minus">voir</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
-              <script>
-                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
-              </script>
+            </div>
+            <div class="item food" ng-click="myFunc($event)">
+              <div class="box">
+                <div class="inner-box">
+                  <div class="item-icon ">
+                    <img src="assets/images/tv-remote-control.png" alt="">
+                  </div>
+                  <p>My Progs</p>
+                  <div class="detail">
+                    <div></div>
+                    <p></p>
+                    <div class="counter">
+                      <div class="plus">+</div>
+                      <div class="minus">-</div>
+                    </div>
+                    <hr class="style18">
+                    <div>
+                      <p>TF1</p>
+                      <div class="counter">
+                        <div class="plus">+</div>
+                        <div class="minus">voir</div>
+                      </div>
+                    </div>
+                    <hr class="style18">
+                    <div>
+                      <p>France 2</p>
+                      <div class="counter">
+                        <div class="plus">+</div>
+                        <div class="minus">voir</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
+            <script>
+              !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+            </script>
+          </div>
+          <div class="app container-fluid">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <app-root class="col-xs-6"></app-root>
             </div>
           </div>
+        </div>
 
   </body>
 
