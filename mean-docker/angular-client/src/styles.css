@@ -8,7 +8,7 @@
 html,body {height:100%;overflow:hidden;}
 body {
   
-  background: url('assets/images/static.gif') center center ;
+  background: url('assets/images/static.jpg') center center ;
   font: 14px 'Ubuntu Condensed', sans-serif;
   line-height:1;
   min-height:280px;
@@ -252,9 +252,10 @@ hr.style18:before {
     background-size: cover;
 }
 .app{
+  top: 0;
+  left: 380px;
+  overflow: auto;
+  overflow-x: hidden;
   position: absolute;
-  background-color: grey;
-  margin-top: 11%;
   margin-left: 0%;
-  width: 100%;
 }

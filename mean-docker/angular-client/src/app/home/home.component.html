@@ -1,1 +1,10 @@
-home component
+<div class="row">
+<div *ngFor="let items of programms" class="itemsP">
+    <ul>
+        <li>{{ items.channel }}</li>
+        <li>{{ items.title }}</li>
+        <li>{{ items.content }}</li>
+    </ul>
+</div>
+<br>
+</div>
