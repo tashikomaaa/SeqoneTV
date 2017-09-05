@@ -41,9 +41,7 @@ export class ChannelComponent implements OnInit {
         this.http.get(`${this.API}/channelProg`, { })
             .map(res => res.json())
             .subscribe(programm => {
-                console.log(programm)
                 this.programms = programm
-                console.log(this.programms)
             })
     }
 

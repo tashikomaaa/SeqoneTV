@@ -47,7 +47,7 @@ router.get('/feed', (req, res) => {
 
         var url = 'https://webnext.fr/epg_cache/programme-tv-rss_' + day + '-' + month + '-' + year + '.xml';
         t.on('tweet', function (tweet) {
-            //console.log('|', tweet.text, '|')
+
             tweets = tweet.text;
         })
 
@@ -55,22 +55,16 @@ router.get('/feed', (req, res) => {
             console.log('Oh no')
         })
         feed.load(url, function (err, rss) {
-            //console.log(rss.items);
             prog = rss.items;
-            console.log(rss.items)
             connection.connect(function (err) {
                 for (var i = 0; i < rss.items.length; i++) {
                     var channel = rss.items[i].title.split("|");
                     var description = rss.items[i].description;
-                    console.log(channel);
-                    //console.log(rss.items[i].description)
                     t.track(channel[0])
-                    console.log(description)
                     console.log("Connected!");
                     var sql = "INSERT INTO programm (title, channel, hour, content, url, date) VALUES ('" + channel[2] + "', '" + channel[0] + "', '" + channel[1] + "', '" + rss.items[i].description + "', '" + rss.items[i].url + "', NOW())";
-                    console.log(sql);
                     connection.query(sql, function (err, result) {
-                        //console.log("1 record inserted");
+                        
                     });
                 };
             });
@@ -121,21 +115,6 @@ router.get('/getProgs', (req, res) => {
     res.json(prog)
 })
 
-router.get('/tweets', (req, res) => {
-    
-        t.on('tweet', function (tweet) {
-            console.log('tweet received', tweet.text)
-        })
-    
-        t.on('error', function (err) {
-            console.log('Oh no')
-        })
-    
-        t.track('france3')
-        t.track('france2')
-        t.track('tf1')
-        t.track('canal+')
 
-    }); 
 
 module.exports = router;

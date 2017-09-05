@@ -26,26 +26,20 @@ export class HomeComponent implements OnInit {
 
     constructor(/*private programmService: ProgrammService,*/ private http: Http) { }
 
-    //   getProgramms(): void{
-    //       this.programmService.getAllProgramm();
-    //     //   console.log(this.programmService.programms
-    //       this.programms = this.programmService.programms
-    //   }
-
     //Get All programm
     getAllProgramm() {
         this.http.get(`${this.API}/getProgs`, {})
             .map(res => res.json())
             .subscribe(programm => {
-                console.log(programm)
+
                 this.programms = programm
-                console.log(this.programms)
+
             }) 
 
         this.http.get(`${this.API}/tweets`, {})
             .map(res => res.json())
             .subscribe(tweet => {
-                console.log(tweet)
+
                 this.tweets = tweet;
             }) 
     }
