@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
 
     // Declare empty list of programm
     programms: any[] = [];
+    channels = [];
     tweets: any[] = [];
     keysArray: any[] = [];
 
@@ -28,13 +29,15 @@ export class HomeComponent implements OnInit {
 
     //Get All programm
     getAllProgramm() {
-        this.http.get(`${this.API}/getProgs`, {})
+
+        this.http.get(`${this.API}/getChannel`, {})
             .map(res => res.json())
-            .subscribe(programm => {
-
-                this.programms = programm
-
+            .subscribe(channel => {
+                this.channels = channel;
+                console.log(this.channels)
+                
             }) 
+        
 
         this.http.get(`${this.API}/tweets`, {})
             .map(res => res.json())

@@ -27,72 +27,91 @@ var tweets = {};
 
 /* GET api listing. */
 router.get('/feed', (req, res) => {
-    setInterval(feedData, 86400000);
-    function feedData() {
-        //get the date
-        var date = new Date();
 
-        //get day
-        var day = date.getUTCDate();
-        if (day < 10)
-            day = '0' + day
+    //get the date
+    var date = new Date();
 
-        //get month
-        var month = date.getUTCMonth() + 1;
-        if (month < 10)
-            month = '0' + month
+    //get day
+    var day = date.getUTCDate();
+    if (day < 10)
+        day = '0' + day
 
-        //get year
-        var year = date.getUTCFullYear();
+    //get month
+    var month = date.getUTCMonth() + 1;
+    if (month < 10)
+        month = '0' + month
 
-        var url = 'https://webnext.fr/epg_cache/programme-tv-rss_' + day + '-' + month + '-' + year + '.xml';
-        t.on('tweet', function (tweet) {
+    //get year
+    var year = date.getUTCFullYear();
 
-            tweets = tweet.text;
-        })
+    var url = 'https://webnext.fr/epg_cache/programme-tv-rss_' + day + '-' + month + '-' + year + '.xml';
+    t.on('tweet', function (tweet) {
 
-        t.on('error', function (err) {
-            console.log('Oh no')
-        })
-        feed.load(url, function (err, rss) {
-            prog = rss.items;
-            connection.connect(function (err) {
-                for (var i = 0; i < rss.items.length; i++) {
-                    var channel = rss.items[i].title.split("|");
-                    var description = rss.items[i].description;
-                    t.track(channel[0])
-                    console.log("Connected!");
-                    var sql = "INSERT INTO programm (title, channel, hour, content, url, date) VALUES ('" + channel[2] + "', '" + channel[0] + "', '" + channel[1] + "', '" + rss.items[i].description + "', '" + rss.items[i].url + "', NOW())";
-                    connection.query(sql, function (err, result) {
-                        
-                    });
-                };
-            });
+        tweets = tweet.text;
+    })
 
-            res.json(prog)
+    t.on('error', function (err) {
+        console.log('Oh no')
+    })
+    feed.load(url, function (err, rss) {
+        prog = rss.items;
+        connection.connect(function (err) {
+            for (var i = 0; i < rss.items.length; i++) {
+                var channel = rss.items[i].title.split("|");
+                var description = rss.items[i].description;
+                t.track(channel[0])
+                console.log("Connected!");
+                var sql = "INSERT INTO programmes (title, channel, hour, content, url, date) VALUES ('" + channel[2] + "', '" + channel[0] + "', '" + channel[1] + "', '" + rss.items[i].description + "', '" + rss.items[i].url + "', NOW())";
+                connection.query(sql, function (err, result) {
+
+                });
+            };
         });
-    }
-
+        res.json(prog)
+    });
 });
 
-router.get('/channel', (req, res) => {
+router.get('/getChannel', (req, res) => {
 
     connection.connect(function (err) {
-        var sql = "SELECT * FROM channel";
+        var sql = "SELECT name, url, logo FROM channel";
         connection.query(sql, function (err, result) {
-            channel = result;
+            if (err) {
+                console.log(err);
+            } else {
+                channel = result;
+                console.log(channel.length);
+                for (var i = 0; i < channel.length - 1; i++) {
+                    progChan(channel[i]);
+                }
+            }
         })
     });
+    function progChan(channelName) {
+
+        connection.connect(function (error) {
+            var sqlp = "SELECT title, channel, content, date, programmes.url  FROM programmes LEFT OUTER JOIN channel ON name = channel WHERE channel LIKE '%" + channelName.name + "%' AND date = DATE_FORMAT(NOW(), '%Y-%m-%d') ORDER BY date DESC, hour ASC LIMIT 1";
+            //console.log(sqlp);
+            connection.query(sqlp, function (error, resultat) {
+                console.log('query')
+                if (error) {
+                    console.log('error');
+                    console.log(error);
+                } else {
+                    console.log('ok')
+                    channelName.prog = resultat;
+                    //console.log(channelName.prog);
+                }
+            })
+        })
+    }
+    console.log(channel);
+    res.send(JSON.parse(JSON.stringify(channel)));
 
 });
 
 router.get('/channelProg', (req, res) => {
-    connection.connect(function (err) {
-        var sql = "SELECT * from programm WHERE channel = '" + req.body.channel + "' ORDER BY date";
-        connection.query(sql, function (err, result) {
-            prog = result;
-        })
-    })
+
 })
 
 router.get('/getProgs', (req, res) => {
@@ -106,7 +125,7 @@ router.get('/getProgs', (req, res) => {
 
 
     connection.connect(function (err) {
-        var sql = "SELECT * FROM programm";
+        var sql = "SELECT * FROM programmes LIMIT 10";
         connection.query(sql, function (err, result) {
             console.log(result)
             prog = result;
