@@ -1,13 +1,51 @@
-<div class="row pricing">
-    <div class="col-md-3" *ngFor="let channel of channels">
-        <div class="well" style="background: url('{{ channel.logo }}');">
-            <div *ngFor="let prog of channel.prog">
-            <hr>
-            <p>{{ prog.title }}</p>
-            <hr>
-            <p><b>h{{ prog.hour }}</b></p>
-            <hr>
-            <a href="#" class="btn btn-info btn-block">Voir</a>
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">Programme de la journee
+        <small>par chaine</small>
+    </h1>
+
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let channel of channels">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top" height="70px" src="{{channel.logo}}" alt="{{ channel.name }}"></a>
+                <div class="card-body" *ngFor="let prog of channel.prog">
+                    <h4 class="card-title">
+                        <a href="#">{{ prog.title }}</a>
+                    </h4>
+                    <p>{{ prog.hour }}</p>
+                    <p class="card-text">{{ prog.content }}</p>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- /.row -->
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+        </li>
+    </ul>
+
 </div>
+<!-- /.container -->

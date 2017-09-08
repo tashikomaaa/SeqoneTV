@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -9,17 +9,13 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
-
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
     <script src="https://use.fontawesome.com/a6b0dde7b4.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
@@ -27,684 +23,486 @@
     <script src="app.js"></script>
 </head>
 <style>
-    /* I'm using Ubuntu Condensed font
-/* instead of the original shot font,
-/* I think Ubuntu font is a better fit,
-/* What do you think? 
-/* **************************** */
-
-    * {
-        box-sizing: border-box
-    }
-
     html,
-    body {
-        height: 100%;
+    body,
+    header,
+    main {
+        height: 100vh;
     }
 
-    * {
-        box-sizing: border-box;
+    header {
+        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+        background: linear-gradient(top left, #e84c00, #c10040);
     }
 
-    body {
-        min-height: 100%;
-        font-family: "Poiret One", sans-serif;
-        font-size: 16px;
-        background: #FFF5EE;
-        color: #40484b;
-        letter-spacing: .8px;
-        overflow-x: hidden;
-    }
-
-    body::-webkit-scrollbar {
-        display: none;
-    }
-
-    .paper {
-        width: 250px;
-        height: 85%;
-        border-radius: 4px;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
-        position: fixed;
-        top: 13%;
-        left: 30px;
-    }
-
-    .twitterStream {
-        width: 250px;
-        height: 85%;
-        border-radius: 4px;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
-        position: fixed;
-        top: 13%;
-        right: 30px;
-    }
-
-    .box {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        overflow: hidden;
-        border-radius: 4px
-    }
-
-    .inner-box {
-        width: 100%;
-        height: 100%;
-        overflow: auto!important;
-        overflow-x: hidden!important;
-        border-radius: 4px
-    }
-
-    .title {
-        padding-top: 20px;
-        font-size: 30px;
-        width: 250px;
-        background: #f7ffce;
-        background: linear-gradient(135deg, #f7ffce, #e2e4b8);
-        border-radius: 4px 4px 0 0;
-        color: #af9a50;
-        padding: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-        position: fixed;
-        left: 30px;
-        z-index: 5;
-    }
-
-    .bar {
-        height: 30px;
-        background: #f7ffce;
-        background: linear-gradient(135deg, #f7ffce, #e2e4b8);
-        border-radius: 4px 4px 0 0;
-        color: #af9a50;
-        padding: 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-        position: relative;
-        z-index: 5;
-    }
-
-    .menu {
-        float: left;
-        width: 12px
-    }
-
-    .menu span {
-        height: 1px;
-        background: #af9a50;
-        display: block;
-        margin-bottom: 3px;
-    }
-
-    .bar p {
-        float: left;
-        margin-left: 10px;
-        margin-top: -3px;
-    }
-
-    .bar .action {
-        float: right;
-        margin-top: -13px
-    }
-
-    .bar>span {
-        float: left;
-        width: 100%;
-        margin-top: 22px
-    }
-
-    .item {
-        height: 20%;
-        padding: 20px;
-        box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
-        position: relative;
-        font-size: 21px;
-        -webkit-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
-
-    .item>.box>p {
-        line-height: 40px;
-        -webkit-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
-
-    .detail {
-        font-size: 17px;
-        -webkit-transition: all 200ms ease;
-        transition: all 200ms ease;
-        opacity: 0;
-        margin-top: 80px;
-    }
-
-    .detail div {
-        line-height: 35px
-    }
-
-    .detail .counter,
-    .detail p {
-        float: left;
-        width: 50%
-    }
-
-    .detail>div {
-        float: left;
-        width: 100%
-    }
-
-    .detail .counter {
-        text-align: right;
-        margin-top: 6px;
-    }
-
-    .detail .counter div {
-        width: 35px;
-        height: 20px;
-        float: right;
-        text-align: center;
-        line-height: 20px;
-        margin-top: 16px;
-        cursor: pointer
-    }
-
-    .detail .counter .plus {
-        margin-left: 1px;
-        border-radius: 0 30px 30px 0;
-    }
-
-    .detail .counter .minus {
-        margin-right: 1px;
-        margin-left: 11px;
-        border-radius: 30px 0 0 30px;
-    }
-
-    .item.channel {
-        background: #ffe26f;
-        background: linear-gradient(135deg, #ffe26f, #e8c962);
-        z-index: 4;
-        color: #e07556;
-    }
-
-    .item.channel .detail .counter div {
-        background: #FFF2BE
-    }
-
-    .item.tvShow {
-        background: #f3825f;
-        background: linear-gradient(135deg, #f3825f, #f3825f);
-        z-index: 3;
-        color: #9c3c53;
-    }
-
-    .item.tvShow .detail .counter div {
-        background: #FFC5B2
-    }
-
-    .item.myProg {
-        background: #a7425c;
-        background: linear-gradient(135deg, #a7425c, #993950);
-        z-index: 2;
-        color: #402344;
-    }
-
-    .item.myProg .detail .counter div {
-        background: #ECA9BA
-    }
-
-
-    .item-icon img {
-        height: 60px;
-        width: 65px;
-        float: left;
-        margin-right: 10px;
-        -webkit-transition: all 200ms ease;
-        transition: all 200ms ease;
-        -webkit-transform: translateZ(0);
-        -moz-transform: translateZ(0);
-        -ms-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-
-    .item-icon.channel {
-        background-position: 0 0
-    }
-
-    .item-icon.tvShow {
-        background-position: -70px 0
-    }
-
-    .item-icon.myProg {
-        background-position: -137px 0
-    }
-    /** Active **/
-
-    .paper.item-active .item {
-        height: 60px;
-        padding: 0 20px
-    }
-
-    .paper.item-active .item.active {
-        height: 260px;
-        padding: 20px;
-        -webkit-transform: translateZ(0);
-        -moz-transform: translateZ(0);
-        -ms-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-
-    .item.active .item-icon {
-        -webkit-transform: scale(1.5) translateZ(0);
-        -ms-transform: scale(1.5) translateZ(0);
-        -moz-transform: scale(1.5) translateZ(0);
-        transform: scale(1.5) translateZ(0);
-        margin: 0 auto;
-        float: none;
-    }
-
-    .item.active>.inner-box>p {
-        font-size: 31px;
-        text-align: center
-    }
-
-    .item.active>.inner-box {
-        overflow: auto!important;
-        overflow-x: hidden!important;
-    }
-
-    .item.active .detail {
-        opacity: 1
-    }
-    /** Extra For Previewing **/
-    /** making some things unselectable **/
-
-    .item>.box>p,
-    .counter {
-        -moz-user-select: -moz-none;
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-    }
-
-    .item>.box>p {
-        cursor: default
-    }
-
-    hr.style18 {
-        height: 30px;
-        border-style: solid;
-        border-color: #8c8b8b;
-        border-width: 1px 0 0 0;
-        border-radius: 20px;
-    }
-
-    hr.style18:before {
-        display: block;
-        content: "";
-        height: 30px;
-        margin-top: -31px;
-        border-style: solid;
-        border-color: #8c8b8b;
-        border-width: 0 0 1px 0;
-        border-radius: 20px;
-    }
-
-
-
-    .logos {
-        left: 10%;
-        height: 70px;
-    }
-
-    .round-border {
-        overflow: visible;
-        overflow-x: hidden;
-        margin-top: 5rem;
-        left: 35rem;
-        width: 90%;
-        height: 100%;
-        border: 20px solid #b8e2ee;
-        border-radius: 4px 4px 0 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-        z-index: 5;
-        position: fixed;
-    }
-
-    .card-border:before {
+    .scroll {
         position: absolute;
-        top: 52px;
-        left: 5px;
-
-        transform: rotate(-5deg);
-        box-shadow: 7px 6px 15px #333;
+        left: 50%;
+        bottom: 0;
+        height: 0;
+        width: 0;
+        border-left: 90px solid transparent;
+        border-right: 90px solid transparent;
+        border-bottom: 80px solid white;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 
-    .card-border:after {
-        top: 52px;
-        right: 5px;
-
-        transform: rotate(5deg);
-        box-shadow: -7px 6px 15px #333;
+    .scroll:before {
+        content: '';
+        position: absolute;
+        top: 45px;
+        left: 50%;
+        height: 20px;
+        width: 30px;
+        margin-top: -5px;
+        margin-left: -15px;
+        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+        background: linear-gradient(top left, #e84c00, #c10040);
+        -webkit-clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+        clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+        -webkit-animation: bounce 2s ease infinite;
+        animation: bounce 2s ease infinite;
     }
 
-    .rounded-border {
-        overflow: visible;
-        overflow-x: hidden;
-        margin-top: 5rem;
-        left: 35rem;
-        border: 20px solid #b8e2ee;
-        border-radius: 4px 4px 0 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-        z-index: 5;
+    header img {
+        margin-top: 10%;
     }
+
+    @-webkit-keyframes bounce {
+        50% {
+            -webkit-transform: scale(0.75) translateY(-50%);
+            transform: scale(0.75) translateY(-50%);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes bounce {
+        50% {
+            -webkit-transform: scale(0.75) translateY(-50%);
+            transform: scale(0.75) translateY(-50%);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+    /* This class is added on scroll */
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        height: 70px;
+        z-index: 1;
+    }
+
+    body {
+        color: #fff;
+        font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    /* Navigation Settings */
+
+    nav {
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        height: 70px;
+        background: #fff;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 24px 10px;
+    }
+
+    nav li a {
+        color: #757575;
+        text-transform: uppercase;
+    }
+
+    section {
+        height: 100vh;
+    }
+    /* Screens Settings */
+
+    #screen1 {
+        background: #43b29d;
+    }
+
+    #screen1 p {
+        padding-top: 100%;
+    }
+
+    #screen2 {
+        background: #efc94d;
+    }
+
+    #screen3 {
+        background: #e1793d;
+    }
+
+    #screen4 {
+        background: #43b29d;
+    }
+
+    #screen5 {
+        background: #efc94d;
+    }
+
+    @media only screen and (max-width: 520px) {
+
+        nav li {
+            padding: 24px 4px;
+        }
+
+        nav li a {
+            font-size: 14px;
+        }
+    }
+
+
+
+
+
+
+    #hiddenInput {
+        font-size: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #808080;
+        position: absolute;
+        opacity: 0.4;
+        margin-top: -22px;
+        margin-left: -125px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    #container {
+        position: absolute;
+        top: 65%;
+        left: 48%;
+    }
+
+    #input {
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -120px;
+    }
+
+    .letterContainer {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    .letterStatic {
+        display: inline;
+    }
+
+    .letterAnimTop {
+        display: inline;
+        position: absolute;
+        -webkit-animation: dropTop .1s ease;
+        -moz-animation: dropTop .1s ease;
+    }
+
+    .letterAnimBottom {
+        display: inline;
+        position: absolute;
+        -webkit-animation: dropBottom .1s ease;
+        -moz-animation: dropBottom .1s ease;
+    }
+
+    .blink {
+        position: static;
+        top: -5px;
+        -webkit-animation: blink 0.3s ease 0 infinite alternate;
+        -moz-animation: blink 0.3s ease 0 infinite alternate;
+    }
+
+    @-moz-keyframes blink {
+        from {
+            opacity: 0
+        }
+        to {
+            opactiy: 1
+        }
+    }
+
+    @-webkit-keyframes blink {
+        from {
+            opacity: 0
+        }
+        to {
+            opactiy: 1
+        }
+    }
+
+    @-moz-keyframes dropTop {
+        from {
+            -moz-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+            transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+        }
+
+        to {
+            -moz-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+            transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+        }
+    }
+
+    @-moz-keyframes dropBottom {
+        from {
+            -moz-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+            transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+        }
+
+        to {
+            -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+        }
+    }
+
+    @-webkit-keyframes dropTop {
+        from {
+            -webkit-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+        }
+        to {
+            -webkit-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+        }
+    }
+
+    @-webkit-keyframes dropBottom {
+        from {
+            -webkit-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+        }
+        to {
+            -webkit-transform: rotateX(0deg);
+        }
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        height: 300px;
+        top: 10%;
+        margin: 1rem;
+        position: relative;
+        width: 300px;
+    }
+
+    .card-1 {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .card-1:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
 </style>
 
+<header id="home">
+    <img src="https://seq.one/wp-content/uploads/2016/07/seqone-logo-blk.png" alt="">
+    <div id="container">
+        <div id="input"></div>
+        <input type="text" id="hiddenInput">
+    </div>
+    <a href="#screen1">
+        <div class='scroll'></div>
+    </a>
+</header>
+
 <body>
+    <section id="screen1">
+        <nav>
+            <ul>
+                <li><a href="#screen1">Home</a></li>
+                <li><a href="#screen2">Channel</a></li>
+                <li><a href="#screen3">Programmes</a></li>
+                <li><a href="#screen4">My progs</a></li>
+                <li><a href="#screen5">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+    </section>
 
-    <body>
-        <!-- left  navbar -->
-        <div class="container">
-            <div id="content" class="row">
-                <div class="col">
-                    <div ng-app="MenuApp" ng-controller="MenuController">
-                        <h1 class="title">SeqoneTV</h1>
-                        <div class="paper preview-1">
-                            <div class="box">
-                                <div class="bar">
-                                    <p>Menu</p>
-                                </div>
+    <section id="screen2">
+        <div>bxblbctlb</div>
+    </section>
+    <section id="screen3">
+        <div>bxblbctlb</div>
+    </section>
+    <section id="screen4"></section>
+    <section id="screen5"></section>
+</body>
+<script>
+    $(document).ready(function () {
+        $('#nav-icon1').click(function () {
+            $(this).toggleClass('open');
+            $('#menu').toggleClass('open');
+        });
+    });
 
-                                <div class="item channel" ng-click="myFunc($event)">
-                                    <div class="box">
-                                        <div class="inner-box">
-                                            <div class="item-icon">
-                                                <img src="assets/images/television.png" alt="">
-                                            </div>
-                                            <p>Channel</p>
-                                            <div class="detail">
-                                                <div>
-                                                    <p>TF1</p>
-                                                    <div class="counter">
-                                                        <div class="plus">+</div>
-                                                        <div class="minus">voir</div>
-                                                    </div>
-                                                </div>
-                                                <hr class="style18">
-                                                <div>
-                                                    <p>France 2</p>
-                                                    <div class="counter">
-                                                        <div class="plus">+</div>
-                                                        <div class="minus">voir</div>
-                                                    </div>
-                                                </div>
-                                                <hr class="style18">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item tvShow" ng-click="myFunc($event)">
-                                    <div class="box">
-                                        <div class="inner-box">
-                                            <div class="item-icon">
-                                                <img src="assets/images/show-presenter.png" alt="">
-                                            </div>
-                                            <p>TV show</p>
-                                            <div class="detail">
-                                                <div>
-                                                    <p>Baklava</p>
-                                                    <div class="counter">
-                                                        <div class="plus">+</div>
-                                                        <div class="minus">voir</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item myProg" ng-click="myFunc($event)">
-                                    <div class="box">
-                                        <div class="inner-box">
-                                            <div class="item-icon ">
-                                                <img src="assets/images/tv-remote-control.png" alt="">
-                                            </div>
-                                            <p>My Progs</p>
-                                            <div class="detail">
-                                                <div></div>
-                                                <p></p>
-                                                <div class="counter">
-                                                    <div class="plus">+</div>
-                                                    <div class="minus">-</div>
-                                                </div>
-                                                <hr class="style18">
-                                                <div>
-                                                    <p>TF1</p>
-                                                    <div class="counter">
-                                                        <div class="plus">+</div>
-                                                        <div class="minus">voir</div>
-                                                    </div>
-                                                </div>
-                                                <hr class="style18">
-                                                <div>
-                                                    <p>France 2</p>
-                                                    <div class="counter">
-                                                        <div class="plus">+</div>
-                                                        <div class="minus">voir</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
-                                <script>
-                                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- left  navbar -->
-                <!-- app center container  -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 round-border">
-                            <app-root class="col-sm-12">
-                                <div class="col-md-8" *ngFor="let channel of channels">
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card rounded-border" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
+    $('a[href^="#"]').click(function () {
+        var the_id = $(this).attr("href");
 
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
+        $('html, body').animate({
+            scrollTop: $(the_id).offset().top
+        }, 'slow');
+        return false;
+    });
 
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
+    $(document).ready(function () {
+        $(window).bind('scroll', function () {
+            var navHeight = $(window).height() - 70;
+            if ($(window).scrollTop() > navHeight) {
+                $('nav').addClass('fixed');
+            }
+            else {
+                $('nav').removeClass('fixed');
+            }
+        });
+    });
 
-                                    <div class="col-md-12 " *ngFor="let prog of channel.prog">
-                                        <div class="card-border">
-                                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/fr/7/77/TF1_%282013%29.svg" alt="" style="height: 9rem;">
-                                            <div class="card" style="background-color: #b0e0e6; border-color: #333;">
-                                                <div class="card-block">
-                                                    <h2 class="card-title">{{ prog.title }}</h2>
-                                                    <p class="card-text"></p>
-                                                    <p class="card-text"></p>
-                                                    <a href="{{ prog.url }}" class="btn btn-primary">See more</a>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <hr>
-                                </div>
+</script>
+<script>
+    var input;
+    var cursor;
+    var hiddenInput;
+    var content = [];
+    var lastContent = "", targetContent = "";
+    var inputLock = false;
+    var autoWriteTimer;
 
-                            </app-root>
-                        </div>
-                    </div>
-                </div>
-                <!-- app center container -->
-    </body>
+    var isMobile, isIE;
+
+    window.onload = function () {
+
+        isMobile = navigator && navigator.platform && navigator.platform.match(/^(iPad|iPod|iPhone)$/);
+
+        isIE = (navigator.appName == 'Microsoft Internet Explorer');
+
+        input = document.getElementById('input');
+
+        hiddenInput = document.getElementById('hiddenInput');
+        hiddenInput.focus();
+
+        cursor = document.createElement('cursor');
+        cursor.setAttribute('class', 'blink');
+        cursor.innerHTML = "|";
+
+        if (!isMobile && !isIE) input.appendChild(cursor);
+
+        function refresh() {
+
+            inputLock = true;
+
+            if (targetContent.length - lastContent.length == 0) return;
+
+            var v = targetContent.substring(0, lastContent.length + 1);
+
+            content = [];
+
+            var blinkPadding = false;
+
+            for (var i = 0; i < v.length; i++) {
+                var l = v.charAt(i);
+
+                var d = document.createElement('div');
+                d.setAttribute('class', 'letterContainer');
+
+                var d2 = document.createElement('div');
+
+                var animClass = (i % 2 == 0) ? 'letterAnimTop' : 'letterAnimBottom';
+
+                var letterClass = (lastContent.charAt(i) == l) ? 'letterStatic' : animClass;
+
+                if (letterClass != 'letterStatic') blinkPadding = true;
+
+                d2.setAttribute('class', letterClass);
+
+                d.appendChild(d2);
+
+                d2.innerHTML = l;
+                content.push(d);
+            }
+
+            input.innerHTML = '';
+
+            for (var i = 0; i < content.length; i++) {
+                input.appendChild(content[i]);
+            }
+
+            cursor.style.paddingLeft = (blinkPadding) ? '22px' : '0';
+
+            if (!isMobile && !isIE) input.appendChild(cursor);
+
+            if (targetContent.length - lastContent.length > 1) setTimeout(refresh, 150);
+            else inputLock = false;
+
+            lastContent = v;
+        }
+
+        if (document.addEventListener) {
+
+            document.addEventListener('touchstart', function (e) {
+                clearInterval(autoWriteTimer);
+                targetContent = lastContent;
+            }, false);
+
+            document.addEventListener('click', function (e) {
+                clearInterval(autoWriteTimer);
+                targetContent = lastContent;
+                hiddenInput.focus();
+            }, false);
+
+            if (!isIE) {
+                // Input event is buggy on IE, so don't bother
+                // (https://msdn.microsoft.com/en-us/library/gg592978(v=vs.85).aspx#feedback)
+                // We will use a timer instead (below)
+                hiddenInput.addEventListener('input', function (e) {
+                    e.preventDefault();
+                    targetContent = hiddenInput.value;
+                    if (!inputLock) refresh();
+
+                }, false);
+            } else {
+                setInterval(function () {
+                    targetContent = hiddenInput.value;
+
+                    if (targetContent != lastContent && !inputLock) refresh();
+                }, 100);
+            }
+
+        }
+
+        hiddenInput.value = "";
+
+        autoWriteTimer = setTimeout(function () {
+            if (lastContent != "") return;
+            targetContent = "bonjour bienvenue sur SeqoneTV";
+            refresh();
+        }, 2000);
+    }
+
+</script>
 
 </html>
