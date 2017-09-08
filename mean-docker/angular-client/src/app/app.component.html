@@ -1,3 +1,55 @@
+<!-- left  navbar -->
+<div class="container">
+    <div id="content" class="row">
+        <div ng-app="MenuApp" ng-controller="MenuController">
+            
+            <div class="paper preview-1">
+                <div class="box">
+                    <div class="bar">
+                        <p>Menu</p>
+                    </div>
+                    <div class="item channel" ng-click="myFunc($event)">
+                        <div class="box">
+                            <div class="inner-box">
+                                <div class="item-icon">
+                                    <img src="assets/images/television.png" alt="">
+                                </div>
+                                <p>Channel</p>
+                                <div class="detail" *ngFor="let channel of channels">
+                                    <div>
+                                        <p>{{ channel.name }}</p>
+                                    </div>
+                                    <hr class="style18">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<router-outlet class="container"></router-outlet>
+                    <div class="item myProg" ng-click="myFunc($event)">
+                        <div class="box">
+                            <div class="inner-box">
+                                <div class="item-icon ">
+                                    <img src="assets/images/tv-remote-control.png" alt="">
+                                </div>
+                                <p>My Progs</p>
+                                <div class="detail">
+                                    <div></div>
+                                    <p></p>
+                                    <div class="counter">
+                                        <div class="plus">+</div>
+                                        <div class="minus">-</div>
+                                    </div>
+                                    <hr class="style18">
 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
+                    <script>
+                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
+            </div>
+        </div>
+        <router-outlet class="container "></router-outlet>

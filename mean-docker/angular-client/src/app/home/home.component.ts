@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
     constructor(/*private programmService: ProgrammService,*/ private http: Http) { }
 
     //Get All programm
-    getAllProgramm() {
+    getAllProgramm() {  
 
         this.http.get(`${this.API}/getChannel`, {})
             .map(res => res.json())

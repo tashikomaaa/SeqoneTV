@@ -90,7 +90,7 @@ router.get('/getChannel', (req, res) => {
     function progChan(channelName) {
 
         connection.connect(function (error) {
-            var sqlp = "SELECT title, channel, content, date, programmes.url  FROM programmes LEFT OUTER JOIN channel ON name = channel WHERE channel LIKE '%" + channelName.name + "%' AND date = DATE_FORMAT(NOW(), '%Y-%m-%d') ORDER BY date DESC, hour ASC LIMIT 1";
+            var sqlp = "SELECT title, channel, content, date, hour, programmes.url  FROM programmes LEFT OUTER JOIN channel ON name = channel WHERE channel LIKE '%" + channelName.name + "%' AND date = DATE_FORMAT(NOW()-1, '%Y-%m-%d') ORDER BY date DESC, hour ASC LIMIT 1";
             //console.log(sqlp);
             connection.query(sqlp, function (error, resultat) {
                 console.log('query')

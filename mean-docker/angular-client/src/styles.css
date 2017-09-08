@@ -32,12 +32,19 @@ body::-webkit-scrollbar{
   top:13%;
   left:30px;
 }
-
+.twitterStream {
+  width:250px;
+  height:85%;
+  border-radius:4px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.15);
+  position:fixed;
+  top:13%;
+  right: 30px;
+}
 
 .box {width:100%;height:100%;overflow:hidden;overflow: hidden;border-radius:4px}
 .inner-box{width:100%;height:100%;overflow: auto!important;overflow-x: hidden!important; border-radius:4px}
 .title{
-  padding-top: 20px;
   font-size: 30px;
   width: 250px;
   background: #f7ffce;
@@ -127,38 +134,30 @@ body::-webkit-scrollbar{
   border-radius:30px 0 0 30px;
 }
 
-.item.coffee {
+.item.channel {
   background: #ffe26f;
   background:linear-gradient(135deg,#ffe26f,#e8c962);
   z-index:4;
   color:#e07556; 
 }
-.item.coffee .detail .counter div {background: #FFF2BE}
+.item.channel .detail .counter div {background: #FFF2BE}
 
-.item.sweet {
+.item.tvShow {
   background: #f3825f;
   background:linear-gradient(135deg,#f3825f,#f3825f);
   z-index:3;
   color:#9c3c53;
 }
-.item.sweet .detail .counter div {background: #FFC5B2}
+.item.tvShow .detail .counter div {background: #FFC5B2}
 
-.item.food {
+.item.myProg {
   background: #a7425c;
   background:linear-gradient(135deg,#a7425c,#993950);
   z-index:2;
   color:#402344;
 }
-.item.food .detail .counter div {background: #ECA9BA}
+.item.myProg .detail .counter div {background: #ECA9BA}
 
-.item.drink {
-  background: #563761;
-  background:linear-gradient(135deg,#563761,#502f55);
-  z-index:1;
-  color:#1c1730;
-  border-radius:0 0 4px 4px
-}
-.item.drink .detail .counter div {background: #8A7193}
 
 .item-icon img{ 
   height:60px;
@@ -169,10 +168,10 @@ body::-webkit-scrollbar{
   transition:all 200ms ease;
   -webkit-transform: translateZ(0);-moz-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);
 }
-.item-icon.coffee {background-position:0 0}
-.item-icon.sweet {background-position:-70px 0}
-.item-icon.food {background-position:-137px 0}
-.item-icon.drink {background-position:-208px 0}
+.item-icon.channel {background-position:0 0}
+.item-icon.tvShow {background-position:-70px 0}
+.item-icon.myProg {background-position:-137px 0}
+
 
 /** Active **/
 .paper.item-active .item {height:60px;padding:0 20px}
@@ -196,15 +195,6 @@ body::-webkit-scrollbar{
 .item.active .detail {opacity:1}
 
 /** Extra For Previewing **/
-.item .number,.paper.preview-1 .bar .action {
-    display:none
-}
-.paper.preview-1 {
-  margin-right:20px;
-}
-.paper.preview-2 {
-  margin-right:-300px;
-}
 /** making some things unselectable **/
 .item>.box>p,.counter {
   -moz-user-select: -moz-none;
@@ -235,16 +225,7 @@ hr.style18:before {
   border-radius: 20px; 
 }
 
-.app{
-  width: 100%;
-  top: 151px;
-  padding-left: 25%;
-  overflow: auto;
-  overflow-x: hidden;
-  position: absolute;
-  margin-left: 0%;
-  padding-right: 10%; 
-}
+
 
 .logos{
   left: 10%;
@@ -252,87 +233,44 @@ hr.style18:before {
 }
 
 .round-border{
-  margin-top: -10px;
-  width: 100%;
+  overflow: visible;
+  overflow-x: hidden;
+  margin-top: 5rem;
+  left: 35rem;
+  width: 90%;
+  height: 100%;
   border: 20px solid #b8e2ee;
-  border-radius: 10px 10px 0 0;
-  box-shadow: 1px 1px 12px #555;
+  border-radius:4px 4px 0 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  z-index:5;
+  position: fixed;
 }
 
-hover-fold {
-  background: #e8c63d;
-  border: 5px white solid;
-  height: 310px;
-  margin: 10px auto;
-  -moz-perspective: 1500;
-  -webkit-perspective: 1500;
-  perspective: 1500;
+.curve:before {
+	top: 52px;
+	left: 5px;
+
+	transform: rotate(-5deg);
+	box-shadow: 7px 6px 15px #333;
+}
+.curve:after {
+	top: 52px;
+	right: 5px;
+	
+	transform: rotate(5deg);
+	box-shadow: -7px 6px 15px #333;
+}
+
+.overSubmenu{
+  background-color: grey;
   position: relative;
-  width: 410px;
+  left: 20%;
 }
-.hover-fold h2 {
-  border-bottom: 1px solid #333;
-  margin: 0 40px;
-  padding: 110px 0 2px;
-}
-.hover-fold .top {
-  height: 50%;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  -moz-transform: rotateX(0deg);
-  -ms-transform: rotateX(0deg);
-  -webkit-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-  -moz-transform-origin: 0 100%;
-  -ms-transform-origin: 0 100%;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-  -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: 10;
-}
-.hover-fold .top .face {
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  position: absolute;
-}
-.hover-fold:hover .top {
-  -moz-transform: rotateX(-180deg);
-  -ms-transform: rotateX(-180deg);
-  -webkit-transform: rotateX(-180deg);
-  transform: rotateX(-180deg);
-}
-.hover-fold .front {
 
-  height: 100%;
-  /*has to be 100% of .top */
-  width: 100%;
+.pricing {
+  text-align: center;
 }
-.hover-fold .back {
-  background: #e8c63d;
-  height: 100%;
-  /*has to be 100% of .top */
-  padding: 0 40px;
-  -moz-transform: rotateX(180deg);
-  -ms-transform: rotateX(180deg);
-  -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-  width: 100%;
-}
-.hover-fold .back p {
-  margin: 0;
-}
-.hover-fold .bottom {
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  z-index: 0;
+
+.card-img{
+  height: 5rem;
 }

@@ -1,15 +1,13 @@
-<div *ngFor="let items of channels">
-    <div class="hover-fold" *ngFor="let prog of items.prog">
-        <h2>{{ prog.title }}</h2>
-        <div class="top">
-            <div class="front face"><img src="{{ items.logo }}" alt=""></div>
-            <div class="back face">
-                <p>{{ prog.hour }}</p>
-                <br>
-                <p>{{ prog.content }}</p>
-            </div>
+<div class="row pricing">
+    <div class="col-md-3" *ngFor="let channel of channels">
+        <div class="well" style="background: url('{{ channel.logo }}');">
+            <div *ngFor="let prog of channel.prog">
+            <hr>
+            <p>{{ prog.title }}</p>
+            <hr>
+            <p><b>h{{ prog.hour }}</b></p>
+            <hr>
+            <a href="#" class="btn btn-info btn-block">Voir</a>
         </div>
-        <div class="bottom"></div>
     </div>
-    <br>
 </div>
