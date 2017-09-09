@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -9,36 +9,213 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
     crossorigin="anonymous">
-
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-
   <script src="https://use.fontawesome.com/a6b0dde7b4.js"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
   <script src="bower_components/ngtweet/dist/ngtweet.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
   <script src="app.js"></script>
 </head>
+<style>
+  header {
+    background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+    background: linear-gradient(top left, #e84c00, #c10040);
+  }
 
-<body>
-  <h1 class="title">SeqoneTV</h1>
-        <!-- left  navbar -->
-        <!-- app center container  -->
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <app-root class="col-sm-12 round-border"></app-root>
-            </div>
-          </div>
+  .scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 80px solid white;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .scroll:before {
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    height: 20px;
+    width: 30px;
+    margin-top: -5px;
+    margin-left: -15px;
+    background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+    background: linear-gradient(top left, #e84c00, #c10040);
+    -webkit-clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+    clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+    -webkit-animation: bounce 2s ease infinite;
+    animation: bounce 2s ease infinite;
+  }
+
+  header img {
+    margin-top: 10%;
+  }
+
+  @-webkit-keyframes bounce {
+    50% {
+      -webkit-transform: scale(0.75) translateY(-50%);
+      transform: scale(0.75) translateY(-50%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes bounce {
+    50% {
+      -webkit-transform: scale(0.75) translateY(-50%);
+      transform: scale(0.75) translateY(-50%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+</style>
+
+<header id="home" ng-app="App">
+  <img src="https://seq.one/wp-content/uploads/2016/07/seqone-logo-blk.png" alt="">
+  <div id="container" ng-controller="typeText">
+    <div id="input"></div>
+    <input type="text" id="hiddenInput">
+  </div>
+  <a ng-controller="navScroll" href="#screen1">
+    <div class='scroll'></div>
+  </a>
+</header>
+
+<body ng-controller="MenuController">
+  <section id="screen1">
+    <!-- navbar -->
+    <nav>
+      <ul ng-controller="navScroll">
+        <li><a href="#screen1">Home</a></li>
+        <li><a href="#screen2">Channel</a></li>
+        <li><a href="#screen3">Programmes</a></li>
+        <li><a href="#screen4">My progs</a></li>
+        <li><a href="#screen5">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- calendar card  -->
+    <div class="card-container">
+      <div class="calendar-card card-1">
+        <div class="calendar-card-top">
+          <table>
+            <tr>
+              <th>channel</th>
+              <th>06h00</th>
+            </tr>
+            <tr>
+            </tr>
+          </table>
         </div>
-        <!-- app center container -->
-  </body>
+      </div>
+    </div>
+    <!-- twitter stream -->
+    <div ng-controller="twitterButton" class="action-button z-depth-1">
+      <i  class="fa fa-twitter" aria-hidden="true"></i>
+      <ul class="action-list">
+        <li class="action-list-item">
+          <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
+          <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+          </script>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="screen2">
+
+    <div class="card-container">
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+      <div class="card card-1">
+        <div class="card-top">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="screen3">
+    <div class="card-container">
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+    </div>
+  </section>
+  <section id="screen4">
+    <div class="card-container">
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+    </div>
+  </section>
+  <section id="screen5">
+    <div class="card-container">
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+      <div class="card card-1"></div>
+    </div>
+  </section>
+</body>
 
 </html>

@@ -20,295 +20,10 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
     <script src="bower_components/ngtweet/dist/ngtweet.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
     <script src="app.js"></script>
 </head>
-<style>
-    html,
-    body,
-    header,
-    main {
-        height: 100vh;
-    }
-
-    header {
-        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
-        background: linear-gradient(top left, #e84c00, #c10040);
-    }
-
-    .scroll {
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        height: 0;
-        width: 0;
-        border-left: 90px solid transparent;
-        border-right: 90px solid transparent;
-        border-bottom: 80px solid white;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
-
-    .scroll:before {
-        content: '';
-        position: absolute;
-        top: 45px;
-        left: 50%;
-        height: 20px;
-        width: 30px;
-        margin-top: -5px;
-        margin-left: -15px;
-        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
-        background: linear-gradient(top left, #e84c00, #c10040);
-        -webkit-clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
-        clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
-        -webkit-animation: bounce 2s ease infinite;
-        animation: bounce 2s ease infinite;
-    }
-
-    header img {
-        margin-top: 10%;
-    }
-
-    @-webkit-keyframes bounce {
-        50% {
-            -webkit-transform: scale(0.75) translateY(-50%);
-            transform: scale(0.75) translateY(-50%);
-        }
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
-
-    @keyframes bounce {
-        50% {
-            -webkit-transform: scale(0.75) translateY(-50%);
-            transform: scale(0.75) translateY(-50%);
-        }
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
-
-    a {
-        text-decoration: none;
-    }
-    /* This class is added on scroll */
-
-    .fixed {
-        position: fixed;
-        top: 0;
-        height: 70px;
-        z-index: 1;
-    }
-
-    body {
-        color: #fff;
-        font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
-        font-size: 18px;
-        text-align: center;
-    }
-    /* Navigation Settings */
-
-    nav {
-        position: absolute;
-        bottom: -70px;
-        width: 100%;
-        height: 70px;
-        background: #fff;
-    }
-
-    nav li {
-        display: inline-block;
-        padding: 24px 10px;
-    }
-
-    nav li a {
-        color: #757575;
-        text-transform: uppercase;
-    }
-
-    section {
-        height: 100vh;
-    }
-    /* Screens Settings */
-
-    #screen1 {
-        background: #43b29d;
-    }
-
-    #screen1 p {
-        padding-top: 100%;
-    }
-
-    #screen2 {
-        background: #efc94d;
-    }
-
-    #screen3 {
-        background: #e1793d;
-    }
-
-    #screen4 {
-        background: #43b29d;
-    }
-
-    #screen5 {
-        background: #efc94d;
-    }
-
-    @media only screen and (max-width: 520px) {
-
-        nav li {
-            padding: 24px 4px;
-        }
-
-        nav li a {
-            font-size: 14px;
-        }
-    }
-
-
-
-
-
-
-    #hiddenInput {
-        font-size: 40px;
-        font-family: 'Roboto Condensed', sans-serif;
-        background-color: #808080;
-        position: absolute;
-        opacity: 0.4;
-        margin-top: -22px;
-        margin-left: -125px;
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-
-    #container {
-        position: absolute;
-        top: 65%;
-        left: 48%;
-    }
-
-    #input {
-        position: absolute;
-        margin-top: -20px;
-        margin-left: -120px;
-    }
-
-    .letterContainer {
-        display: inline;
-        white-space: nowrap;
-    }
-
-    .letterStatic {
-        display: inline;
-    }
-
-    .letterAnimTop {
-        display: inline;
-        position: absolute;
-        -webkit-animation: dropTop .1s ease;
-        -moz-animation: dropTop .1s ease;
-    }
-
-    .letterAnimBottom {
-        display: inline;
-        position: absolute;
-        -webkit-animation: dropBottom .1s ease;
-        -moz-animation: dropBottom .1s ease;
-    }
-
-    .blink {
-        position: static;
-        top: -5px;
-        -webkit-animation: blink 0.3s ease 0 infinite alternate;
-        -moz-animation: blink 0.3s ease 0 infinite alternate;
-    }
-
-    @-moz-keyframes blink {
-        from {
-            opacity: 0
-        }
-        to {
-            opactiy: 1
-        }
-    }
-
-    @-webkit-keyframes blink {
-        from {
-            opacity: 0
-        }
-        to {
-            opactiy: 1
-        }
-    }
-
-    @-moz-keyframes dropTop {
-        from {
-            -moz-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
-            transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
-        }
-
-        to {
-            -moz-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
-            transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
-        }
-    }
-
-    @-moz-keyframes dropBottom {
-        from {
-            -moz-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
-            transform: translateY(20px) translateZ(20px) rotateX(-90deg);
-        }
-
-        to {
-            -moz-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-        }
-    }
-
-    @-webkit-keyframes dropTop {
-        from {
-            -webkit-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
-        }
-        to {
-            -webkit-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
-        }
-    }
-
-    @-webkit-keyframes dropBottom {
-        from {
-            -webkit-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
-        }
-        to {
-            -webkit-transform: rotateX(0deg);
-        }
-    }
-
-    .card {
-        background: #fff;
-        border-radius: 2px;
-        display: inline-block;
-        height: 300px;
-        top: 10%;
-        margin: 1rem;
-        position: relative;
-        width: 300px;
-    }
-
-    .card-1 {
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    }
-
-    .card-1:hover {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    }
-
-</style>
 
 <header id="home">
     <img src="https://seq.one/wp-content/uploads/2016/07/seqone-logo-blk.png" alt="">
@@ -323,6 +38,7 @@
 
 <body>
     <section id="screen1">
+        <!-- navbar -->
         <nav>
             <ul>
                 <li><a href="#screen1">Home</a></li>
@@ -332,26 +48,106 @@
                 <li><a href="#screen5">Contact</a></li>
             </ul>
         </nav>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
-        <div class="card card-1"></div>
+        <!-- calendar card  -->
+        <div class="card-container">
+            <div class="calendar-card card-1">
+                <div class="calendar-card-top">
+                    <table>
+                        <tr>
+                        
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- twitter stream -->
+        <div class="action-button z-depth-1">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <ul class="action-list">
+                <li class="action-list-item">
+                    <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
+                    <script>
+                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                    </script>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section id="screen2">
-        <div>bxblbctlb</div>
+
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+            <div class="card card-1">
+                <div class="card-top">
+                </div>
+            </div>
+
+        </div>
     </section>
     <section id="screen3">
-        <div>bxblbctlb</div>
+        <div class="card-container">
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+        </div>
     </section>
-    <section id="screen4"></section>
-    <section id="screen5"></section>
+    <section id="screen4">
+        <div class="card-container">
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+        </div>
+    </section>
+    <section id="screen5">
+        <div class="card-container">
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+            <div class="card card-1"></div>
+        </div>
+    </section>
 </body>
 <script>
     $(document).ready(function () {
@@ -501,6 +297,103 @@
             targetContent = "bonjour bienvenue sur SeqoneTV";
             refresh();
         }, 2000);
+    }
+
+</script>
+<script>
+    var transitionTime = 0.3;
+
+    $(document).on('click', function (e) {
+        var button = document.querySelector('.action-button.is-open');
+        if (button) closeActions(button);
+    });
+
+    $('.action-button').on('click', function (e) {
+        e.stopPropagation();
+        var target = e.currentTarget;
+        if ($(target).hasClass('is-open')) return;
+
+        openActions(target);
+    });
+
+    function closeActions(button) {
+        var list = button.querySelector('.action-list');
+        var dimensions = {
+            width: list.clientWidth,
+            height: list.clientHeight
+        };
+
+        button.classList.remove('is-open');
+
+        requestAnimationFrame(morphList);
+
+        function moveButton() {
+            var buttonPosition = 0;
+
+            list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+            button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+
+            list.style.marginRight = '';
+            button.style.marginRight = '';
+        }
+
+        function morphList() {
+            var buttonPosition = dimensions.width / 2 - 30;
+
+            button.style.transition = 'all ' + transitionTime + 's ease';
+            list.style.transition = 'all ' + transitionTime + 's ease';
+
+            button.style.marginRight = buttonPosition + 'px';
+            list.style.marginRight = -buttonPosition + 'px';
+
+            button.style.width = '';
+            button.style.height = '';
+            button.style.borderRadius = '';
+            button.style.backgroundColor = '';
+
+            list.style.opacity = '';
+
+            $(list).one('transitionend', moveButton);
+        }
+    }
+
+    function openActions(button) {
+        var list = button.querySelector('.action-list');
+        var dimensions = {
+            width: list.clientWidth,
+            height: list.clientHeight
+        };
+
+        button.classList.add('is-open');
+
+        requestAnimationFrame(moveButton);
+
+        function moveButton() {
+            var buttonPosition = dimensions.width / 2 - 30;
+
+            list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+            button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+
+            list.style.marginRight = -buttonPosition + 'px';
+            button.style.marginRight = buttonPosition + 'px';
+
+            $(button).one('transitionend', morphButton);
+        }
+
+        function morphButton() {
+            button.style.transition = 'all ' + transitionTime + 's ease';
+            list.style.transition = 'all ' + transitionTime + 's ease';
+
+            button.style.marginRight = '0px';
+            list.style.marginRight = '0px';
+
+            button.style.width = dimensions.width + 'px';
+            button.style.height = dimensions.height + 'px';
+            button.style.borderRadius = '0';
+            button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
+
+            list.style.opacity = '1';
+        }
     }
 
 </script>
