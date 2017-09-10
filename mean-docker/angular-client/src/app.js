@@ -1,6 +1,6 @@
 var app = angular.module('App', []);
 
-app.controller('MenuController', function ($scope) {
+app.controller('MenuController', function () {
 
     //For twitter API
     !function (d, s, id) {
@@ -17,99 +17,100 @@ app.controller('MenuController', function ($scope) {
 });
 
 app.controller('twitterButton', function () {
-    console.log('twitter button')
-    var transitionTime = 0.3;
+    window.onload = function () {
+        var transitionTime = 0.3;
 
-    $(document).on('click', function (e) {
-        var button = document.querySelector('.action-button.is-open');
-        if (button) closeActions(button);
-    });
+        $(document).on('click', function (e) {
+            var button = document.querySelector('.action-button.is-open');
+            if (button) closeActions(button);
+        });
 
-    $('.action-button').on('click', function (e) {
-        e.stopPropagation();
-        var target = e.currentTarget;
-        if ($(target).hasClass('is-open')) return;
+        $('.action-button').on('click', function (e) {
+            e.stopPropagation();
+            var target = e.currentTarget;
+            if ($(target).hasClass('is-open')) return;
 
-        openActions(target);
-    });
+            openActions(target);
+        });
 
-    function closeActions(button) {
-        var list = button.querySelector('.action-list');
-        var dimensions = {
-            width: list.clientWidth,
-            height: list.clientHeight
-        };
+        function closeActions(button) {
+            var list = button.querySelector('.action-list');
+            var dimensions = {
+                width: list.clientWidth,
+                height: list.clientHeight
+            };
 
-        button.classList.remove('is-open');
+            button.classList.remove('is-open');
 
-        requestAnimationFrame(morphList);
+            requestAnimationFrame(morphList);
 
-        function moveButton() {
-            var buttonPosition = 0;
+            function moveButton() {
+                var buttonPosition = 0;
 
-            list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
-            button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+                list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+                button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
 
-            list.style.marginRight = '';
-            button.style.marginRight = '';
+                list.style.marginRight = '';
+                button.style.marginRight = '';
+            }
+
+            function morphList() {
+                var buttonPosition = dimensions.width / 2 - 30;
+
+                button.style.transition = 'all ' + transitionTime + 's ease';
+                list.style.transition = 'all ' + transitionTime + 's ease';
+
+                button.style.marginRight = buttonPosition + 'px';
+                list.style.marginRight = -buttonPosition + 'px';
+
+                button.style.width = '';
+                button.style.height = '';
+                button.style.borderRadius = '';
+                button.style.backgroundColor = '';
+
+                list.style.opacity = '';
+
+                $(list).one('transitionend', moveButton);
+            }
         }
 
-        function morphList() {
-            var buttonPosition = dimensions.width / 2 - 30;
+        function openActions(button) {
+            var list = button.querySelector('.action-list');
+            var dimensions = {
+                width: list.clientWidth,
+                height: list.clientHeight
+            };
 
-            button.style.transition = 'all ' + transitionTime + 's ease';
-            list.style.transition = 'all ' + transitionTime + 's ease';
+            button.classList.add('is-open');
 
-            button.style.marginRight = buttonPosition + 'px';
-            list.style.marginRight = -buttonPosition + 'px';
+            requestAnimationFrame(moveButton);
 
-            button.style.width = '';
-            button.style.height = '';
-            button.style.borderRadius = '';
-            button.style.backgroundColor = '';
+            function moveButton() {
+                var buttonPosition = dimensions.width / 2 - 30;
 
-            list.style.opacity = '';
+                list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+                button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
 
-            $(list).one('transitionend', moveButton);
-        }
-    }
+                list.style.marginRight = -buttonPosition + 'px';
+                button.style.marginRight = buttonPosition + 'px';
 
-    function openActions(button) {
-        var list = button.querySelector('.action-list');
-        var dimensions = {
-            width: list.clientWidth,
-            height: list.clientHeight
-        };
+                $(button).one('transitionend', morphButton);
+            }
 
-        button.classList.add('is-open');
+            function morphButton() {
+                button.style.transition = 'all ' + transitionTime + 's ease';
+                list.style.transition = 'all ' + transitionTime + 's ease';
 
-        requestAnimationFrame(moveButton);
+                button.style.marginRight = '0px';
+                list.style.marginRight = '0px';
 
-        function moveButton() {
-            var buttonPosition = dimensions.width / 2 - 30;
+                button.style.width = dimensions.width + 'px';
+                button.style.height = dimensions.height + 'px';
+                button.style.borderRadius = '0';
+                button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
 
-            list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
-            button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
-
-            list.style.marginRight = -buttonPosition + 'px';
-            button.style.marginRight = buttonPosition + 'px';
-
-            $(button).one('transitionend', morphButton);
-        }
-
-        function morphButton() {
-            button.style.transition = 'all ' + transitionTime + 's ease';
-            list.style.transition = 'all ' + transitionTime + 's ease';
-
-            button.style.marginRight = '0px';
-            list.style.marginRight = '0px';
-
-            button.style.width = dimensions.width + 'px';
-            button.style.height = dimensions.height + 'px';
-            button.style.borderRadius = '0';
-            button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
-
-            list.style.opacity = '1';
+                list.style.opacity = '1';
+            }
         }
     }
 
@@ -126,7 +127,101 @@ app.controller('typeText', function () {
 
     var isMobile, isIE;
 
+    var transitionTime = 0.3;
     window.onload = function () {
+
+        $(document).on('click', function (e) {
+            var button = document.querySelector('.action-button.is-open');
+            if (button) closeActions(button);
+        });
+
+        $('.action-button').on('click', function (e) {
+            e.stopPropagation();
+            var target = e.currentTarget;
+            if ($(target).hasClass('is-open')) return;
+
+            openActions(target);
+        });
+
+        function closeActions(button) {
+            var list = button.querySelector('.action-list');
+            var dimensions = {
+                width: list.clientWidth,
+                height: list.clientHeight
+            };
+
+            button.classList.remove('is-open');
+
+            requestAnimationFrame(morphList);
+
+            function moveButton() {
+                var buttonPosition = 0;
+
+                list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+                button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+
+                list.style.marginRight = '';
+                button.style.marginRight = '';
+            }
+
+            function morphList() {
+                var buttonPosition = dimensions.width / 2 - 30;
+
+                button.style.transition = 'all ' + transitionTime + 's ease';
+                list.style.transition = 'all ' + transitionTime + 's ease';
+
+                button.style.marginRight = buttonPosition + 'px';
+                list.style.marginRight = -buttonPosition + 'px';
+
+                button.style.width = '';
+                button.style.height = '';
+                button.style.borderRadius = '';
+                button.style.backgroundColor = '';
+
+                list.style.opacity = '';
+
+                $(list).one('transitionend', moveButton);
+            }
+        }
+
+        function openActions(button) {
+            var list = button.querySelector('.action-list');
+            var dimensions = {
+                width: list.clientWidth,
+                height: list.clientHeight
+            };
+
+            button.classList.add('is-open');
+
+            requestAnimationFrame(moveButton);
+
+            function moveButton() {
+                var buttonPosition = dimensions.width / 2 - 30;
+
+                list.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+                button.style.transition = 'margin-right ' + transitionTime / 2 + 's ease';
+
+                list.style.marginRight = -buttonPosition + 'px';
+                button.style.marginRight = buttonPosition + 'px';
+
+                $(button).one('transitionend', morphButton);
+            }
+
+            function morphButton() {
+                button.style.transition = 'all ' + transitionTime + 's ease';
+                list.style.transition = 'all ' + transitionTime + 's ease';
+
+                button.style.marginRight = '0px';
+                list.style.marginRight = '0px';
+
+                button.style.width = dimensions.width + 'px';
+                button.style.height = dimensions.height + 'px';
+                button.style.borderRadius = '0';
+                button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
+
+                list.style.opacity = '1';
+            }
+        }
 
         isMobile = navigator && navigator.platform && navigator.platform.match(/^(iPad|iPod|iPhone)$/);
 

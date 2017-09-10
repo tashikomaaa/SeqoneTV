@@ -24,6 +24,594 @@
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
     <script src="app.js"></script>
 </head>
+<style>
+    html,
+    body,
+    header,
+    main {
+        height: 100vh;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    header {
+        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+        background: linear-gradient(top left, #e84c00, #c10040);
+    }
+
+    .scroll {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        height: 0;
+        width: 0;
+        border-left: 90px solid transparent;
+        border-right: 90px solid transparent;
+        border-bottom: 80px solid white;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .scroll:before {
+        content: '';
+        position: absolute;
+        top: 45px;
+        left: 50%;
+        height: 20px;
+        width: 30px;
+        margin-top: -5px;
+        margin-left: -15px;
+        background: -webkit-linear-gradient(top left, #e84c00, #c10040);
+        background: linear-gradient(top left, #e84c00, #c10040);
+        -webkit-clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+        clip-path: polygon(15% 0, 50% 60%, 85% 0, 100% 20%, 50% 100%, 0 20%);
+        -webkit-animation: bounce 2s ease infinite;
+        animation: bounce 2s ease infinite;
+    }
+
+    header img {
+        margin-top: 10%;
+    }
+
+    @-webkit-keyframes bounce {
+        50% {
+            -webkit-transform: scale(0.75) translateY(-50%);
+            transform: scale(0.75) translateY(-50%);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes bounce {
+        50% {
+            -webkit-transform: scale(0.75) translateY(-50%);
+            transform: scale(0.75) translateY(-50%);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+    /* This class is added on scroll */
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        height: 70px;
+        z-index: 1;
+    }
+
+    body {
+        color: #fff;
+        font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    /* Navigation Settings */
+
+    nav {
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        height: 70px;
+        background: #fff;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 24px 10px;
+    }
+
+    nav li a {
+        color: #757575;
+        text-transform: uppercase;
+    }
+
+    section {}
+    /* Screens Settings */
+
+    #screen1 {
+        background: #43b29d;
+    }
+
+    #screen1 p {
+        padding-top: 100%;
+    }
+
+    #screen2 {
+        background: #efc94d;
+    }
+
+    #screen3 {
+        background: #e1793d;
+    }
+
+    #screen4 {
+        background: #43b29d;
+    }
+
+    #screen5 {
+        background: #efc94d;
+    }
+
+    @media only screen and (max-width: 520px) {
+
+        nav li {
+            padding: 24px 4px;
+        }
+
+        nav li a {
+            font-size: 14px;
+        }
+    }
+
+
+
+
+
+
+    #hiddenInput {
+        font-size: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #808080;
+        position: absolute;
+        opacity: 0.4;
+        margin-top: -22px;
+        margin-left: -125px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    #container {
+        position: absolute;
+        top: 65%;
+        left: 48%;
+    }
+
+    #input {
+        position: relative;
+        margin-top: -20px;
+        margin-left: -120px;
+    }
+
+    .letterContainer {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    .letterStatic {
+        display: inline;
+    }
+
+    .letterAnimTop {
+        display: inline;
+        position: absolute;
+        -webkit-animation: dropTop .1s ease;
+        -moz-animation: dropTop .1s ease;
+    }
+
+    .letterAnimBottom {
+        display: inline;
+        position: absolute;
+        -webkit-animation: dropBottom .1s ease;
+        -moz-animation: dropBottom .1s ease;
+    }
+
+    .blink {
+        position: static;
+        top: -5px;
+        -webkit-animation: blink 0.3s ease 0 infinite alternate;
+        -moz-animation: blink 0.3s ease 0 infinite alternate;
+    }
+
+    @-moz-keyframes blink {
+        from {
+            opacity: 0
+        }
+        to {
+            opactiy: 1
+        }
+    }
+
+    @-webkit-keyframes blink {
+        from {
+            opacity: 0
+        }
+        to {
+            opactiy: 1
+        }
+    }
+
+    @-moz-keyframes dropTop {
+        from {
+            -moz-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+            transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+        }
+
+        to {
+            -moz-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+            transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+        }
+    }
+
+    @-moz-keyframes dropBottom {
+        from {
+            -moz-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+            transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+        }
+
+        to {
+            -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+        }
+    }
+
+    @-webkit-keyframes dropTop {
+        from {
+            -webkit-transform: translateX(0) translateY(-20px) translateZ(20px) rotateX(90deg);
+        }
+        to {
+            -webkit-transform: translateX(0) translateY(0) translateZ(0) rotateX(0deg);
+        }
+    }
+
+    @-webkit-keyframes dropBottom {
+        from {
+            -webkit-transform: translateY(20px) translateZ(20px) rotateX(-90deg);
+        }
+        to {
+            -webkit-transform: rotateX(0deg);
+        }
+    }
+
+    .card-container {
+        padding: 9%;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        height: 300px;
+        top: 25%;
+        margin: 1rem;
+        width: 300px;
+    }
+
+    .calendar-card {
+        background: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        height: 700px;
+        top: 15%;
+        margin: 1rem;
+        width: 90%;
+    }
+
+    .card-top {
+        background-color: #00aced;
+        height: 60%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .calendar-card-top {
+        background-color: #efc94d;
+        height: 10%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    .card-1 {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .card-1:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    .wrapper {
+        width: 300px;
+        height: 450px;
+        margin-top: 0;
+        margin: 100px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+        position: relative;
+        overflow: hidden;
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+        background: #fff;
+    }
+
+    .wrapper:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+        -webkit-transform: scale(1.1);
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+        -webkit-transition: transform .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    .material-block {
+        position: absolute;
+        width: 500px;
+        border-radius: 50%;
+        height: 500px;
+        left: -100px;
+        top: -300px;
+        background: url('http://vectorlogo4u.com/wp-content/uploads/2015/11/TF1-logo-vector-png.png') rgba(231, 76, 60, 1.0);
+        background-position: 49% -92%;
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    .wrapper:hover .material-block {
+        height: 575px;
+        border-radius: 0%;
+        background-position: 49% -30%;
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    .wrapper:hover .material-circle {
+        background: #fff;
+        bottom: 140px;
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    .material-circle {
+        font-size: 32px;
+        line-height: 50px;
+        text-align: center;
+        background: rgba(231, 76, 60, 1.0);
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        color: black;
+        bottom: 20px;
+        right: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    footer {
+        font-size: 15px;
+        color: #fff;
+        font-family: 'helvetica';
+        text-align: center;
+    }
+
+    footer .nickname {
+        color: red;
+    }
+
+    .wrapper:hover footer {
+        bottom: 10px;
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+    }
+
+    .material-circle:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+        -webkit-transform: scale(1.1);
+        -webkit-transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+        cursor: pointer;
+    }
+
+    .channel {
+        padding-top: 5%;
+    }
+
+    .action-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+        background-color: #00aced;
+        color: #FFF;
+        border-radius: 50%;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .action-list {
+        color: initial;
+        font-size: initial;
+        text-align: initial;
+        line-height: initial;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+    }
+
+    .action-list-item {
+        padding: 20px;
+        white-space: nowrap;
+    }
+
+    .action-list-item:hover {
+        background-color: #00aced;
+        cursor: pointer;
+    }
+
+    .action-list-item i,
+    .action-list-item span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .action-list-item i {
+        margin-right: 5px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        padding: 40px;
+        max-width: 800px;
+    }
+
+
+    div.table-title {
+        margin: auto;
+        height: 100%;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .table-title h3 {
+        color: #fafafa;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Roboto", helvetica, arial, sans-serif;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+    }
+    /*** Table Styles **/
+
+    .table-fill {
+        position: relative;
+        max-height: 700px;
+        background: white;
+        border-radius: 3px;
+        border-collapse: collapse;
+        overflow: auto;
+        overflow-x: hidden;
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        animation: float 5s infinite;
+    }
+
+    th {
+        color: #D5DDE5;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 23px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+    th:first-child {
+        border-top-left-radius: 3px;
+    }
+
+    th:last-child {
+        border-top-right-radius: 3px;
+        border-right: none;
+    }
+
+    tr {
+        border-top: 1px solid #C1C3D1;
+        border-bottom-: 1px solid #C1C3D1;
+        color: #666B85;
+        font-size: 16px;
+        font-weight: normal;
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    }
+
+    tr:hover td {
+        background: #4E5066;
+        color: #FFFFFF;
+        border-top: 1px solid #22262e;
+        border-bottom: 1px solid #22262e;
+    }
+
+    tr:first-child {
+        border-top: none;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+    tr:nth-child(odd) td {
+        background: #EBEBEB;
+    }
+
+    tr:nth-child(odd):hover td {
+        background: #4E5066;
+    }
+
+    tr:last-child td:first-child {
+        border-bottom-left-radius: 3px;
+    }
+
+    tr:last-child td:last-child {
+        border-bottom-right-radius: 3px;
+    }
+
+    td {
+        background: #FFFFFF;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 300;
+        font-size: 18px;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        border-right: 1px solid #C1C3D1;
+    }
+
+    td:last-child {
+        border-right: 0px;
+    }
+
+    th.text-left {
+        text-align: left;
+    }
+
+    th.text-center {
+        text-align: center;
+    }
+
+    th.text-right {
+        text-align: right;
+    }
+
+    td.text-left {
+        text-align: left;
+    }
+
+    td.text-center {
+        text-align: center;
+    }
+
+    td.text-right {
+        text-align: right;
+    }
+</style>
 
 <header id="home">
     <img src="https://seq.one/wp-content/uploads/2016/07/seqone-logo-blk.png" alt="">
@@ -50,15 +638,27 @@
         </nav>
         <!-- calendar card  -->
         <div class="card-container">
+            <h2>CE SOIR</h2>
             <div class="calendar-card card-1">
-                <div class="calendar-card-top">
-                    <table>
+                <table class="table-fill">
+                    <thead>
                         <tr>
-                        
+                            <th class="text-left">channel</th>
+                            <th class="text-left">20h00</th>
+                            <th class="text-left">22h00</th>
                         </tr>
-                    </table>
-                </div>
+                    </thead>
+                    <tbody class="table-hover">
+                        <tr>
+                            <td class="text-left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/TF1_logo.svg/1280px-TF1_logo.svg.png"
+                                    style="height: 20px;" alt=""></td>
+                            <td class="text-left">$ 50,000.00</td>
+                            <td class="text-left">rhrhxrhx</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
         </div>
         <!-- twitter stream -->
         <div class="action-button z-depth-1">

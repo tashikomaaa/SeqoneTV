@@ -74,7 +74,7 @@ router.get('/feed', (req, res) => {
 router.get('/getChannel', (req, res) => {
 
     connection.connect(function (err) {
-        var sql = "SELECT name, url, logo FROM channel";
+        var sql = "SELECT name, url, logo FROM channel LIMIT 7";
         connection.query(sql, function (err, result) {
             if (err) {
                 console.log(err);
@@ -90,7 +90,7 @@ router.get('/getChannel', (req, res) => {
     function progChan(channelName) {
 
         connection.connect(function (error) {
-            var sqlp = "SELECT title, channel, content, date, hour, programmes.url  FROM programmes LEFT OUTER JOIN channel ON name = channel WHERE channel LIKE '%" + channelName.name + "%' AND date = DATE_FORMAT(NOW()-1, '%Y-%m-%d') ORDER BY date DESC, hour ASC LIMIT 1";
+            var sqlp = "SELECT title, channel, content, date, hour, programmes.url  FROM programmes LEFT OUTER JOIN channel ON name = channel WHERE channel LIKE '%" + channelName.name + "%' AND date = DATE_FORMAT(NOW()-1, '%Y-%m-%d') ORDER BY date DESC, hour DESC LIMIT 4";
             //console.log(sqlp);
             connection.query(sqlp, function (error, resultat) {
                 console.log('query')
@@ -125,7 +125,7 @@ router.get('/getProgs', (req, res) => {
 
 
     connection.connect(function (err) {
-        var sql = "SELECT * FROM programmes LIMIT 10";
+        var sql = "SELECT * FROM programmes ODER BY channel";
         connection.query(sql, function (err, result) {
             console.log(result)
             prog = result;

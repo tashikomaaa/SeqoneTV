@@ -6,12 +6,12 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Component({
-    selector: 'app-root',
+    selector: 'channel-root',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-    title = 'app works!';
+
 
     // Link to our api, pointing to localhost
     API = 'http://localhost:3000';
@@ -38,13 +38,6 @@ export class HomeComponent implements OnInit {
                 
             }) 
         
-
-        this.http.get(`${this.API}/tweets`, {})
-            .map(res => res.json())
-            .subscribe(tweet => {
-
-                this.tweets = tweet;
-            }) 
     }
 
     ngOnInit() {
