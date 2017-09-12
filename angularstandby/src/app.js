@@ -1,6 +1,20 @@
 var app = angular.module('App', []);
 
+app.controller('MenuController', function () {
 
+    //For twitter API
+    !function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");
+});
 
 app.controller('twitterButton', function () {
     window.onload = function () {
@@ -281,11 +295,11 @@ app.controller('typeText', function () {
                 targetContent = lastContent;
             }, false);
 
-           /*  document.addEventListener('click', function (e) {
+            document.addEventListener('click', function (e) {
                 clearInterval(autoWriteTimer);
                 targetContent = lastContent;
                 hiddenInput.focus();
-            }, false); */
+            }, false);
 
             if (!isIE) {
                 // Input event is buggy on IE, so don't bother

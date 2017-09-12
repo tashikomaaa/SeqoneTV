@@ -21,8 +21,17 @@
 git clone https://github.com/tashikomaaa/SeqoneTV.git
 ```
 ```
-cd SeqoneTV 
+cd SeqoneTV/
 ```
+```
+sudo chmod +x install.sh && ./install.sh
+``
+``
+cd mean-docker/
+``
+``
+sudo dockerd
+``
 
 ###### Now run the build with :
 ```bash

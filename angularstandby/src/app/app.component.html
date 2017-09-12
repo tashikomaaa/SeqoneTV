@@ -1,0 +1,91 @@
+<!-- screen 1 Home -->
+<section id="screen1">
+    <!-- navbar -->
+    <nav>
+        <ul ng-controller="navScroll">
+            <li><a href="#screen1">Home</a></li>
+            <li><a href="#screen2">Channel</a></li>
+            <li><a href="#screen3">Programmes</a></li>
+            <li><a href="#screen4">My progs</a></li>
+            <li><a href="#screen5">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- calendar card  -->
+    <div class="card-container">
+        <h2>CE SOIR</h2>
+        <div class="">
+            <table class="table-fill">
+                <thead>
+                    <tr>
+                        <th class="text-left">channel</th>
+                        <th class="text-left">20h00</th>
+                        <th class="text-left">22h00</th>
+                    </tr>
+                </thead>
+                <tbody class="table-hover" *ngFor="let channel of channels;">
+                    <tr>
+                        <td class="text-left"><img src="{{ channel.logo }}" style="height: 20px;" alt=""></td>
+                        <td class="text-left">
+                            <h4>{{ channel.prog[1].title }}</h4><br>{{ channel.prog[1].content }}</td>
+                        <td class="text-left">
+                            <h4>{{ channel.prog[0].title }}</h4><br>{{ channel.prog[0].content }}</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- twitter stream -->
+    <div class="action-button z-depth-1">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <ul class="action-list">
+            <li class="action-list-item">
+                <a class="twitter-timeline" href="https://twitter.com/hashtag/programmetv" data-widget-id="904984205553274880">Tweets sur #programmetv</a>
+                <script>
+                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                </script>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- screen 2 channel-->
+<section id="screen2">
+    <div class="card-container"></div>
+</section>
+<section id="screen3">
+    <div class="card-container">
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+    </div>
+</section>
+<section id="screen4">
+    <div class="card-container">
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+    </div>
+</section>
+<section id="screen5">
+    <div class="card-container">
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+        <div class="card card-1"></div>
+    </div>
+</section>
