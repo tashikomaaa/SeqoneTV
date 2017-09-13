@@ -20,6 +20,7 @@ const connection = mysql.createConnection({
     password: '5eev2d2d1dlc',
     database: 'seqone'
 });
+
 var prog = {};
 var nextProg = {};
 var channel = {};
@@ -30,7 +31,6 @@ router.get('/feed', (req, res) => {
 
     //get the date
     var date = new Date();
-
     //get day
     var day = date.getUTCDate();
     if (day < 10)

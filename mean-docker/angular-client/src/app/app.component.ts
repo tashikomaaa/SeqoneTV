@@ -23,38 +23,38 @@ export class AppComponent implements OnInit {
       .map(res => res.json())
       .subscribe(channel => {
         this.channels = channel;
-
+  
         console.log(this.channels)
       })
 
-  }
+}
 
-  //get channel progs
-  getChannelProgs() {
-    this.http.get(`${this.API}/getChannelProg`, {})
-      .map(res => res.json())
-      .subscribe(progs => {
-        this.channels = progs;
-        this.channelsProg = progs;
-      })
-  }
+//get channel progs
+getChannelProgs() {
+  this.http.get(`${this.API}/getChannelProg`, {})
+    .map(res => res.json())
+    .subscribe(progs => {
+      this.channels = progs;
+      this.channelsProg = progs;
+    })
+}
 
-  ngOnInit() {
+ngOnInit() {
 /*     this.getChannel();
  */    this.getChannelProgs();
 
-    // twitter Stream
-    !function (d, s, id) {
-      var js: any,
-        fjs = d.getElementsByTagName(s)[0],
-        p = 'https';
-      if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + "://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      }
+  // twitter Stream
+  !function (d, s, id) {
+    var js: any,
+      fjs = d.getElementsByTagName(s)[0],
+      p = 'https';
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = p + "://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
     }
-      (document, "script", "twitter-wjs");
   }
+    (document, "script", "twitter-wjs");
+}
 }
