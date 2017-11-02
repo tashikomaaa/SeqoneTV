@@ -1,5 +1,13 @@
 # SeqoneTV
 ## A technical test for Seq.one
+
+## Doc
+###### Install
+###### Start
+###### Feed
+
+
+
 ## Based on :
 - Angular/cli 
 - Nodejs 
@@ -15,7 +23,7 @@
 - Mysql
 
 ## For build the project type the following command line
-
+###### Install
 ###### First clone the depo 
 ```bash
 git clone https://github.com/tashikomaaa/SeqoneTV.git
@@ -25,7 +33,7 @@ git clone https://github.com/tashikomaaa/SeqoneTV.git
 ```bash
 cd SeqoneTV/
 ```
-
+###### Start
 ###### Give the execution right to the install.sh file
 ```bash
 sudo chmod +x install.sh && ./install.sh
@@ -45,7 +53,7 @@ sudo dockerd
 ```bash
 docker-compose up --build
 ```
-
+###### Feed
 ### you need to feed the db all the day (the cron is on the road)
 ###### Go to the url
 ```url
