@@ -20,15 +20,23 @@
 ```bash
 git clone https://github.com/tashikomaaa/SeqoneTV.git
 ```
+
+###### Go to the project folder
 ```bash
 cd SeqoneTV/
 ```
+
+###### Give the execution right to the install.sh file
 ```bash
 sudo chmod +x install.sh && ./install.sh
 ```
+
+###### Go to mean-docker folder
 ```bash
 cd mean-docker/
 ```
+
+###### Start the docker daemon
 ```bash
 sudo dockerd
 ```
