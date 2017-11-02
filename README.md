@@ -1,13 +1,6 @@
 # SeqoneTV
 ## A technical test for Seq.one
 
-## Doc
-###### Install
-###### Start
-###### Feed
-
-
-
 ## Based on :
 - Angular/cli 
 - Nodejs 
