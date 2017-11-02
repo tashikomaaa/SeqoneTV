@@ -46,5 +46,13 @@ sudo dockerd
 docker-compose up --build
 ```
 
+### you need to feed the db all the day (the cron is on the road)
+###### Go to the url
+```url
+http://localhost:3000/dataFeed/
+```
+
+## Now enjoy this no finish project
+
 
 
